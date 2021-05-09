@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021050908
+export Util_Functions_Code=2021051002
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -32,7 +32,7 @@ export ABI=`getprop ro.product.cpu.abi`
 if [[ -f "$Data_Dir/GJZS_PATH" ]]; then
     export GJZS=$(cat "$Data_Dir/GJZS_PATH")
 else
-    export GJZS="$SD_PATH/$Package_name"
+    export GJZS="$SD_PATH/Download/$Package_name"
 fi
 export lu=$GJZS/Batch_installation
 export lu2=$GJZS/Add_Modules
