@@ -52,26 +52,6 @@ time='2021年5月2号'
     [[ $Choice = 1 ]] && Download -net "74628370ad3540fb8570ea560d837197?at_=1619904217067&ak_=e5f91aee35de7d8f89d92733ecb87dfd&ad_=0393075e27db0d02dcf8c7326a69fee8&fn=$1" "$1.apk" 9589884 c539c700e379b0089226bd490f2b96d5 "$1.apk"
 ;;
 
-org.lsposed.manager)
-apk='org.lsposed.manager'
-name='LSPosed 模块管理器'
-version='v1.3.5'
-versionCode='5551'
-author='LSPosed Developers'
-description='LSPosed Xposed框架模块管理器'
-apkfile="$PeiZhi_File/$apk-$versionCode.apk"
-time='2021年3月23号'
-    if [[ $Choice = 1 ]]; then
-        [[ $SDK -lt 27 ]] && abort "！$name-$version（$versionCode）不支持安卓8.1.0以下系统"
-        if [[ ! -s "$apkfile" ]]; then
-            rm -rf "$PeiZhi_File/$apk-"*.apk
-            . "$Load" riru_lsposed
-            unzip -p "$Download_File" 'manager.apk' >$apkfile
-        fi
-    fi
-    Download_File="$apkfile"
-;;
-
 org.meowcat.edxposed.manager)
 apk='org.meowcat.edxposed.manager'
 name='EdXposed Manager'
@@ -630,26 +610,6 @@ versionCode=35
 author='by：Han | 情非得已c'
 description='用途：当刷入某模块后导致无法正常开机，自动触发已设置好的救砖操作'
 time='2021年4月15号'
-;;
-
-riru_lsposed)
-id='riru_lsposed'
-showapk='v1.3.4(5501)'
-name='Riru - LSPosed'
-version='v1.3.5'
-versionCode='5551'
-author='LSPosed Developers'
-description='一款基于Riru API开发的Xposed框架，支持运行在安卓8.1.0 ~ 12系统上。需要安装Riru v25.0.0或更高版本，Telegram: @LSPosed'
-time='2021年4月12号'
-    if [[ $Choice = 1 ]]; then
-        mask -v
-        if [[ $MAGISK_VER_CODE -ge 21000 ]]; then
-             Download -net "801cdda0c7e808ef15050ae87f11b430?at_=1618196366461&ak_=a53d7352148c8dbc5efff337904e8480&ad_=f03d400ed015c7b225a87bbf09de6418&fn=$1" "$1.zip" 1863749 543ac282786f314ea495a1d61d276b59 "$1.zip"
-        else
-            echo "- 检测到Magisk版本在v21以下，无法安装最新版$version（$versionCode），开始安装v1.3.4（5501）版本"
-            Download -net "a3b9e26cc0380691ee804ca7006ce2d5?at_=1618236394371&ak_=c1f7cf50ba6f13d6d01207fe9c5028b0&ad_=870ede5e093014706bebeac08c3c0f0d&fn=$1-5501" "$1.zip" 2189720 de39ec10f67b538fbdc60b7f0e6520f7 "$1.zip"
-        fi
-    fi
 ;;
 
 riru_edxposed)
