@@ -2,5 +2,6 @@
 删除盗版验证
 删除LSP相关功能
 默认不在根目录拉屎
+提高使用门槛（指不使用CDN）
 发布地址 github.com/People-11/FuckGJZS
 
