@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021051002
+export Util_Functions_Code=2021051100
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
