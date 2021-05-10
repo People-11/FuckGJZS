@@ -5,5 +5,5 @@ Canary=2021051002
     Util_Functions_ID=Util_Functions.sh
     Util_Functions_MD5=afabfc1669800e2789cf8dc7b8b14bef
     Cloud_ID=Cloud_Page.zip
-    Cloud_MD5=fe2c6fb3e06b1b6eb64468f5ada571d3
-    Cloud_Version=2021051100
+    Cloud_MD5=1d72204733c11ae60ea1cd742625dc6c
+    Cloud_Version=2021051101
