@@ -1,5 +1,3 @@
-
-Canary=2021051002
     init_data_ID=init_data.sh
     init_data_MD5=d41bed105bf58392de70d710b2d0b058
     Util_Functions_ID=Util_Functions.sh
