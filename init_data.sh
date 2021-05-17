@@ -1,4 +1,4 @@
-Configuration=2021051100
+Configuration=2021051723
 Magisk_Warehouse_version=2021050805
 App_Store_version=2021050400
 Show_Compatibility_Mode=1

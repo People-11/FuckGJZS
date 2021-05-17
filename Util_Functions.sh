@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021051100
+export Util_Functions_Code=2021051723
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -18,8 +18,8 @@ export Status=$Data_Dir/Status.log
 export Termux=$DATA_DIR/com.termux/files
 export BOOTMODE=true
 export Choice=0
-export New_Version=3
-export New_Code=2021051002
+export New_Version=4
+export New_Code=2021051723
 export ChongQi Configuration File File_Name Download_File File_MD5 id name version versionCode author description MODID MODNAME MODPATH MAGISK_VER MAGISK_VER_CODE LOCKED
 $Have_ROOT && LOCKED=false || LOCKED=true
 
@@ -142,7 +142,7 @@ adb2() {
     if [[ "$#" -eq 0 ]]; then
         adb shell
         if [[ $? -ne 0 ]]; then
-            abort "没有设备连接无法继续哦⊙∀⊙！"
+            abort "没有设备连接无法继续哦！"
         fi
     elif [[ "$1" = "-s" && "$#" -eq 2 ]]; then
         shift
@@ -537,7 +537,7 @@ Download() {
                 Link="http://api.funs.ml/lzy/api.php?url=$ID&type=down"
             ;;
             *)
-                abort "！暂不支持下载"
+                abort "暂不支持下载"
             ;;
         esac
         
@@ -775,7 +775,7 @@ set_Game_Toolbox() {
     am force-stop com.miui.securitycenter
     set_perm /data/data/com.miui.securitycenter/files/gamebooster system system 700
     set_perm "$Game_Toolbox_File" system system 444
-    echo "将在下次启动游戏时立即生效，不需要重启手机哦 ⊙∀⊙"
+    echo "将在下次启动游戏时立即生效，不需要重启手机哦"
 }
 
 Check_Riru() {
@@ -801,19 +801,6 @@ Play_Music() {
 
 Power() {
     echo "`cat /sys/class/power_supply/battery/capacity 2>/dev/null`%"
-}
-
-Notice() {
-cat <<Han
-    <!-- <text> -->
-        <!-- <slices> -->
-            <!-- <slice size="12" color="#FFFF0000">服务器由于频繁被人恶意刷流量，一直ddos导致频繁奔溃，部分联网功能会无法正常使用，由于经常迁移数据库单纯累了，后续也估计不会再恢复了</slice> -->
-            <!-- <slice break="true"></slice> -->
-            <!-- <slice break="true"></slice> -->
-            <!-- <slice size="12" color="#FFFF0000">搞机助手一直秉承免费且开源，从酷安事件后我就只是只在自己群里发布，网上那么多人分享我也没管过什么哈。有那时间管我打打LOL多香，如果搞机助手免费得罪了你，阻碍了你的发展前途，你可以私信我QQ协商处理哈，你这样故意恶搞我，搞得多少人不开心。我开发搞机助手服务器功能只是方便别人不到处找资源而已直接搞机助手一步到位就行了，这工具对于大佬根本上用不着哈。这年头好心都得不到一个好报吗，哎！都开发2年多了一个人维护也不容易哈</slice> -->
-        <!-- </slices> -->
-    <!-- </text> -->
-Han
 }
 
 module_prop() {
