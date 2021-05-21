@@ -1,4 +1,4 @@
-Configuration=2021051723
+Configuration=2021052123
 Magisk_Warehouse_version=2021050805
 App_Store_version=2021050400
 Show_Compatibility_Mode=1
@@ -646,14 +646,6 @@ time='2021年3月24号'
     [[ $Choice = 1 ]] && Download -net "c68a8eed3aafd769b317e905bc3041ee?at_=1618169577168&ak_=911a3b511969435b2ac6a0ee5c29c50e&ad_=5e53dabacf06d5f8cda715ee38e2bd61&fn=$1" "$1.zip" 108675627 d083690c555fa59b5f29112fc1dbb0dc "$1.zip"
 ;;
 
-znzl)
-MIUI=1
-id='znzl'
-eval `(curl -skL -m 10 'https://gitee.com/youngdriver/pio/raw/master/znzl/module.prop')`
-[[ $2 = -x ]] && echo -e "版本：$version\n版本号：$versionCode\n作者：$author\n描述：$description\n更新于：$time"
-[[ $2 = -d ]] && curl -skL -o $Pages/Intelligent_Assistant.xml "$xml_url"
-;;
-
 shadow_screenshots)
 id='shadow_screenshots'
 name='阴影截图'
@@ -689,27 +681,6 @@ author='回憶⁵²º¹³¹⁴'
 description="$name"
 time='2021年3月29号'
     [[ $Choice = 1 ]] && Download -net "ca5b9bb1a7a95c763861c9d768cadbb5?at_=1618166303655&ak_=72d7238792aab170eb901c4bcfe32f12&ad_=96398af62e4937d4f735114c198e7416&fn=$1" "$1.zip" 197660037 291ee716396c31efd54e313d78b14579 "$1.zip"
-;;
-
-FUCK-SHIT-FILE)
-Show_Compatibility_Mode=0
-eval `(curl -s https://gitee.com/Petit-Abba/magisk-modules/raw/master/Purify-sdcard/module.prop)`
-id='FUCK-SHIT-FILE'
-    [[ $Choice = 1 ]] && Download -url "$zipurl" "$1.zip" "$size" "$md5" "$1.zip"
-;;
-
-S-T-E-P-S)
-Show_Compatibility_Mode=0
-eval `(curl -s https://gitee.com/Petit-Abba/magisk-modules/raw/master/STEPS/module.prop)`
-id='S-T-E-P-S'
-    [[ $Choice = 1 ]] && Download -url "$zipurl" "$1.zip" "$size" "$md5" "$1.zip"
-;;
-
-AD-Hosts)
-eval `(curl -s https://aisauce.coding.net/p/ad-hosts/d/ad-hosts/git/raw/master/Han.GJZS.prop)`
-id='AD-Hosts'
-    [[ $Choice = 1 ]] && Download -url "$zipurl" "$1.zip" "$size" "$md5" "$1.zip"
-#https://aisauce.coding.net/public/ad-hosts/ad-hosts/git/files
 ;;
 
 AnyHosts)
