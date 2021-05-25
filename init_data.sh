@@ -1,4 +1,4 @@
-Configuration=2021052123
+Configuration=2021052523
 Magisk_Warehouse_version=2021050805
 App_Store_version=2021050400
 Show_Compatibility_Mode=1
@@ -705,6 +705,17 @@ time='2021年4月2号'
     [[ $Choice = 1 ]] && Download -net "40fecb7afa2157d355311b6b3dce1248?at_=1618189097810&ak_=38bff0a6c12c1e537cf40baecf8c3c7b&ad_=ea87c78b9fc4ce2a03069f83a3a933ac&fn=$1" "$1.zip" 53460953 d7d0b8b1a67f63d2fe9896d353d2c2af "$1.zip"
 ;;
 
+sqlite3_gjzs)
+id='sqlite3_gjzs'
+name='SQLite3 For ARM设备'
+version='v3.28.0'
+versionCode='1'
+author='酷安@快播内部工作人员'
+description='为不自带sqlite3的机型挂载sqlite3二进制文件'
+time='2021年5月23号'
+    [[ $Choice = 1 ]] && Download -url "http://qqcn.coding.net/p/import-rt20/d/GJZS-Warehouse/git/raw/main/21052301/modules/sqlite.zip" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
+;;
+
 zw_fileclear)
 id='zw_fileclear'
 name='FileClear for ZW'
@@ -781,12 +792,12 @@ MIUI=1
 Show_Compatibility_Mode=0
 id='com.miui.packageinstaller'
 name='应用包管理组件'
-version='v1.8.3'
-versionCode='184'
-author='by：Han | 情非得已c'
-description='去除应用详情和权限设置、前往应用商店安装更多应用'
-time='2021年1月7号'
-    [[ $Choice = 1 ]] && Download -net "bf5fe7a2bfb4ea7a9a750a85bf5d563a?at_=1618189632347&ak_=ea1da7b3d020db96ce4d3c8074338bb8&ad_=6166a4f45d601d41cac1667362542803&fn=$1" "$1.zip" 2067269 65525c182d6a22e278be8f86519dc8ff "$1.zip"
+version='v2'
+versionCode='9999'
+author='酷安@快播内部工作人员 | 晨钟酱'
+description='去除了系统apk的安装来源限制，使用旧版并修改版本号，去除所有AD，去除联网。安装包由 酷安@晨钟酱 制作，模块制作已获得作者授权'
+time='2021年5月24号'
+    [[ $Choice = 1 ]] && Download -lz "iUfDOpejroj" "$1.zip" 2038012 5bd7001005a963c56ff81df8bf45df07 "$1.zip"
 ;;
 
 MIUI-Advanced_power_supply)
