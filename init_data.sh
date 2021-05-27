@@ -1,5 +1,5 @@
-Configuration=2021052523
-Magisk_Warehouse_version=2021050805
+Configuration=2021052803
+Magisk_Warehouse_version=2021052803
 App_Store_version=2021050400
 Show_Compatibility_Mode=1
 MIUI=0
@@ -798,6 +798,19 @@ author='酷安@快播内部工作人员 | 晨钟酱'
 description='去除了系统apk的安装来源限制，使用旧版并修改版本号，去除所有AD，去除联网。安装包由 酷安@晨钟酱 制作，模块制作已获得作者授权'
 time='2021年5月24号'
     [[ $Choice = 1 ]] && Download -lz "iUfDOpejroj" "$1.zip" 2038012 5bd7001005a963c56ff81df8bf45df07 "$1.zip"
+;;
+
+MIUI-Update-Blocker)
+MIUI=1
+Show_Compatibility_Mode=0
+id='MIUI-Update-Blocker'
+name='防止MIUI检查更新'
+version='v1'
+versionCode='1'
+author='Xayah'
+description='修改MIUI版本为21.9.99，防止检查更新'
+time='2021年5月28号'
+    [[ $Choice = 1 ]] && Download -lz "iesKLpjg8xg" "$1.zip" 1460 0020db8571edcd5abaf146222377fdf6 "$1.zip"
 ;;
 
 MIUI-Advanced_power_supply)
