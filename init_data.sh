@@ -1,6 +1,6 @@
-Configuration=2021052901
-Magisk_Warehouse_version=2021052901
-App_Store_version=2021052901
+Configuration=2021052903
+Magisk_Warehouse_version=2021052903
+App_Store_version=2021052903
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -26,7 +26,7 @@ version='4.6.2'
 versionCode='46200'
 author='MlgmXyysd'
 description='EDXposed框架模块管理器'
-time='2021年2月7号'
+time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -lz "ilRgUpki90h" "$1.apk" 3550938 a712f351af88497bc2fb6fae009e49bf "$1.apk"
 ;;
 
@@ -37,52 +37,41 @@ version='3.1.5'
 versionCode='43'
 author=rovo89
 description='原版Xposed，提供Xposed模块管理，Xposed安装与卸载'
-time='2021年3月18号'
-    [[ $Choice = 1 ]] && Download -net "4ac74d50da825b6c6db74551d4f0b9ba?at_=1618169423602&ak_=d3a0b2cbc6964af3e90d0c442f96c154&ad_=2a43928fc1f37c537f286ffda9e4cd7b&fn=$1" "$1.apk" 3105672 315362d994986e6584203fca282f4472 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iGW3Mpkimhc" "$1.apk" 3105672 315362d994986e6584203fca282f4472 "$1.apk"
 ;;
 
 top.canyie.dreamland.manager)
 apk='top.canyie.dreamland.manager'
 name='梦境'
-version='0.0.5'
-versionCode='5'
+version='0.0.7'
+versionCode='7'
 author=canyie
 description='梦境框架管理器'
-time='2021年3月19号'
-    [[ $Choice = 1 ]] && Download -net "f3d68aa4b7ce2f5849989fa86e789cc5?at_=1618169320029&ak_=323ad5fa60476a31bd38225523e0ed1d&ad_=85930862b8f738acb74578c611ed26a4&fn=$1" "$1.apk" 2242379 bdae2f91cdee6aff8e91dc1626bbb6b5 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iEobZpkinde" "$1.apk" 2041765 33ea0e394f1fb6b92b43037392a01401 "$1.apk"
 ;;
 
 com.termux)
 apk='com.termux'
 name='Termux'
-version='0.112'
-versionCode=112
-author='未知'
-description='带有软件包的终端模拟器，需要 Android 7.0 及以上版本'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "c3d595bc87acee8d9284d5744b9fe8b3?at_=1619952596655&ak_=ff22ec29c866e5ea96ecf4582717d89e&ad_=ebf8ec9aa701780ab90fa48b9fcb4f29&fn=$1" "$1.apk" 91310760 09ce702cb7acadb8175aa6cbcc438983 "$1.apk"
+version='0.113'
+versionCode=113
+author='kcubeterm'
+description='带有软件包的终端模拟器'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ibS2Opkit8f" "$1.apk" 92023881 fadc0691b8dbf3938e0b962d3d2dbc3d "$1.apk"
 ;;
 
 ru.zdevs.zarchiver.pro)
 apk='ru.zdevs.zarchiver.pro'
 name='ZArchiver Pro'
-version='0.9.4'
-versionCode=9405
-author='未知'
+version='0.9.5.8'
+versionCode=9595
+author='Zdevs'
 description='解压缩神器'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "9cd53f4b17367a498141efe3196a4d52?at_=1618237713384&ak_=84d0ec945b3c7406e37c3d357e48b558&ad_=c15e9f3ca2012ce9d70704d77aaf1bf4&fn=$1" "$1.apk" 5320967 3c55d28ac1bd498ab7de67aec7212c8f "$1.apk"
-;;
-
-org.telegram.messenger)
-apk='org.telegram.messenger'
-name='Telegram 电报'
-version='7.7.2'
-versionCode=22937
-author='未知'
-description='Telegram是一款跨平台的即时通讯软件需要VPN，简体中文语言包：https://t.me/zh_CN'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "451533c39f33b10c637fcf20b13da14c?at_=1619955961233&ak_=dd0433088756989694bfa5ac0a2f7539&ad_=18f3551f75c22a1676efb60aac1579c4&fn=$1" "$1.apk" 43935685 f0532a063b057c60dc7805f8036b4402 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i5Vz2pkit9g" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
 ;;
 
 com.su.assistant.pro)
@@ -92,19 +81,19 @@ version='2.0.7'
 versionCode=94
 author='su1216'
 description='全面的设备、系统、应用信息展示，集成了jadx和apktool，两种方式超强的布局查看功能，意想不到的应用统计维度，以及若干实用工具'
-time='2021年4月14号'
-    [[ $Choice = 1 ]] && Download -net "1a5ba916705360689c98b4e891bc5fd7?at_=1618411688384&ak_=d2f3692bdb021fc590b73c22041792a1&ad_=e06c9baa2e2e078a7bdf6c954d1466aa&fn=$1" "$1.apk" 15248986 33f3a870ac7275ff601d808d9d0b480f "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i3mbmpkivuj" "$1.apk" 15248986 33f3a870ac7275ff601d808d9d0b480f "$1.apk"
 ;;
 
-com.andromeda.androbench2)
-apk='com.andromeda.androbench2'
-name='AndroBench'
-version='5.0.1'
-versionCode=16
-author='未知'
-description='非官方汉化版，测试内存读取速度性能'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "c7ba4f719de85bc7377254a685374ab1?at_=1618173773887&ak_=3d06a8c674af9a2180b46a88f664d88c&ad_=2991b51409039d874f031fd1a403168b&fn=$1" "$1.apk" 2906485 0765ed36fbb5c2a52a6b33857059f7b6 "$1.apk"
+cn.trinea.android.developertools)
+apk='cn.trinea.android.developertools'
+name='Dev Tools'
+version='6.3.6'
+versionCode=636
+author='Trinea'
+description='开发助手，比上面那个开发工具箱还厉害，强烈推荐'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iRDUtpkjfuj" "$1.apk" 4915162 9e446362c0a7863ab87670545f2bcb65 "$1.apk"
 ;;
 
 com.camel.corp.universalcopy)
@@ -112,85 +101,54 @@ apk='com.camel.corp.universalcopy'
 name='全局复制'
 version='5.3.2'
 versionCode=69
-author='未知'
-description='全局复制，无需ROOT，复制屏幕上你想要的一切文本 - http://bit.ly/universal-copy'
-time='2021年1月31号'
-    [[ $Choice = 1 ]] && Download -net "073ec9d500fb39f997cddc7a2d1daa95?at_=1618173747389&ak_=e73f055dbe2b105e7b24605c6167a9aa&ad_=0d5fa5a436fa00141939ac12a074bd08&fn=$1" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
+author='Camel Corporation'
+description='无需ROOT，复制屏幕上你想要的一切文本'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ilIAkpkix1c" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
 ;;
 
-com.kieronquinn.app.taptap)
-apk='com.kieronquinn.app.taptap'
-name='Tap, Tap'
-version='0.10.1 Beta'
-versionCode=10
-author='KieronQuinn'
-description='将设备功能背面的双击端口从Android 11移植到任何Android 7.0+设备'
-time='2021年3月14号'
-    [[ $Choice = 1 ]] && Download -net "fbaea33985502473d4baf7614125d752?at_=1618173458269&ak_=850a953520277eea0181ee88e6378896&ad_=5f50aafc267922bee60734fc1036de72&fn=$1" "$1.apk" 13879430 1f5d96c9d6f57959e56fd0ed8223df47 "$1.apk"
+com.guoshi.httpcanary.premium)
+apk='com.guoshi.httpcanary.premium'
+name='HttpCanary'
+version='3.3.6'
+versionCode=58
+author='Megatron King'
+description='无需Root的抓包工具，界面简洁美观'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iOTKspkj4mf" "$1.apk" 22766597 63c31710e7c0c575be73d87f24ae0604 "$1.apk"
 ;;
 
-com.apkpure.aegon)
-apk='com.apkpure.aegon'
-name='APKPure'
-version='3.17.19'
-versionCode=3171901
-author='未知'
-description='APKPure 免安装谷歌框架下载Google Play应用，需要VPN'
-time='2021年5月4号'
-    [[ $Choice = 1 ]] && Download -net "13cfe4814c9998caa7ca270295644948?at_=1620065598375&ak_=1aaac4e75c20ab9dbf78b5ff708b845f&ad_=9aef95132e85e65a82e74a53ea3b8edc&fn=$1" "$1.apk" 14985916 c746e603a36a3d483967099540bec068 "$1.apk"
+ru.aaaaaabb.installer)
+apk='ru.aaaaaabb.installer'
+name='幸运破解器安装器'
+version='9.5.9'
+versionCode=1719
+author='ChelpuS'
+description='幸运破解器的安装器'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iKBMOpkiytg" "$1.apk" 9814305 afcbc7d84cde79d08c8764b24fa7c865 "$1.apk"
 ;;
 
-ru.bshqkoek.afdpvmdun)
-apk='ru.bshqkoek.afdpvmdun'
-name='Luckу*Pаtcher'
-version='9.5.2'
-versionCode=1712
-author='未知'
-description='幸运破解器'
-time='2021年4月25号'
-    [[ $Choice = 1 ]] && Download -net "f3c323003663faefeeb2fc7514cfebbd?at_=1619302092851&ak_=e7215974f7ee4e931532ea9fb2305e0a&ad_=b0a80be3d53fa5ae436e4b92fb982f3a&fn=$1" "$1.apk" 10059127 dc9e7111ce7a3c53674e8e1e5c02011b "$1.apk"
+com.android.vending)
+apk='com.android.vending'
+name='Google Play Store'
+version='24.0.32-16'
+versionCode=356387442
+author='Google LLC'
+description='原版谷歌商店安装包，非框架'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iH6Rbpkj7ri" "$1.apk" 23744316 12b101dfe69b3d3331289c60bcca6611 "$1.apk"
 ;;
 
-com.linroid.zlive)
-apk='com.linroid.zlive'
-name='Z直播'
-version='4.13.2'
-versionCode=342
-author='未知'
-description='Z直播只有 6M 大小，非常流畅和简洁，一个 App 即可关注全网主播'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "bb5e12451cec48e6b4dc95e8a82f9670?at_=1618174041515&ak_=961044328d73d742125cb6a2b4607a77&ad_=26adba3bcca3baa933c6ebedaeff848d&fn=$1" "$1.apk" 6703460 6e110f47cece4fb763d43345cc76d991 "$1.apk"
-;;
-
-com.kuss.rewind)
-apk='com.kuss.rewind'
-name='倒带'
-version='3.2.0'
-versionCode=3000090
-author='未知'
-description='简单的音乐播放器'
-time='2021年3月14号'
-    [[ $Choice = 1 ]] && Download -net "5968d613108f7e141ad788699ea672f3?at_=1618173439122&ak_=1d52dd75d0182e60ab0a5fb721ee18db&ad_=d860655d093bc15e84b14c367408838a&fn=$1" "$1.apk" 8421620 9ebf89edfb6f33b86f83cf606e666044 "$1.apk"
-;;
-
-rikka.riru)
-apk='rikka.riru'
-name='Riru'
-version='25.4.2'
-versionCode=415
-author='Rikka  酷安@蓝莓味绿茶 '
-description='显示Riru状态'
-apkfile="$PeiZhi_File/$apk-$versionCode.apk"
-time='2021年4月18号'
-    if [[ $Choice = 1 ]]; then
-        if [[ ! -s "$apkfile" ]]; then
-            rm -rf "$PeiZhi_File/$apk-"*.apk
-            Riru_version=1
-            . "$Load" riru-core
-            unzip -p "$Download_File" 'app.apk' >$apkfile
-        fi
-    fi
-    Download_File="$apkfile"
+com.android.alexzwh.filedownloaddemo)
+apk='com.android.alexzwh.filedownloaddemo'
+name='流量杀手'
+version='3.1.1'
+versionCode=19
+author='AlexZwh'
+description='嫌流量太多？用这个小工具消耗掉吧'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i3tUNpkj8he" "$1.apk" 3723533 3e039ef2c7a86d043c2e4ef28521880e "$1.apk"
 ;;
 
 # Xposed模块
