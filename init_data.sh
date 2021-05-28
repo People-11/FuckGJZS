@@ -717,7 +717,7 @@ time='2021年5月23号'
 ;;
 
 gms_doze)
-id='universal_gms_doze'
+id='gms_doze'
 name='Universal GMS Doze'
 version='v1.8.2'
 versionCode='182'
