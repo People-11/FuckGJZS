@@ -1,6 +1,6 @@
-Configuration=2021052813
-Magisk_Warehouse_version=2021052813
-App_Store_version=2021050400
+Configuration=2021052901
+Magisk_Warehouse_version=2021052901
+App_Store_version=2021052901
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -11,45 +11,12 @@ case "$1" in
 com.topjohnwu.magisk)
 apk='com.topjohnwu.magisk'
 name='Magisk'
-version='22.1'
-versionCode='22100'
+version='23.0'
+versionCode='23000'
 author='John Wu'
 description='Magisk Manager'
-time='2021年4月9号'
-    [[ $Choice = 1 ]] && Download -url 'https://cdn.jsdelivr.net/gh/topjohnwu/magisk-files@22.1/app-release.apk' "$1.apk" 6720493 b6c71c287647bda911f7027a087a7503 "$1.apk"
-;;
-
-com.omarea.vtools)
-apk='com.omarea.vtools'
-name='Scene4 Beta'
-version='4.3.4 Beta'
-versionCode=202105011
-author='嘟嘟Ski'
-description='你猜'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "0f9063a63c885bedee4587606c2283ab?at_=1619952361896&ak_=1d78d9bf4255e452320e824bdc13223e&ad_=ba57fb38445f119523a6fec8161985a1&fn=$1" "$1.apk" 4469159 f296ea0f3ccf9b74d9039148518c6146 "$1.apk"
-;;
-
-bin.mt.plus)
-apk='bin.mt.plus'
-name='MT管理器'
-version='2.9.8'
-versionCode='21050100'
-author='Bin'
-description='文件管理器/安卓逆向神器'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "9eff763f3f331276ad8f0fe2acabdae7?at_=1619904134955&ak_=39efdfef5a7154248a3d0a7f4fe1dffb&ad_=d0568185c691f9151bf32a7c2389ff38&fn=$1" "$1.apk" 9614454 1b1669074bd7eb773c9c6fb3ac176e98 "$1.apk"
-;;
-
-bin.mt.plus.canary)
-apk='bin.mt.plus.canary'
-name='MT管理器内测版'
-version='2.9.8-beta'
-versionCode='21050100'
-author='Bin'
-description='文件管理器/安卓逆向神器，此版本为内测版可与正式版共存，因为是内测版如果你在使用中发现bug，可向QQ：243454893提交反馈问题'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "74628370ad3540fb8570ea560d837197?at_=1619904217067&ak_=e5f91aee35de7d8f89d92733ecb87dfd&ad_=0393075e27db0d02dcf8c7326a69fee8&fn=$1" "$1.apk" 9589884 c539c700e379b0089226bd490f2b96d5 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz 'i7jxRpki6ih' "$1.apk" 6874374 ea450d98c25b4e09bb353e5bef8ca8a0 "$1.apk"
 ;;
 
 org.meowcat.edxposed.manager)
@@ -60,7 +27,7 @@ versionCode='46200'
 author='MlgmXyysd'
 description='EDXposed框架模块管理器'
 time='2021年2月7号'
-    [[ $Choice = 1 ]] && Download -net "4c0efd7070d73941b4b806dbf21b638f?at_=1618169276538&ak_=a3ffe234c37178e8427df0c47396cf3f&ad_=f4050bd174b63aee329931ebb7c60a14&fn=$1" "$1.apk" 3550938 a712f351af88497bc2fb6fae009e49bf "$1.apk"
+    [[ $Choice = 1 ]] && Download -lz "ilRgUpki90h" "$1.apk" 3550938 a712f351af88497bc2fb6fae009e49bf "$1.apk"
 ;;
 
 de.robv.android.xposed.installer)
