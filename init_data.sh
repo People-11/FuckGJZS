@@ -1,5 +1,5 @@
-Configuration=2021052523
-Magisk_Warehouse_version=2021050805
+Configuration=2021052813
+Magisk_Warehouse_version=2021052813
 App_Store_version=2021050400
 Show_Compatibility_Mode=1
 MIUI=0
@@ -714,6 +714,28 @@ author='酷安@快播内部工作人员'
 description='为不自带sqlite3的机型挂载sqlite3二进制文件'
 time='2021年5月23号'
     [[ $Choice = 1 ]] && Download -url "http://qqcn.coding.net/p/import-rt20/d/GJZS-Warehouse/git/raw/main/21052301/modules/sqlite.zip" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
+;;
+
+gms_doze)
+id='universal_gms_doze'
+name='Universal GMS Doze'
+version='v1.8.2'
+versionCode='182'
+author='gloeyisk'
+description='修改电池优化配置，允许谷歌框架休眠，以达到省电的效果'
+time='2021年5月28号'
+    [[ $Choice = 1 ]] && Download -lz "inut7pjgoaj" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
+;;
+
+always_trust_user_certs)
+id='always_trust_user_certs'
+name='Always Trust User Certificates'
+version='v0.4.1'
+versionCode='41'
+author='Jeroen Beckers (NVISO.eu)'
+description='开机时自动移动用户证书到系统，使系统信任用户证书'
+time='2021年5月28号'
+    [[ $Choice = 1 ]] && Download -lz "iniO7pjgo9i" "$1.zip" 3574 78ee0882218816c29246ac3667d8dea5 "$1.zip"
 ;;
 
 zw_fileclear)
