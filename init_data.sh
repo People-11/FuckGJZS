@@ -96,6 +96,17 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -lz "iRDUtpkjfuj" "$1.apk" 4915162 9e446362c0a7863ab87670545f2bcb65 "$1.apk"
 ;;
 
+com.ioncannon.cpuburn.gpugflops)
+apk='com.ioncannon.cpuburn.gpugflops'
+name='GPU GFLOPS'
+version='2.1'
+versionCode=1
+author='ioncannon'
+description='测试你的设备的CPU/GPU算力，并直观的显示结果（注：此APK经过修改，修复了部分机型闪退的问题，但可能导致无法读取温度）'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i6tMQk8kvpe" "$1.apk" 1655528 7818528f405fe2b78843244dd78fc65d "$1.apk"
+;;
+
 com.camel.corp.universalcopy)
 apk='com.camel.corp.universalcopy'
 name='全局复制'
