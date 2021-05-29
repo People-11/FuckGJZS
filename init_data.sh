@@ -1,6 +1,6 @@
-Configuration=2021052903
-Magisk_Warehouse_version=2021052903
-App_Store_version=2021052903
+Configuration=2021052917
+Magisk_Warehouse_version=2021052917
+App_Store_version=2021052917
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -168,27 +168,27 @@ apk='com.coderstory.toolkit'
 name='安卓4.4-11核心破解'
 author='CoderStory'
 description='XP模块：降级安装/不同签名安装'
-time='2021年3月31号'
+time='2021年5月29号'
     case $SDK in
     29 | 30) #3
         version='3.4'
         versionCode=1810
-        [[ $Choice = 1 ]] && Download -net "66773be4e90de48cd71fb9867ed1e7df?at_=1618173693063&ak_=b38ef69227321217f963c05a097214c1&ad_=d016b51444f897c7cdef272e70e77802&fn=$1"3 "${1}3.apk" 1233819 f9fee619c34294e86294844446a88196 "${1}3.apk"
+        [[ $Choice = 1 ]] && Download -lz "iMt7wpl0sgf"3 "${1}3.apk" 1233819 f9fee619c34294e86294844446a88196 "${1}3.apk"
     ;;
     28 | 29) #2
         version='2.2'
         versionCode=1765
-        [[ $Choice = 1 ]] && Download -net "7d905ee84d46e70ba3848e0a50388b6a?at_=1618173680380&ak_=fbefb8511d23d137ec61befaed084eef&ad_=6f4550d8b6fc92cab39e071de209ea67&fn=$1"2 "${1}2.apk" 1327894 65a25c6d5d2e42475fb215ac0d9eb504 "${1}2.apk"
+        [[ $Choice = 1 ]] && Download -lz "iOTPIpl0sed"2 "${1}2.apk" 1327894 65a25c6d5d2e42475fb215ac0d9eb504 "${1}2.apk"
     ;;
     24 | 25 | 26 | 27) #1
         version='2.1'
         versionCode=1765
-        [[ $Choice = 1 ]] && Download -net "0c10a40d4a158701dfac7c97a0adaaea?at_=1618173668957&ak_=def24d95f4a08cf4952ef46c5760d245&ad_=61a3840bc70496a301ef1844225c2d0c&fn=$1"1 "${1}1.apk" 1423421 8b746d3c648f48cb0189fe4b53e9462c "${1}1.apk"
+        [[ $Choice = 1 ]] && Download -lz "i9cllpl0scb"1 "${1}1.apk" 1423421 8b746d3c648f48cb0189fe4b53e9462c "${1}1.apk"
     ;;
     19 | 20 | 21 | 22 | 23)
         version='1.4'
         versionCode=1580
-        [[ $Choice = 1 ]] && Download -net "2e1041114a6a39b11b2018fc2a4f644e?at_=1618173654723&ak_=376080bc2b0d05d4fc8640028b615283&ad_=7e06f50d47751a8cab48b6a4ab476e5e&fn=$1" "$1.apk" 88680 d5df351b2754df0d5cc0251553fbd1d7 "$1.apk"
+        [[ $Choice = 1 ]] && Download -lz "iJgolpl0sba" "$1.apk" 88680 d5df351b2754df0d5cc0251553fbd1d7 "$1.apk"
     ;;
     *)
         [[ $Choice = 1 ]] && echo "不支持SDK=$SDK"
@@ -199,12 +199,12 @@ time='2021年3月31号'
 nil.nadph.qnotified)
 apk='nil.nadph.qnotified'
 name='QNotified'
-version='0.8.19.2c41172'
-versionCode=1619871089
+version='0.8.19.fbe35e7'
+versionCode=1620133815
 author='reinit'
 description='XP模块：QQ辅助性功能增强'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "769362c497c215c84251e695a48b6e44?at_=1619904518477&ak_=0ea4c6bcbb98a9456f0b39fe22d8de30&ad_=3c193974dba14f86b2830bd8f3947cfd&fn=$1" "$1.apk" 4580963 033538f98d4c006b7f959b8f84394be8 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iyLSfpl0wmf" "$1.apk" 4449141 4ce0bd20c80e9121f7afcee43a235853 "$1.apk"
 ;;
 
 com.fkzhang.qqxposed)
@@ -214,8 +214,8 @@ version='2.8'
 versionCode=34
 author='fkzhang'
 description='XP模块：Add Extra features to QQ Mobile. QQ增加更多功能'
-time='2021年4月3号'
-    [[ $Choice = 1 ]] && Download -net "ec31d562f8043880e90b33e3238a7ec1?at_=1618174060207&ak_=634ecf89cdcf321f49267d16705a5873&ad_=8023b21e9fcb58f5a35f915347d0dcaf&fn=$1" "$1.apk" 3471784 a38a2a2247ae921c262797c29be4e87e "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iDFwfpl14lc" "$1.apk" 3471784 a38a2a2247ae921c262797c29be4e87e "$1.apk"
 ;;
 
 com.fkzhang.wechatxposed)
@@ -225,8 +225,8 @@ version='2.22'
 versionCode=85
 author='fkzhang'
 description='XP模块：Add extra features to Wechat. 微信增加更多功能'
-time='2021年4月3号'
-    [[ $Choice = 1 ]] && Download -net "bc95e36b3e00db5e53bc5ef808f11ba8?at_=1618173597978&ak_=8be68aec8637068656dc4c7610029b24&ad_=94f83958ecc0f591f1509d79790f8ccd&fn=$1" "$1.apk" 3132974 6a8121ed617314dc89b4480866614f8c "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "imWBWpl189e" "$1.apk" 3132974 6a8121ed617314dc89b4480866614f8c "$1.apk"
 ;;
 
 com.mhook.dialog)
@@ -236,30 +236,19 @@ version='2.3.5'
 versionCode=235
 author='myhanbing'
 description='XP模块：对话框取消'
-time='2020年9月4号'
-    [[ $Choice = 1 ]] && Download -net "c4a3b988ba900b8174fba2064d52a529?at_=1618166699245&ak_=f781ba3671efe214a699154127ce1f0e&ad_=7798772d4572df4705b3cc62fc92f3d9&fn=$1" "$1.apk" 1507161 a30f0617f21997df08e623fa93ee4934 "$1.apk"
-;;
-
-io.github.lsposed.disableflagsecure)
-apk='io.github.lsposed.disableflagsecure'
-name='禁用 FLAG_SECURE（强制截屏）'
-version='1.0.1'
-versionCode=2
-author='未知'
-description='XP模块：在不允许截屏的应用上强制截屏'
-time='2021年2月4号'
-    [[ $Choice = 1 ]] && Download -net "2ce40dba6dcad0e9576898371fb51012?at_=1618172929086&ak_=f64a510079fcd1027f011f1cc61b34ac&ad_=4898f471d3aa030af7ee4066422090ae&fn=$1" "$1.apk" 10775 8853193dd4e4b74d1800af5b8fc55674 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iaEVKpl1aeb" "$1.apk" 1507161 a30f0617f21997df08e623fa93ee4934 "$1.apk"
 ;;
 
 com.fuckcoolapk)
 apk='com.fuckcoolapk'
 name='Fuck Coolapk'
-version='0.5.6'
-versionCode=20210430
+version='0.5.8'
+versionCode=20210506
 author='ejiaogl'
-description='XP模块：去除酷安各种广告'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "1645ede3782bd64087d9f6f43e30079a?at_=1619952944354&ak_=a18e70fc883292b7ea513f4eb7bc0985&ad_=ce15313285003801b7a0a114b45271b9&fn=com.fckcoolapk" "$1.apk" 874541 f9664cc6c1b182bee366fe101b368949 "$1.apk"
+description='XP模块：FuckCoolapk'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "idyPKpl1fyb" "$1.apk" 874541 92ebc1fa605f0d975cd2690031845e91 "$1.apk"
 ;;
 
 com.mhook.MrSFastTranslation)
@@ -269,8 +258,8 @@ version='3.1.4-beta4'
 versionCode=20190612
 author='myhanbing'
 description='XP模块：复制即可翻译'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "04118336fff884e1580baf567dd32593?at_=1618166700024&ak_=a253faeeeb2206503fe331df0cf39293&ad_=0d3c83042b6eaf679201922ba5756058&fn=$1" "$1.apk" 782673 6df81f2136aefc9de79d36e7b7a384d2 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iHsZ0pl1k8f" "$1.apk" 782673 6df81f2136aefc9de79d36e7b7a384d2 "$1.apk"
 ;;
 
 com.volant.mzxpt)
@@ -278,10 +267,10 @@ apk='com.volant.mzxpt'
 name='MeiZu Xposed Tool'
 version='2.2.5'
 versionCode=1
-author='未知'
+author='VolantGoat'
 description='XP模块/ROOT工具箱：MeiZu Xposed Tool'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "591bc4ae9717fd175e367f589016f880?at_=1618173109707&ak_=b099221c6d22dacc33efd65a89fa8252&ad_=fcfd3a5e95cbb2758f758bee8d2380d6&fn=$1" "$1.apk" 4674032 00fba8fa0124070d2690e83b2e1f879b "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "icSLXpl1pcj" "$1.apk" 4674032 00fba8fa0124070d2690e83b2e1f879b "$1.apk"
 ;;
 
 com.surcumference.fingerprintpay)
@@ -291,19 +280,19 @@ version='3.9.22'
 versionCode=21
 author='eritpchy'
 description='XP模块：让微信、支付宝、淘宝和腾讯QQ在支持指纹识别的手机上使用指纹支付, 即使他们都不打算支持!'
-time='2021年2月10号'
-    [[ $Choice = 1 ]] && Download -net "9ed4bedab24ce0136321165ef98f2e45?at_=1618173162835&ak_=9b106a5684662eb8462765ab18230f2f&ad_=38f082c873f6f82a366ae1a46b5c0087&fn=$1" "$1.apk" 1736690 c3f0dd5f62876f50304f83db6dfdaa0c "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i0oUYpl1rcb" "$1.apk" 1736690 c3f0dd5f62876f50304f83db6dfdaa0c "$1.apk"
 ;;
 
 com.coderstory.flyme)
 apk='com.coderstory.flyme'
 name='Flyme8助手'
-version='4.2.1'
-versionCode=456
+version='4.2.4'
+versionCode=468
 author='CoderStory'
-description='XP模块：flyme8助手基于dexposed/xposed开发的插件，实现了去除系统广告，核心破解，隐藏桌面应用标签等实用功能。使用插件前请申请root权限并安装EdXposed，也可以选择xposed。'
-time='2021年2月10号'
-    [[ $Choice = 1 ]] && Download -net "e94a88e5dffb1424943a2748a81578b4?at_=1618173719406&ak_=304fba0cc1ac133b9f66bcac1e2271d1&ad_=646adafd91aa281cad6b190a5820df0f&fn=$1" "$1.apk" 5118736 9d87e9418a6b4e84dc4e7cb25cf983f3 "$1.apk"
+description='XP模块：Flyme8助手基于dexposed/xposed开发的插件，实现了去除系统广告，核心破解，隐藏桌面应用标签等实用功能。使用插件前请申请root权限并安装EdXposed，也可以选择xposed。'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iGQHMpl1t3e" "$1.apk" 5026838 b8953e4bfbecbcae4e4deb869875f108 "$1.apk"
 ;;
 
 com.coderstory.purify)
@@ -313,8 +302,8 @@ version='3.3.1 Dev'
 versionCode=108002
 author='CoderStory'
 description='XP模块：小米净化是基于dexposed/xposed开发的插件，实现了去除系统广告，核心破解，隐藏桌面应用标签等实用功能。使用插件前请申请root权限并安装magisk版EdXposed。'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "0296b8a76fa3916ce4e7a1c6bfd279f0?at_=1618174616039&ak_=8186a1ff083181db83ef43562eda9d30&ad_=d9c968deee1f7c30e1cf5c9af23610e3&fn=$1" "$1.apk" 1955700 628e33908c26ebec2489082c22d04ecb "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ikpsCpl21la" "$1.apk" 1955700 628e33908c26ebec2489082c22d04ecb "$1.apk"
 ;;
 
 chili.xposed.chimi)
@@ -323,9 +312,9 @@ name='ChiMi'
 version='4.02.14'
 versionCode=300214
 author='yonghen'
-description='XP模块：MIUI扩展插件（EdXposed/TaiChi）'
-time='2021年2月10号'
-    [[ $Choice = 1 ]] && Download -net "865f58a4ae1e3408c3d1cd088894f8e8?at_=1618173840647&ak_=aba927104ae069935701250ef33f6c1f&ad_=ffb56eb1bf91b2279b91322ec5747e55&fn=$1" "$1.apk" 412235 7d8a7ff8039e71e05511bf5ee42dd77b "$1.apk"
+description='XP模块：MIUI扩展插件（EdXposed）'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iCqgppl28ab" "$1.apk" 412235 7d8a7ff8039e71e05511bf5ee42dd77b "$1.apk"
 ;;
 
 cn.lovesykun.miui_force_fps)
@@ -335,8 +324,8 @@ version='1.0'
 versionCode=1
 author='yujincheng08'
 description='XP模块：强制MIUI 全局高帧'
-time='2021年3月18号'
-    [[ $Choice = 1 ]] && Download -net "a57b522b017aadb5a97a7dd20b713ce8?at_=1618173796289&ak_=ade026a92c64bba50bbc2b0382d75a5a&ad_=10fdb565a520a5d317e2c7ec40a450a0&fn=$1" "$1.apk" 7448 c9757f98794ba42259094080c13ef24d "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "idQN9pl29uh" "$1.apk" 7448 c9757f98794ba42259094080c13ef24d "$1.apk"
 ;;
 
 org.meowcat.xposed.miui)
@@ -346,8 +335,8 @@ version='1.1'
 versionCode=2
 author='yonghen'
 description='XP模块：解除MIUI双开应用限制'
-time='2021年2月23号'
-    [[ $Choice = 1 ]] && Download -net "61f65eeb2ba9777c3b2f74617c57fca6?at_=1618172540435&ak_=ac96e8b99ac82b65b093b634ea29c978&ad_=5a84fe8092383428d82e0a2cbad6ad1d&fn=$1" "$1.apk" 91157 dab61d4cdc27f7ce337163b41c069f27 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "i3bUspl2fad" "$1.apk" 91157 dab61d4cdc27f7ce337163b41c069f27 "$1.apk"
 ;;
 
 com.sollyu.xposed.hook.model)
@@ -355,54 +344,54 @@ apk='com.sollyu.xposed.hook.model'
 name='应用变量'
 version='3.3.2'
 versionCode=602
-author='未知'
+author='kingsollyu'
 description='XP模块：自定义应用获取的设备数据'
-time='2020年9月4号'
-    [[ $Choice = 1 ]] && Download -net "cbf380669425c797a8af9144ea3ca806?at_=1618173984004&ak_=fee52c0f5f59da70355e7087d41ffe4c&ad_=bdb4a5b1fe4668c7f376a2c4805e220a&fn=$1" "$1.apk" 6261768 650ff324855101d02cef6898df80275d "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "itANkpl2gqf" "$1.apk" 6261768 650ff324855101d02cef6898df80275d "$1.apk"
 ;;
 
 pansong291.xposed.quickenergy.qiufeng)
 apk='pansong291.xposed.quickenergy.qiufeng'
 name='秋风'
-version='2.5.7'
-versionCode=202105010
-author='未知'
+version='2.5.9'
+versionCode=202105080
+author='ys0722'
 description='XP模块：支付宝扩展模块，快速收取蚂蚁森林能量'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "240921b5e2a362d28442c14fc9620256?at_=1619953034002&ak_=f5890aebc2ff3fcacf9b340f7f4f4e5f&ad_=47011d43bcd97308288c1808cb5cbfe3&fn=$1" "$1.apk" 143120 bba49b167a544b066240890885ac5611 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iJCGGpl2kkd" "$1.apk" 143908 2c639a6ea2e8de221185241fc645982b "$1.apk"
 ;;
 
 com.xmnh.viphook)
 apk='com.xmnh.viphook'
-name='vipHook'
+name='VIPHook'
 version='1.5.0'
 versionCode=25
 author='by:希梦☆奈何'
-description='XP模块：懂得自然懂'
-time='2021年4月4号'
-    [[ $Choice = 1 ]] && Download -net "beb858e86ce9e2ed568c33889ec23fb7?at_=1618173076706&ak_=c3ac02cb5352b50ccaa19b25c0dac35f&ad_=2a70439961c265f073e456ce56bbe8b0&fn=$1" "$1.apk" 1586050 53e33ecff5327d0305b3d0cca5fcc3b6 "$1.apk"
+description='XP模块：解锁一些APP的VIP等级'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "itUEHpl2ouh" "$1.apk" 1586050 53e33ecff5327d0305b3d0cca5fcc3b6 "$1.apk"
 ;;
 
 club.youppgd.adhook)
 apk='club.youppgd.adhook'
 name='联璧模块'
-version='67'
-versionCode=67
+version='76'
+versionCode=76
 author='youppgd'
 description='XP模块：去除腾讯视频、爱奇艺、优酷、芒果、豆瓣的各处广告，只支持官方app'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "ed58c07fdf9b61d98cc7198e47b63419?at_=1619952676041&ak_=b8b2f68d4a4f357e23811b23675bf547&ad_=9745ac5c3ce3b130d15bbacb82615896&fn=$1" "$1.apk" 2161276 1559229b4547a4bdcf55c9f372f74a4e "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iBWY7pl2rqb" "$1.apk" 2164043 2ca07615b5abc8ecd67014c18462dc8d "$1.apk"
 ;;
 
 cn.kwaiching.hook)
 apk='cn.kwaiching.hook'
 name='要妳命三千'
-version='21.04.23'
+version='21.05.27'
 versionCode=75
 author='youppgd'
 description='XP模块：一加/TikTok/抖音/Musical.ly/快手/Tumblr/墳頭草/內涵段子'
-time='2021年5月2号'
-    [[ $Choice = 1 ]] && Download -net "d9baebcd825ab229b3135a297e6f3989?at_=1619952763733&ak_=8503cfe671b49d3cc59742168a6d7351&ad_=8e34df36c318f218b0f59adf37a882f5&fn=$1" "$1.apk" 4529672 1963404e8d42202d27d8e35fc193ab63 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ieoZqpl30ji" "$1.apk" 3532737 3d2bb4a53313a955024f421a9484cec2 "$1.apk"
 ;;
 
 com.xloger.exlink.app)
@@ -412,19 +401,19 @@ version='3.0'
 versionCode=18
 author='xloger & oott123'
 description='XP模块：它可以自定义接管App打开浏览器的事件，当点击链接时跳转浏览器打开，不再默认使用内置浏览器打开'
-time='2020年9月6号'
-    [[ $Choice = 1 ]] && Download -net "cd9cf10e14a0633afa897ccd2b17a43c?at_=1618173949747&ak_=974336c3348576134fdc0e1e4bed2a2b&ad_=5774e99d643de45f4003ad5042ffd1c2&fn=$1" "$1.apk" 2133497 84e68e8b7a209902392d8f18dd6d181c "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iht52pl2zjc" "$1.apk" 2133497 84e68e8b7a209902392d8f18dd6d181c "$1.apk"
 ;;
 
 me.iacn.biliroaming)
 apk='me.iacn.biliroaming'
 name='哔哩漫游'
-version='1.4.3'
-versionCode=43
+version='1.4.4'
+versionCode=44
 author='yujincheng08'
 description='XP模块：解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能'
-time='2021年4月3号'
-    [[ $Choice = 1 ]] && Download -net "09d5eb55e4e7cdc6b88f3980e72d666f?at_=1618172884214&ak_=58a0ce6332e828dcdbe6d7d8a735ff24&ad_=f685d21260c221e85c8740538ae07ee4&fn=$1" "$1.apk" 381542 792bcb8403ed18c0e2628cb7b148cd74 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ipo1Bpl336d" "$1.apk" 383837 dca806c98ab3c0e23e96d57b3832e77a "$1.apk"
 ;;
 
 me.zjns.lovecloudmusic)
@@ -434,19 +423,8 @@ version='2.7.1'
 versionCode=21
 author='xmodule.org'
 description='XP模块：适用于网易云音乐'
-time='2021年3月14号'
-    [[ $Choice = 1 ]] && Download -net "4e0dbad179498be93492e01bd8e5fd52?at_=1618172819640&ak_=1b7acb75a18588b8f7d06ea55f51f4ac&ad_=8f6263d36434629bc08457557babafa5&fn=$1" "$1.apk" 29937 2222129d7579d6ecc8900572e3f91be8 "$1.apk"
-;;
-
-com.specher.music163)
-apk='com.specher.music163'
-name='网易云音乐插件'
-version='2.8.2'
-versionCode=21
-author='Specher'
-description='XP模块：网易云音乐插件'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "1e48ef4dcd86e31705cddb9dc1d2537d?at_=1618173217595&ak_=23b77b53f41cd67288f4be8e4ebce99f&ad_=89d9b4112bd8766b9bc0b2d931ff0c7a&fn=$1" "$1.apk" 29180 fab79b2c910db212d1824282094bc9f3 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iWqXYpl3jgj" "$1.apk" 29937 2222129d7579d6ecc8900572e3f91be8 "$1.apk"
 ;;
 
 com.raincat.unblockmusicpro)
@@ -456,8 +434,8 @@ version='2.8.3'
 versionCode=283
 author='nining377'
 description='XP模块：安卓端基于Xposed解锁网易云音乐客户端变灰歌曲'
-time='2021年3月14号'
-    [[ $Choice = 1 ]] && Download -net "24c4a1152dd44b5e53020d17e25598a3?at_=1618173240299&ak_=945c180c54effaf57e8debce5743e560&ad_=775db1561ccb6456db88e073bc9d3820&fn=$1" "$1.apk" 15762959 4ec5f22ac07f9624ba15f5517532e2ed "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iLRnWpl3qgb" "$1.apk" 19486621 607040b168799e2733bcd4263de5d465 "$1.apk"
 ;;
 
 com.raincat.dolby_beta)
@@ -467,8 +445,8 @@ version='210'
 versionCode=210
 author='nining377'
 description='XP模块：网易云音乐去广告/签到/精简美化'
-time='2021年3月29号'
-    [[ $Choice = 1 ]] && Download -net "cb033f6c9cbe09c235385aacb4227e48?at_=1618173266341&ak_=c2769eaa0358f1c29a08e466f60657a4&ad_=2e133b063d215d9cc39edce3f8048ebe&fn=$1" "$1.apk" 1061327 9952d2805a3b86d2b4e9835979902fd2 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iYJIepl3rxe" "$1.apk" 1061327 9952d2805a3b86d2b4e9835979902fd2 "$1.apk"
 ;;
 
 me.dyq.android.SDLink)
@@ -476,43 +454,32 @@ apk='me.dyq.android.SDLink'
 name='SD重定向'
 version='1.4.3'
 versionCode=13
-author='未知'
+author='Richard-Tung'
 description='XP模块：解决APP在内部储存根目录乱拉屎'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "4ef87c61678a6db499f5b41ab65e80d7?at_=1618172909999&ak_=60cb81ac778fc875193a961848413025&ad_=ff8e218a56111de3e92412891b3623dd&fn=$1" "$1.apk" 401063 61d45f2477b3efa5b8910cfefa2d33e5 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "ifC79pl3vmh" "$1.apk" 401063 61d45f2477b3efa5b8910cfefa2d33e5 "$1.apk"
 ;;
 
 com.lemonsqueeze.fakewificonnection)
 apk='com.lemonsqueeze.fakewificonnection'
-name='伪装wifi'
+name='伪装WiFi'
 version='1.10'
 versionCode=11
-author='未知'
-description='XP模块：伪装成wifi连接'
-time='2020年8月14号'
-    [[ $Choice = 1 ]] && Download -net "095851fea9461db7f672c0cf65653ce3?at_=1618173396493&ak_=c2a66175170c98f3a0edfbcafa12ae79&ad_=3bf370a063b8429ab29cc845d92ba945&fn=$1" "$1.apk" 327389 43a28736d96ade25351d6db3ce37d9ff "$1.apk"
-;;
-
-me.lee.adaway.sina)
-apk='me.lee.adaway.sina'
-name='SinaAdAway'
-version='0.0.6'
-versionCode=6
-author='未知'
-description='XP模块：去除新浪微博广告'
-time='2020年8月23号'
-    [[ $Choice = 1 ]] && Download -net "57bedc160889ebd25ead7721d247c4b1?at_=1618172841525&ak_=bcc01c44bec3c096b134aeecc61a19a7&ad_=90193c9b2c1529fe5016da59fbd65704&fn=$1" "$1.apk" 1258617 dad0ce3efc5ef5f680bb78eb43c7e65d "$1.apk"
+author='lemonsqueeze'
+description='XP模块：伪装成WiFi连接'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iDRsOpl3xmj" "$1.apk" 327389 43a28736d96ade25351d6db3ce37d9ff "$1.apk"
 ;;
 
 me.lee.adaway)
 apk='me.lee.adaway'
-name='AdAway'
-version='0.5.8.1'
-versionCode=49
+name='SinaAdAway'
+version='0.6.4'
+versionCode=55
 author='lis216'
 description='XP模块：微博抖音增强模块'
-time='2021年3月31号'
-    [[ $Choice = 1 ]] && Download -net "f3086d0b22486b4c161ec7381d0ccfd7?at_=1618166787679&ak_=8efa9913213c981c3d5f0d64b522f197&ad_=5000c34bc30d460ea9e8d0af4fae647e&fn=$1" "$1.apk" 2005634 4f12f01a7380d607db8f361e4714ff96 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iKFu7pl3zgf" "$1.apk" 2008410 e92b62fcc346d6c76db919f41fb2c1d1 "$1.apk"
 ;;
 
 com.github.tianma8023.xposed.smscode)
@@ -522,8 +489,8 @@ version='2.2.5'
 versionCode=45
 author='tianma8023'
 description='XP模块：提取新短信中的验证码并复制到剪贴板，并能自动输入验证码'
-time='2021年2月9号'
-    [[ $Choice = 1 ]] && Download -net "4ebc4aa11c7712b462ddb72b24fe16e4?at_=1618173571523&ak_=df7cbe5ea70e0f96624b588b3e01f824&ad_=4f9eeaa07c5ace69e05c90f70a6efa17&fn=$1" "$1.apk" 1925433 e3af8dbc824ac4175cdf277194965371 "$1.apk"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -lz "iqs3Zpl432f" "$1.apk" 1925433 e3af8dbc824ac4175cdf277194965371 "$1.apk"
 ;;
 
 com.viewblocker.jrsen)
@@ -534,7 +501,7 @@ versionCode=21
 author='kaisar945'
 description='XP模块：去除apk布局，哪里不要点哪里'
 time='2020年8月16号'
-    [[ $Choice = 1 ]] && Download -net "a9d081d1ffe52c6b3ceb61157eeaaa6f?at_=1618173135477&ak_=64052e74b254da6ccf1b43728fadb7e9&ad_=45cfa23b0ab2e567eadc6c5bff91f2ed&fn=$1" "$1.apk" 1251752 0e3dd4ba758411c198da21b1b2d7cbc9 "$1.apk"
+    [[ $Choice = 1 ]] && Download -lz "io4RCpl44xc" "$1.apk" 1251752 0e3dd4ba758411c198da21b1b2d7cbc9 "$1.apk"
 ;;
 
 #模块
