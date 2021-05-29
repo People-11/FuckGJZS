@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021051723
+export Util_Functions_Code=2021053008
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -530,7 +530,7 @@ Download() {
             ;;
             -net)
                 shift
-                Link="http://d0.ananas.chaoxing.com/download/$ID"
+                Link="http://pan-yz.chaoxing.com/download/downloadfile?$ID"
             ;;
             -lz)
                 shift
