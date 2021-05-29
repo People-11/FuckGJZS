@@ -473,7 +473,7 @@ time='2021年5月29号'
 
 me.lee.adaway)
 apk='me.lee.adaway'
-name='SinaAdAway'
+name='ADAway'
 version='0.6.4'
 versionCode=55
 author='lis216'
@@ -500,7 +500,7 @@ version='2.7.10'
 versionCode=21
 author='kaisar945'
 description='XP模块：去除apk布局，哪里不要点哪里'
-time='2020年8月16号'
+time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -lz "io4RCpl44xc" "$1.apk" 1251752 0e3dd4ba758411c198da21b1b2d7cbc9 "$1.apk"
 ;;
 
