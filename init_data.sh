@@ -1,6 +1,6 @@
-Configuration=2021053019
-Magisk_Warehouse_version=2021053019
-App_Store_version=2021053019
+Configuration=2021053108
+Magisk_Warehouse_version=2021053108
+App_Store_version=2021053108
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -102,7 +102,7 @@ name='全局复制'
 version='5.3.2'
 versionCode=69
 author='Camel Corporation'
-description='无需ROOT，复制屏幕上你想要的一切文本'
+description='无需Root，复制屏幕上你想要的一切文本'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568017624035328&puid=176246092" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
 ;;
@@ -279,7 +279,7 @@ name='MeiZu Xposed Tool'
 version='2.2.5'
 versionCode=1
 author='VolantGoat'
-description='XP模块/ROOT工具箱：MeiZu Xposed Tool'
+description='XP模块/Root工具箱：MeiZu Xposed Tool'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568057347399680&puid=176246092" "$1.apk" 4674032 00fba8fa0124070d2690e83b2e1f879b "$1.apk"
 ;;
@@ -706,7 +706,7 @@ name='安装狮-MIUI'
 version='v3.7.5-miui'
 versionCode='42'
 author='dadaewq & by：Han | 情非得已c'
-description='将MIUI的应用包管理组件替换为安装狮来静默安装应用，注：无需在「安装狮 静默安装」里做任何设置，也不需要开启「安装狮-Root」模式授权ROOT权限因为默认就可以使用「安装狮-DPM」来静默安装应用﻿'
+description='将MIUI的应用包管理组件替换为安装狮来静默安装应用，注：无需在「安装狮 静默安装」里做任何设置，也不需要开启「安装狮-Root」模式授权Root权限因为默认就可以使用「安装狮-DPM」来静默安装应用﻿'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605569184491106304&puid=176246092" "$1.zip" 1422609 06babbf3d8606d5903d3af28b257da3a "$1.zip"
 ;;
@@ -861,11 +861,11 @@ time='2021年5月29号'
 Hide_system_ROOT)
 Show_Compatibility_Mode=0
 id='Hide_system_ROOT'
-name='隐藏系统ROOT'
+name='隐藏系统Root'
 version='v1.6'
 versionCode=6
 author='by：Han | 情非得已c'
-description='隐藏除Magisk以外的系统Root，只保留MagiskSU，因为系统ROOT的存在会让Magisk Hide失效，导致部分应用仍然会检测到ROOT'
+description='隐藏除Magisk以外的系统Root，只保留MagiskSU，因为系统Root的存在会让Magisk Hide失效，导致部分应用仍然会检测到Root'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
 ;;
