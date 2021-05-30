@@ -129,6 +129,17 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605569172966117376&puid=176246092" "$1.apk" 22766597 63c31710e7c0c575be73d87f24ae0604 "$1.apk"
 ;;
 
+catch_.me_.if_.you_.can_)
+apk='catch_.me_.if_.you_.can_'
+name='GameGuardian'
+version='101.1'
+versionCode=16142
+author='GameGuardian'
+description='大名鼎鼎的GG修改器'
+time='2021年5月30号'
+    [[ $Choice = 1 ]] && Download -net "fleid=605862319786934272&puid=176246092" "$1.apk" 20679152 56e58a7aae99dcd448a7b970d26f55ed "$1.apk"
+;;
+
 ru.aaaaaabb.installer)
 apk='ru.aaaaaabb.installer'
 name='幸运破解器安装器'
