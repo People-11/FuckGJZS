@@ -631,8 +631,8 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605593950582046720&puid=176246092" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
 ;;
 
-gms_doze)
-id='gms_doze'
+UniversalGMSDoze)
+id='UniversalGMSDoze'
 name='Universal GMS Doze'
 version='v1.8.2'
 versionCode='182'
@@ -642,8 +642,8 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568743469387776&puid=176246092" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
 ;;
 
-always_trust_user_certs)
-id='always_trust_user_certs'
+trustusercerts)
+id='trustusercerts'
 name='Always Trust User Certificates'
 version='v0.4.1'
 versionCode='41'
