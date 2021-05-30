@@ -154,8 +154,8 @@ time='2021年5月29号'
 com.android.vending)
 apk='com.android.vending'
 name='Google Play Store'
-version='24.0.32-16'
-versionCode=356387442
+version='24.0.32-16 [0] [PR] 356387442'
+versionCode=82403200
 author='Google LLC'
 description='原版谷歌商店安装包，非框架'
 time='2021年5月29号'
