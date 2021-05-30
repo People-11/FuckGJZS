@@ -1439,6 +1439,8 @@ BootAnimation_Screen2)
         Download -net "fleid=605568122905333760&puid=176246092" "$2.zip" 345712297 7649c8b3d1feb855fb7897c4c3fd93f2 "$2.zip"
     elif [[ $2 = Kang_In_Kyung_2400 ]]; then
         Download -net "fleid=605568128370982912&puid=176246092" "$2.zip" 345786085 704b88462902bc774c8791bcd6c49257 "$2.zip"
+    elif [[ $2 = Harmony_OS ]]; then
+        Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 6966879 d7611ba39e1aa3b70a6da49e81fe528a "$2.zip"
     fi
 ;;
 
