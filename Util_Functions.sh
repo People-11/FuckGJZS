@@ -49,20 +49,20 @@ mask() {
                 MAGISK_VER=`$Magisk -v | sed 's/:.*//'`
                 MAGISK_VER_CODE=`$Magisk -V`
             else
-                abort "！未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
+                abort "未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
             fi
         elif [[ "$1" == '-vc' ]]; then
             if [[ -x $Magisk ]]; then
                 MAGISK_VER=`$Magisk -v | sed 's/:.*//'`
                 MAGISK_VER_CODE=`$Magisk -V`
             else
-                abort "！未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
+                abort "未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
             fi
                 if [[ -d $Modules_Dir ]]; then
                     echo "已安装Magisk版本：$MAGISK_VER（$MAGISK_VER_CODE）"
-                    [[ $MAGISK_VER_CODE -lt 19000 ]] && abort "！未适配Magisk 19.0以下的版本，19.0以下版本采用magisk.img方式挂载模块"
+                    [[ $MAGISK_VER_CODE -lt 19000 ]] && abort "未适配Magisk 19.0以下的版本，19.0以下版本采用magisk.img方式挂载模块"
                     echo "---------------------------------------------------------"
-                    [[ `sh $ShellScript/support/Missing_file.sh` = 1 ]] && abort -e "已检测到Magisk需要修复运行环境\n缺失 Magisk 正常工作所需的文件，如果不修复您将无法使用模块功能，可在Magisk Manger里修复也可以在Magisk专区一键修复Magisk运行环境" || return 0
+                    [[ `sh $ShellScript/support/Missing_file.sh` = 1 ]] && abort -e "已检测到Magisk需要修复运行环境\n缺失Magisk正常工作所需的文件，如果不修复您将无法使用模块功能，可在Magisk Manger里修复也可以在Magisk专区一键修复Magisk运行环境" || return 0
                 fi
         elif [[ -n "$1" ]]; then
             Module="$Modules_Dir/$1"
@@ -98,7 +98,7 @@ adb() (
     esac
     
     
-    [[ -z `"$ADB" devices | egrep -vi 'List of.*'` ]] && error "！无设备连接" && exit 126
+    [[ -z `"$ADB" devices | egrep -vi 'List of.*'` ]] && error "无设备连接" && exit 126
     exec "$ADB" "$@"
 )
 
@@ -113,7 +113,7 @@ fastboot() (
         : ;;
         
         *)
-            [[ -z `"$FASTBOOT" devices` ]] && error "！无设备连接" && exit 126
+            [[ -z `"$FASTBOOT" devices` ]] && error "无设备连接" && exit 126
         ;;
     esac
     
@@ -142,7 +142,7 @@ adb2() {
     if [[ "$#" -eq 0 ]]; then
         adb shell
         if [[ $? -ne 0 ]]; then
-            abort "没有设备连接无法继续哦！"
+            abort "没有设备连接"
         fi
     elif [[ "$1" = "-s" && "$#" -eq 2 ]]; then
         shift
@@ -179,7 +179,7 @@ Install_curl() {
     jian=$TMPDIR/curl.zip
     jian2=$Script_Dir/META-INF/com/google/android/update-binary
     WGET -c -O $jian "http://d0.ananas.chaoxing.com/download/$url"
-    [[ ! -f "$jian" ]] && abort "！下载文件失败"
+    [[ ! -f "$jian" ]] && abort "下载文件失败"
     echo "- 开始安装curl"
     rm -rf $Script_Dir
     mkdir -p $Script_Dir
@@ -189,7 +189,7 @@ Install_curl() {
         sh "$jian2" $Package_name 1 "$jian"
         PATH="$PATH"
     else
-        abort "！解压文件失败"
+        abort "解压文件失败"
     fi
     rm -f $jian
 }
@@ -218,7 +218,7 @@ Install_Applet() {
                                     mv -f "$ELF2_Path/arm/"* "$ELF2_Path"
                                 ;;
                                 *)
-                                    echo "！ 未知的架构 ${ABI}，无法安装adb & fastboot"
+                                    echo "未知的架构 ${ABI}，无法安装adb & fastboot"
                                     rm -f "$ELF2_Path/adb"
                                     [[ $ABI = x86* ]] && mv -f "$ELF2_Path/x86/"* "$ELF2_Path"
                                 ;;
@@ -264,11 +264,11 @@ Cloud_Update() {
                                        find ~ -exec chmod 700 {} \; -exec chown $APP_USER_ID:$APP_USER_ID {} \; &
                                        rm -f "$File"
                                    else
-                                      echo "！$S云端页面失败❌"
+                                      echo "$S云端页面失败"
                                    fi
                            fi
                     else
-                        abort "！未连接到网络❓"
+                        abort "未连接到网络"
                     fi
             fi
 }
@@ -283,7 +283,7 @@ Start_Installing_Busybox() {
         x86*) Type=x86;;
         mips64*) Type=mips64;;
         mips*) Type=mips;;
-        *) echo "！ 未知的架构 ${ABI}，无法安装busybox"; return 1;;
+        *) echo "未知的架构 ${ABI}，无法安装Busybox"; return 1;;
     esac
     
     Start_Install() { CloudBusybox="$8"; }
@@ -295,15 +295,15 @@ Start_Installing_Busybox() {
             BusyBox2=$ELF4_Path/busybox
             [[ ! -d $ELF4_Path ]] && mkdir -p "$ELF4_Path" && chown $APP_USER_ID:$APP_USER_ID $ELF4_Path || rm -f $ELF4_Path/*
             cp "$Download_File" "$BusyBox2" && chmod 700 $BusyBox2
-            echo "- 正在安装busybox-$Type版-$7($8)"
+            echo "正在安装Busybox-$Type版-$7($8)"
             "$BusyBox2" --install -s "$ELF4_Path" &>/dev/null
                 if [[ -L "$ELF4_Path/true" ]]; then
-                    echo "- busybox-$Type版-$7($8)安装成功。"
+                    echo "Busybox-$Type版-$7($8)安装成功。"
                     echo "$8" >$JCe
                     chown $APP_USER_ID:$APP_USER_ID "$BusyBox2"
                     rm -f $Download_File
                 else
-                    echo "！busybox安装失败❌"
+                    echo "Busybox安装失败"
                     rm -f "$BusyBox2"
                     sleep 3
                 fi
@@ -311,10 +311,10 @@ Start_Installing_Busybox() {
     }
 
         if [[ -z "$JCe2" || ! -L $ELF4_Path/true ]]; then
-            echo "- 开始安装busybox"
+            echo "- 开始安装Busybox"
             . "$Load" Install_busybox
         elif [[ "$JCe2" -lt "$CloudBusybox" ]]; then
-            echo "- 开始更新busybox"
+            echo "- 开始更新Busybox"
             . "$Load" Install_busybox
         fi
 }
@@ -398,17 +398,17 @@ XiaZai() {
                 CURL $1 -C - -o "$3" -w "- HTTP状态码：%{http_code}\n" -kL "$2"
                 code=$?
                 echo "$code" >"$Status"
-                [[ $code -eq 6 ]] && error "！未连接到互联网"
-                [[ $code -ne 0 ]] && error "！错误代码：$code"
+                [[ $code -eq 6 ]] && error "未连接到互联网"
+                [[ $code -ne 0 ]] && error "错误代码：$code"
 }
 
 EndMD5() {
     md5_down=`md5sum "$Download_File" | sed 's/ .*//g'`
     if [[ "$File_MD5" != "$md5_down" ]]; then
         Deleting_file
-        abort2 "！ ["$File_Name"] MD5校验失败✘，如果一直无法下载请在搞机助手功能区 -->刷新搞机助手云端状态后重试，或者在关于页面里发送邮件我处理"
+        abort2 "！ ["$File_Name"] MD5校验失败，如果一直无法下载请在搞机助手功能区 -->刷新搞机助手云端状态后重试"
     else
-        echo "- ["$File_Name"]文件MD5校验成功✔"
+        echo "- ["$File_Name"]文件MD5校验成功"
         echo "- MD5=$md5_down"
         return 0
     fi
@@ -456,27 +456,27 @@ Start_Download() {
                                        if [[ $YiXZ_2 -ge 1048576 ]]; then
                                            Size2=`awk "BEGIN{print $YiXZ_2/1048576}"`MB
                                        elif [[ $YiXZ_2 -ge 1024 ]]; then
-                                           Size2=`awk "BEGIN{print $YiXZ_2/1024}"`kb
+                                           Size2=`awk "BEGIN{print $YiXZ_2/1024}"`KB
                                        elif [[ $YiXZ_2 -le 1024 ]]; then
                                            Size2=${YiXZ_2}b
                                        fi
                                            Schedule() { echo "- 已下载：${Size2}/$File_Type 已完成${Percentage}%" ; echo "-----------------------------------------"; }
                                            if [[ $YiXZ_SuDu -ge 1048576 ]]; then
-                                               echo -n "- 正在飞一般的下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
                                            elif [[ $YiXZ_SuDu -ge 1024 ]]; then
-                                               echo -n "- 正在慢速下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`kb/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`KB/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
                                            elif [[ $YiXZ_SuDu -lt 1024 && $YiXZ_SuDu -gt 0 ]]; then
-                                               echo -n "- 正在龟速下载：${YiXZ_SuDu}b/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：${YiXZ_SuDu}b/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
                                            elif [[ $YiXZ_SuDu -eq 0 ]]; then
                                                code=`cat "$Status"`
                                                if [[ $code = 0 ]]; then
                                                    [[ $Options = -split ]] && break
-                                                   echo "- 下载完成，开始MD5校验……"
+                                                   echo "下载完成，开始MD5校验"
                                                    End_Time 下载
                                                    EndMD5
                                                else
                                                    Schedule
-                                                   echo "- 与服务器连接已断开，如果网络正常或别的资源可以下请私信我修复……"
+                                                   echo "与服务器连接已断开，如果网络正常或别的资源可以下请私信我修复"
                                                    sleep 1
                                                fi
                                             fi
@@ -493,7 +493,7 @@ Start_Download() {
 
 Download() {
     if [[ "$#" -lt 5 ]]; then
-        abort "！没有参数无法提供下载"
+        abort "没有参数无法提供下载"
     fi
     
     Deleting_file() {
@@ -505,14 +505,14 @@ Download() {
             md5_down=`md5sum "$Download_File" | sed 's/ .*//g'`
             if [[ "$File_MD5" != "$md5_down" ]]; then
                 Deleting_file
-                echo "- 文件已升级正在重新下载"
+                echo "文件已升级正在重新下载"
                 return 1
             else
                 return 0
             fi
         else
             Deleting_file
-            echo "- 正在连接服务器下载中……"
+            echo "正在连接服务器下载中"
             return 1
         fi
     }
@@ -611,7 +611,7 @@ Mount_Write() {
 Check_Mount() {
     [[ "$Result" -eq 0 ]] && echo "挂载$1读写成功。"
     if [[ "$Result" -eq 1 ]]; then
-        error "！您的`getprop ro.product.model`（Android `getprop ro.build.version.release`）设备未解锁system"
+        error "！您的`getprop ro.product.model`（Android `getprop ro.build.version.release`）设备未解锁System"
         echo -e "\n\n错误详情：\n"
         mount | grep -m 1 /system 1>&2
         abort
@@ -762,7 +762,7 @@ End_installation() {
         echo "THE END"
         [[ "$Result" = 0 ]] && CQ
     else
-        abort "！未在框架目录里找到module.prop"
+        abort "未在框架目录里找到module.prop"
     fi
 }
 
@@ -781,7 +781,7 @@ set_Game_Toolbox() {
 Check_Riru() {
     No_Riru() {
         error "*********************************************************"
-        error "！未安装Riru - Core 框架，安装失败！！！"
+        error "未安装Riru - Core框架"
         abort "*********************************************************"
     }
         if [[ ! -f "/data/misc/riru/api_version" && ! -f "/data/misc/riru/api_version.new" ]]; then
@@ -791,7 +791,7 @@ Check_Riru() {
 
 Frame_installation_Check() {
     if [[ -d "$Modules_Dir/$MODID" ]]; then
-        abort -e "！已检测到用Magisk模块方式安装了$MODID，无法再次安装\n模块安装目录：\"$Modules_Dir/$MODID\""
+        abort -e "已检测到用Magisk模块方式安装了$MODID，无法再次安装\n模块安装目录：\"$Modules_Dir/$MODID\""
     fi
 }
 
