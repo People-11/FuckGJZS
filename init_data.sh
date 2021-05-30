@@ -1,6 +1,6 @@
-Configuration=2021053008
-Magisk_Warehouse_version=2021053008
-App_Store_version=2021053008
+Configuration=2021053019
+Magisk_Warehouse_version=2021053019
+App_Store_version=2021053019
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -105,6 +105,17 @@ author='Camel Corporation'
 description='无需ROOT，复制屏幕上你想要的一切文本'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568017624035328&puid=176246092" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
+;;
+
+com.kuss.rewind)
+apk='com.kuss.rewind'
+name='倒带'
+version='3.2.2'
+versionCode=3000092
+author='KusStar'
+description='简单的第三方网易云/QQ音乐客户端'
+time='2021年5月30号'
+    [[ $Choice = 1 ]] && Download -net "fleid=605843329375121408&puid=176246092" "$1.apk" 8813079 fcb4b6ddeb743874847beb5607fccf7b "$1.apk"
 ;;
 
 com.guoshi.httpcanary.premium)
