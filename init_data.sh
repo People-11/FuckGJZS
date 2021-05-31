@@ -880,31 +880,6 @@ description='将默认的按下音量键15次后放大至最大音量，更改�
 time='2021年5月29号'
 ;;
 
-lanzou-hosts)
-Show_Compatibility_Mode=0
-id='lanzou-hosts'
-name='解决蓝奏云网址打不开'
-version='v1.6'
-versionCode=6
-author='by：Han | 情非得已c'
-description='解决蓝奏云网址打不开，如果失效请再次安装本模块即可'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-;;
-
-github-hosts)
-Show_Compatibility_Mode=0
-id='github-hosts'
-name='解决Github网址打不开'
-version='v1.5'
-versionCode=5
-author='by：Han | 情非得已c'
-description='解决Github网址打不开，如果失效请再次安装本模块即可'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-
-;;
-
 Freezing_system_app)
 id='Freezing_system_app'
 name='使用Magisk模块方式冻结系统应用'
