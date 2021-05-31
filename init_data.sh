@@ -1460,7 +1460,7 @@ BootAnimation_Screen2)
     elif [[ $2 = Scary_OnePlus ]]; then
         Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 9387253 e9888de8d5458b1265e2b912abc02955 "$2.zip"
     elif [[ $2 = LittleFox ]]; then
-        Download -net "fleid=606049692305260544&puid=176246092" "$2.zip" 233242 fe0a02d298e44510fe83cbf9f3e36f3c "$2.zip"
+        Download -net "fleid=606192439649746944&puid=176246092" "$2.zip" 142922 178db74ce18c2f67613c0a0389e5554f "$2.zip"
     elif [[ $2 = OnePlus_2077 ]]; then
         Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 70323404 03624de565011dedef708a03141fdd8e "$2.zip"
     fi
