@@ -1423,24 +1423,8 @@ Xposed_rovo89)
 ;;
 
 BootAnimation_Screen2)
-    if [[ $2 = Horizon_Line_1920 ]]; then
-        Download -net "fleid=605568099538792448&puid=176246092" "$2.zip" 116540719 fdb2aa8511ac17eb88cc4f76d2451dff "$2.zip"
-    elif [[ $2 = Horizon_Line_2400 ]]; then
-        Download -net "fleid=605568103946117120&puid=176246092" "$2.zip" 116540719 99705fbbae0a2d017c3913151f3417a6 "$2.zip"
-    elif [[ $2 = KOBE_1920 ]]; then
-        Download -net "fleid=605568130955296768&puid=176246092" "$2.zip" 108363348 347cb7b4d8e88595791cf08a00172bc5 "$2.zip"
-    elif [[ $2 = KOBE_2400 ]]; then
-        Download -net "fleid=605568135327907840&puid=176246092" "$2.zip" 108363348 72f3226747ec099a3934a6a29eea096a "$2.zip"
-    elif [[ $2 = Your_Name_1920 ]]; then
-        Download -net "fleid=605568311636905984&puid=176246092" "$2.zip" 116114234 87a17012955b38213a18213de2b050db "$2.zip"
-    elif [[ $2 = Your_Name_2400 ]]; then
-        Download -net "fleid=605568314842923008&puid=176246092" "$2.zip" 116114234 7bf9e3b9c1cefb154e45c05f7c2eb9fe "$2.zip"
-    elif [[ $2 = Kang_In_Kyung_1920 ]]; then
-        Download -net "fleid=605568122905333760&puid=176246092" "$2.zip" 345712297 7649c8b3d1feb855fb7897c4c3fd93f2 "$2.zip"
-    elif [[ $2 = Kang_In_Kyung_2400 ]]; then
-        Download -net "fleid=605568128370982912&puid=176246092" "$2.zip" 345786085 704b88462902bc774c8791bcd6c49257 "$2.zip"
-    elif [[ $2 = Harmony_OS ]]; then
-        Download -net "fleid=606206264158191616&puid=176246092" "$2.zip" 6966879 d8bd5786e54a216723c1f516c1452fb7 "$2.zip"
+    if [[ $2 = Harmony_OS ]]; then
+        Download -net "fleid=606267039561658368&puid=176246092" "$2.zip" 96187051 2e418d056841d638d3b522bde3dd1f12 "$2.zip"
     elif [[ $2 = Google_Dark ]]; then
         Download -net "fleid=606049175122051072&puid=176246092" "$2.zip" 2415413 24ec7a08c55fdf908995ea9c99bfd15c "$2.zip"
     elif [[ $2 = Google_White ]]; then
@@ -1458,7 +1442,27 @@ BootAnimation_Screen2)
     elif [[ $2 = Scary_OnePlus ]]; then
         Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 9387253 e9888de8d5458b1265e2b912abc02955 "$2.zip"
     elif [[ $2 = OnePlus_2077 ]]; then
-        Download -net "fleid=606050002212749312&puid=176246092" "$2.zip" 70323404 03624de565011dedef708a03141fdd8e "$2.zip"
+        Download -net "fleid=606267417344192512&puid=176246092" "$2.zip" 70335956 a67184db7350916de41e62e028ec01a3 "$2.zip"
+    elif [[ $2 = ROG2 ]]; then
+        Download -net "fleid=606267096252502016&puid=176246092" "$2.zip" 12758779 cdd773fd2148844948417dc985893016 "$2.zip"
+    elif [[ $2 = LittleFox ]]; then
+        Download -net "fleid=606267105705832448&puid=176246092" "$2.zip" 2138454 607fa72c3440fd6ba7a7071133671dc8 "$2.zip"
+    elif [[ $2 = Horizon_Line_1920 ]]; then
+        Download -net "fleid=605568099538792448&puid=176246092" "$2.zip" 116540719 fdb2aa8511ac17eb88cc4f76d2451dff "$2.zip"
+    elif [[ $2 = Horizon_Line_2400 ]]; then
+        Download -net "fleid=605568103946117120&puid=176246092" "$2.zip" 116540719 99705fbbae0a2d017c3913151f3417a6 "$2.zip"
+    elif [[ $2 = KOBE_1920 ]]; then
+        Download -net "fleid=605568130955296768&puid=176246092" "$2.zip" 108363348 347cb7b4d8e88595791cf08a00172bc5 "$2.zip"
+    elif [[ $2 = KOBE_2400 ]]; then
+        Download -net "fleid=605568135327907840&puid=176246092" "$2.zip" 108363348 72f3226747ec099a3934a6a29eea096a "$2.zip"
+    elif [[ $2 = Your_Name_1920 ]]; then
+        Download -net "fleid=605568311636905984&puid=176246092" "$2.zip" 116114234 87a17012955b38213a18213de2b050db "$2.zip"
+    elif [[ $2 = Your_Name_2400 ]]; then
+        Download -net "fleid=605568314842923008&puid=176246092" "$2.zip" 116114234 7bf9e3b9c1cefb154e45c05f7c2eb9fe "$2.zip"
+    elif [[ $2 = Kang_In_Kyung_1920 ]]; then
+        Download -net "fleid=605568122905333760&puid=176246092" "$2.zip" 345712297 7649c8b3d1feb855fb7897c4c3fd93f2 "$2.zip"
+    elif [[ $2 = Kang_In_Kyung_2400 ]]; then
+        Download -net "fleid=605568128370982912&puid=176246092" "$2.zip" 345786085 704b88462902bc774c8791bcd6c49257 "$2.zip"
     fi
 ;;
 
