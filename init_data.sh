@@ -880,6 +880,18 @@ description='将默认的按下音量键15次后放大至最大音量，更改�
 time='2021年5月29号'
 ;;
 
+github-hosts)
+Show_Compatibility_Mode=0
+id='github-hosts'
+name='Github防污染'
+version='v2'
+versionCode=10
+author='酷安 @快播内部工作人员'
+description='解决Github网址打不开'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
 Freezing_system_app)
 id='Freezing_system_app'
 name='使用Magisk模块方式冻结系统应用'
