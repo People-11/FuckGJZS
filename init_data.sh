@@ -1447,6 +1447,8 @@ BootAnimation_Screen2)
         Download -net "fleid=606267096252502016&puid=176246092" "$2.zip" 12758779 cdd773fd2148844948417dc985893016 "$2.zip"
     elif [[ $2 = LittleFox ]]; then
         Download -net "fleid=606267105705832448&puid=176246092" "$2.zip" 2138454 607fa72c3440fd6ba7a7071133671dc8 "$2.zip"
+    elif [[ $2 = iOS ]]; then
+        Download -net "fleid=606279594921902080&puid=176246092" "$2.zip" 20501 f28958c51c65dc9718673cb29c902dd0 "$2.zip"
     elif [[ $2 = Horizon_Line_1920 ]]; then
         Download -net "fleid=605568099538792448&puid=176246092" "$2.zip" 116540719 fdb2aa8511ac17eb88cc4f76d2451dff "$2.zip"
     elif [[ $2 = Horizon_Line_2400 ]]; then
