@@ -1,6 +1,6 @@
-Configuration=2021053108
-Magisk_Warehouse_version=2021053108
-App_Store_version=2021053108
+Configuration=2021060108
+Magisk_Warehouse_version=2021060108
+App_Store_version=2021060108
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -1441,6 +1441,28 @@ BootAnimation_Screen2)
         Download -net "fleid=605568128370982912&puid=176246092" "$2.zip" 345786085 704b88462902bc774c8791bcd6c49257 "$2.zip"
     elif [[ $2 = Harmony_OS ]]; then
         Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 6966879 d7611ba39e1aa3b70a6da49e81fe528a "$2.zip"
+    elif [[ $2 = Google_Dark ]]; then
+        Download -net "fleid=606049175122051072&puid=176246092" "$2.zip" 2415413 24ec7a08c55fdf908995ea9c99bfd15c "$2.zip"
+    elif [[ $2 = Google_White ]]; then
+        Download -net "fleid=606049169574158336&puid=176246092" "$2.zip" 2431275 8582603d8b8e5b3c184416ca384e3983 "$2.zip"
+    elif [[ $2 = 2233_Pink ]]; then
+        Download -net "fleid=606049282923159552&puid=176246092" "$2.zip" 19659178 3847a30ee173b3be44548c8bfbac404b "$2.zip"
+    elif [[ $2 = 2233_Blue ]]; then
+        Download -net "fleid=606049336406159360&puid=176246092" "$2.zip" 12037019 b8a8f960eec94753a93e21a71acc64d1 "$2.zip"
+    elif [[ $2 = MIUI11 ]]; then
+        Download -net "fleid=606049488184901632&puid=176246092" "$2.zip" 33852072 63059bb9857720d83f418ce1ec062486 "$2.zip"
+    elif [[ $2 = ROG2 ]]; then
+        Download -net "fleid=606049535119708160&puid=176246092" "$2.zip" 10979365 d2ca014d90c431e8c3d0796902ffe17b "$2.zip"
+    elif [[ $2 = Scary_EP ]]; then
+        Download -net "fleid=606049587664510976&puid=176246092" "$2.zip" 12246016 cc47ea9fc3e5984a23cae71b9b02f9fb "$2.zip"
+    elif [[ $2 = Scary_MI ]]; then
+        Download -net "fleid=606049649197006848&puid=176246092" "$2.zip" 14386690 e49820c65d6dae3158a7263f6e239022 "$2.zip"
+    elif [[ $2 = Scary_OnePlus ]]; then
+        Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 9387253 e9888de8d5458b1265e2b912abc02955 "$2.zip"
+    elif [[ $2 = LittleFox ]]; then
+        Download -net "fleid=606049692305260544&puid=176246092" "$2.zip" 233242 fe0a02d298e44510fe83cbf9f3e36f3c "$2.zip"
+    elif [[ $2 = OnePlus_2077 ]]; then
+        Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 70323404 03624de565011dedef708a03141fdd8e "$2.zip"
     fi
 ;;
 
