@@ -1,5 +1,5 @@
-Configuration=2021060108
-Magisk_Warehouse_version=2021060108
+Configuration=2021060601
+Magisk_Warehouse_version=2021060601
 App_Store_version=2021060108
 Show_Compatibility_Mode=1
 MIUI=0
@@ -640,6 +640,17 @@ author='gloeyisk'
 description='修改电池优化配置，允许谷歌框架休眠，以达到省电的效果'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568743469387776&puid=176246092" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
+;;
+
+FCGreen)
+id='FCGreen'
+name='强制快充模块'
+version='v2'
+versionCode='2'
+author='NTH'
+description='白话快充模块修改版，可在刷入时通过音量键选择充电功率'
+time='2021年6月6号'
+    [[ $Choice = 1 ]] && Download -net "fleid=608103567776133120&puid=176246092" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
 ;;
 
 trustusercerts)
