@@ -1,6 +1,6 @@
-Configuration=2021060601
+Configuration=2021060810
 Magisk_Warehouse_version=2021060601
-App_Store_version=2021060108
+App_Store_version=2021060810
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -94,6 +94,17 @@ author='ioncannon'
 description='测试你的设备的CPU/GPU算力，并直观的显示结果（注：此APK经过修改，修复了部分机型闪退的问题，但可能导致无法读取温度）'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568972096995328&puid=176246092" "$1.apk" 1655528 7818528f405fe2b78843244dd78fc65d "$1.apk"
+;;
+
+com.vmos.pro)
+apk='com.vmos.pro'
+name='VMOS Pro'
+version='1.2.3'
+versionCode=10203
+author='VMOS'
+description='VMOS Pro精简版，大小仅10M'
+time='2021年6月8号'
+    [[ $Choice = 1 ]] && Download -net "fleid=608972456803426304&puid=176246092" "$1.apk" 10491852 5c2f3fc6f6a9043b3a546896b84d09e8 "$1.apk"
 ;;
 
 com.camel.corp.universalcopy)
