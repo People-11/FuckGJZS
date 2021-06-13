@@ -1,5 +1,5 @@
-Configuration=2021060810
-Magisk_Warehouse_version=2021060601
+Configuration=2021061319
+Magisk_Warehouse_version=2021061319
 App_Store_version=2021060810
 Show_Compatibility_Mode=1
 MIUI=0
@@ -637,9 +637,42 @@ name='SQLite3 For ARM设备'
 version='v3.28.0'
 versionCode='1'
 author='酷安@快播内部工作人员'
-description='为不自带sqlite3的机型挂载sqlite3二进制文件'
+description='为不自带SQLite3的机型挂载SQLite3二进制文件'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605593950582046720&puid=176246092" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
+;;
+
+Pixel3LTE-VoLTEEnable)
+id='Pixel3LTE-VoLTEEnable'
+name='Pixel 3/XL开启VoLTE'
+version='v1'
+versionCode='1'
+author='WangDaning'
+description='在Pixel 3系列上开启VoLTE的模块'
+time='2021年6月13号'
+    [[ $Choice = 1 ]] && Download -net "fleid=610912123875872768&puid=176246092" "$1.zip" 7353 6442d24358c6f2f93c8abe20fc7ea244 "$1.zip"
+;;
+
+pixelmbn)
+id='pixelmbn'
+name='Pixel 2/XL开启VoLTE'
+version='v1.1'
+versionCode='1'
+author='somin.n'
+description='在Pixel 2系列上开启VoLTE的模块'
+time='2021年6月13号'
+    [[ $Choice = 1 ]] && Download -net "fleid=610912130960678912&puid=176246092" "$1.zip" 1168461 5bebf6a288baad7d2c11e7de47802f6f "$1.zip"
+;;
+
+safetynet-fix)
+id='safetynet-fix'
+name='SafetyNet修复模块'
+version='v1.1.1'
+versionCode='10101'
+author='Kdrag0n'
+description='一定程度上修复SafetyNet不通过的问题，需要开启Magisk Hide'
+time='2021年6月13号'
+    [[ $Choice = 1 ]] && Download -net "fleid=610912125641666560&puid=176246092" "$1.zip" 722578 f335d1ed1b181fd69b73431d24bc7241 "$1.zip"
 ;;
 
 UniversalGMSDoze)
