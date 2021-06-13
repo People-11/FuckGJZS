@@ -1,6 +1,6 @@
-Configuration=2021061319
-Magisk_Warehouse_version=2021061319
-App_Store_version=2021060810
+Configuration=2021061401
+Magisk_Warehouse_version=2021061401
+App_Store_version=2021061401
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -77,12 +77,12 @@ time='2021年5月29号'
 cn.trinea.android.developertools)
 apk='cn.trinea.android.developertools'
 name='Dev Tools'
-version='6.3.6'
-versionCode=636
+version='6.3.7'
+versionCode=637
 author='Trinea'
 description='开发助手，比上面那个开发工具箱还厉害，强烈推荐'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "fleid=605568669563596800&puid=176246092" "$1.apk" 4915162 9e446362c0a7863ab87670545f2bcb65 "$1.apk"
+time='2021年6月14号'
+    [[ $Choice = 1 ]] && Download -net "fleid=610993666507517952&puid=176246092" "$1.apk" 4788183 9a49d03532eb4a03f155e8d201b0315b "$1.apk"
 ;;
 
 com.ioncannon.cpuburn.gpugflops)
@@ -784,12 +784,12 @@ MIUI=1
 Show_Compatibility_Mode=0
 id='com.miui.packageinstaller'
 name='应用包管理组件'
-version='v2'
-versionCode='9999'
-author='酷安@快播内部工作人员 | 晨钟酱'
-description='去除了系统apk的安装来源限制，使用旧版并修改版本号，去除所有AD，去除联网。安装包由 酷安@晨钟酱 制作，模块制作已获得作者授权'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "fleid=605593629100343296&puid=176246092" "$1.zip" 2038012 5bd7001005a963c56ff81df8bf45df07 "$1.zip"
+version='v2021061401'
+versionCode='2021061401'
+author='酷安 @快播内部工作人员'
+description='将MIUI应用包管理组件替换为魔改版（基于3.0.9修改），去除了很多不必要的权限，将很多软件加入了白名单（即可以在这些应用更新系统应用），删除了自带的应用黑名单并且阻止了云控的获取，修改版本号防止被自动更新'
+time='2021年6月14号'
+    [[ $Choice = 1 ]] && Download -net "fleid=610995486301208576&puid=176246092" "$1.zip" 4605620 aed66a5b55d1333f58ff9632bdf148a1 "$1.zip"
 ;;
 
 MIUI-Advanced_power_supply)
