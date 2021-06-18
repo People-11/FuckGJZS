@@ -1,6 +1,6 @@
-Configuration=2021061401
-Magisk_Warehouse_version=2021061401
-App_Store_version=2021061401
+Configuration=2021061800
+Magisk_Warehouse_version=2021061800
+App_Store_version=2021061800
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -17,6 +17,17 @@ author='John Wu'
 description='Magisk Manager'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net 'fleid=605569360057241600&puid=176246092' "$1.apk" 6874374 ea450d98c25b4e09bb353e5bef8ca8a0 "$1.apk"
+;;
+
+Han.GJZS)
+apk='Han.GJZS'
+name='搞机助手'
+version='5.2'
+versionCode='2021061800'
+author='OpenGJZS'
+description='我希望这玩意能自动更新'
+time='2021年6月18号'
+    [[ $Choice = 1 ]] && Download -net 'fleid=612877285888983040&puid=176246092' "$1.apk" 1433617 3edb2c38530644ccc29801b1903c6fa3 "$1.apk"
 ;;
 
 org.meowcat.edxposed.manager)
