@@ -532,6 +532,10 @@ Download() {
                 shift
                 Link="http://pan-yz.chaoxing.com/download/downloadfile?$ID"
             ;;
+            -lz)
+                shift
+                Link="http://api.funs.ml/lzy/api.php?url=$ID&type=down"
+            ;;
             *)
                 abort "暂不支持下载"
             ;;
