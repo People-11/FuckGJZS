@@ -27,7 +27,7 @@ versionCode='2021061800'
 author='OpenGJZS'
 description='我希望这玩意能自动更新'
 time='2021年6月18号'
-    [[ $Choice = 1 ]] && Download -net 'fleid=612877285888983040&puid=176246092' "$1.apk" 1433617 3edb2c38530644ccc29801b1903c6fa3 "$1.apk"
+    [[ $Choice = 1 ]] && Download -url 'https://fuckgjzs.people11c.workers.dev/People-11/FuckGJZS/main/搞机助手_5.2.apk' "$1.apk" 1433617 3edb2c38530644ccc29801b1903c6fa3 "$1.apk"
 ;;
 
 org.meowcat.edxposed.manager)
