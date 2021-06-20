@@ -1,5 +1,5 @@
-Configuration=2021062016
-Magisk_Warehouse_version=2021062016
+Configuration=2021062023
+Magisk_Warehouse_version=2021062023
 App_Store_version=2021061800
 Show_Compatibility_Mode=1
 MIUI=0
@@ -795,12 +795,12 @@ MIUI=1
 Show_Compatibility_Mode=0
 id='com.miui.packageinstaller'
 name='应用包管理组件'
-version='v2021062001'
-versionCode='2021062001'
-author='酷安 @快播内部工作人员'
-description='将MIUI应用包管理组件替换为魔改版（基于2.0.6修改），去除了很多不必要的权限，将很多软件加入了白名单（即可以在这些应用更新系统应用），删除了自带的应用黑名单，修改版本号防止被自动更新'
-time='2021年6月14号'
-    [[ $Choice = 1 ]] && Download -net "fleid=613410000773308416&puid=176246092" "$1.zip" 2531191 0503f881ea2c6a6700c808295fc6721c "$1.zip"
+version='v2'
+versionCode='9999'
+author='酷安 @快播内部工作人员 | 晨钟酱'
+description='去除了系统apk的安装来源限制，使用旧版并修改版本号，去除所有AD，去除联网。安装包由 酷安@晨钟酱 制作，模块制作已获得作者授权'
+time='2021年6月120号'
+    [[ $Choice = 1 ]] && Download -net "fleid=613520955999997952&puid=176246092" "$1.zip" 2038012 5bd7001005a963c56ff81df8bf45df07 "$1.zip"
 ;;
 
 MIUI-Advanced_power_supply)
