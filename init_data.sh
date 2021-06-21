@@ -1,5 +1,5 @@
-Configuration=2021062023
-Magisk_Warehouse_version=2021062023
+Configuration=2021062202
+Magisk_Warehouse_version=2021062202
 App_Store_version=2021061800
 Show_Compatibility_Mode=1
 MIUI=0
@@ -730,11 +730,23 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605570347800162304&puid=176246092" "$1.zip" 1283401 6164aacd34215cffc9b23ab1f30e079c "$1.zip"
 ;;
 
+theme_pojie)
+MIUI=1
+id='theme_pojie'
+version='v1.9.3.0'
+versionCode='210126'
+name="MIUI主题破解"
+author='取名好难呢'
+description="主题/字体破解，防恢复，卸载后请重新应用一次主题"
+time='2021年6月22号'
+    [[ $Choice = 1 ]] && Download -net "fleid=613903952750276608&puid=176246092" "$1.zip" 16103808 17f1073a43f36a9bed9221b00b703492 "$1.zip"
+;;
+
 MIUI-12_All_in_one)
 MIUI=1
 id='MIUI-12_All_in_one'
 version='v1.12'
-versionCode=12
+versionCode='12'
 name="MIUI 12多合一通用模块"
 author='by：Han | 情非得已c'
 description="$name"
