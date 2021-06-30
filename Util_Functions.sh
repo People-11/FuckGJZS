@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021061800
+export Util_Functions_Code=2021070100
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -49,14 +49,14 @@ mask() {
                 MAGISK_VER=`$Magisk -v | sed 's/:.*//'`
                 MAGISK_VER_CODE=`$Magisk -V`
             else
-                abort "未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
+                abort "未检测到Magisk，请确定已安装Magisk"
             fi
         elif [[ "$1" == '-vc' ]]; then
             if [[ -x $Magisk ]]; then
                 MAGISK_VER=`$Magisk -v | sed 's/:.*//'`
                 MAGISK_VER_CODE=`$Magisk -V`
             else
-                abort "未检测到Magisk，请确定Magisk Manager主页已显示安装了Magisk"
+                abort "未检测到Magisk，请确定已安装Magisk"
             fi
                 if [[ -d $Modules_Dir ]]; then
                     echo "已安装Magisk版本：$MAGISK_VER（$MAGISK_VER_CODE）"
@@ -178,7 +178,7 @@ Install_curl() {
     
     jian=$TMPDIR/curl.zip
     jian2=$Script_Dir/META-INF/com/google/android/update-binary
-    WGET -c -O $jian "http://d0.ananas.chaoxing.com/download/$url"
+    WGET -c -O $jian "http://pan-yz.chaoxing.com/download/downloadfile?$ID"
     [[ ! -f "$jian" ]] && abort "下载文件失败"
     echo "- 开始安装curl"
     rm -rf $Script_Dir
@@ -218,7 +218,7 @@ Install_Applet() {
                                     mv -f "$ELF2_Path/arm/"* "$ELF2_Path"
                                 ;;
                                 *)
-                                    echo "未知的架构 ${ABI}，无法安装adb & fastboot"
+                                    echo "未知的架构 ${ABI}，无法安装ADB & Fastboot"
                                     rm -f "$ELF2_Path/adb"
                                     [[ $ABI = x86* ]] && mv -f "$ELF2_Path/x86/"* "$ELF2_Path"
                                 ;;
@@ -370,7 +370,7 @@ CURL() {
     [[ -z "$v" ]] && v=10
     [[ -z "$model" ]] && model='Redmi K30 5G'
     
-    curl -LA "Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124" "$@"
+    curl -LA "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" "$@"
 }
 
 WGET() {
@@ -379,7 +379,7 @@ WGET() {
     [[ -z "$v" ]] && v=10
     [[ -z "$model" ]] && model='Redmi K30 5G'
     
-    wget -LU "Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/20.0.019; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) BrowserNG/7.1.18124" "$@"
+    wget -LU "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" "$@"
 }
 
 XiaZai() {
@@ -406,7 +406,7 @@ EndMD5() {
     md5_down=`md5sum "$Download_File" | sed 's/ .*//g'`
     if [[ "$File_MD5" != "$md5_down" ]]; then
         Deleting_file
-        abort2 "！ ["$File_Name"] MD5校验失败，如果一直无法下载请在搞机助手功能区 -->刷新搞机助手云端状态后重试"
+        abort2 "！ ["$File_Name"] MD5校验失败，如果一直无法下载请刷新云端状态后重试"
     else
         echo "- ["$File_Name"]文件MD5校验成功"
         echo "- MD5=$md5_down"
