@@ -178,8 +178,7 @@ Install_curl() {
     
     jian=$TMPDIR/curl.zip
     jian2=$Script_Dir/META-INF/com/google/android/update-binary
-    WGET -c -O $jian "http://pan-yz.chaoxing.com/download/downloadfile?$ID"
-    [[ ! -f "$jian" ]] && abort "下载文件失败"
+    [[ ! -f "$jian" ]] && abort "没有找到curl"
     echo "- 开始安装curl"
     rm -rf $Script_Dir
     mkdir -p $Script_Dir
