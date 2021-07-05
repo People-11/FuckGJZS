@@ -703,7 +703,7 @@ name='一加桌面'
 version='v6.2'
 versionCode='30100'
 author='MrSluffy & GodLeaveMe'
-description='一加桌面修改版，拥有一些额外的定制选项'
+description='一加桌面修改版，拥有一些额外的定制选项，仅适用于安卓10/11'
 time='2021年7月5号'
     [[ $Choice = 1 ]] && Download -net "fleid=618892128630771712&puid=176246092" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
 ;;
