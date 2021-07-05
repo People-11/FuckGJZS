@@ -1,6 +1,6 @@
-Configuration=2021062202
-Magisk_Warehouse_version=2021062202
-App_Store_version=2021061800
+Configuration=2021070519
+Magisk_Warehouse_version=2021070519
+App_Store_version=2021070519
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -113,9 +113,9 @@ name='VMOS Pro'
 version='1.2.3'
 versionCode=10203
 author='VMOS'
-description='VMOS Pro精简版，大小仅10M'
+description='VMOS Pro极限精简版，大小仅8M'
 time='2021年6月8号'
-    [[ $Choice = 1 ]] && Download -net "fleid=608972456803426304&puid=176246092" "$1.apk" 10491852 5c2f3fc6f6a9043b3a546896b84d09e8 "$1.apk"
+    [[ $Choice = 1 ]] && Download -net "fleid=618892680697937920&puid=176246092" "$1.apk" 9327771 72f5fbe3f5efb5ff3bcb82ab785ef5f6 "$1.apk"
 ;;
 
 com.camel.corp.universalcopy)
@@ -696,6 +696,18 @@ description='修改电池优化配置，允许谷歌框架休眠，以达到省�
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568743469387776&puid=176246092" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
 ;;
+
+Systemless_OnePlusLauncher)
+id='Systemless_OnePlusLauncher'
+name='一加桌面'
+version='v6.2'
+versionCode='30100'
+author='MrSluffy & GodLeaveMe'
+description='一加桌面修改版，拥有一些额外的定制选项'
+time='2021年7月5号'
+    [[ $Choice = 1 ]] && Download -net "fleid=618892128630771712&puid=176246092" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
+;;
+
 
 FCGreen)
 id='FCGreen'
@@ -1490,6 +1502,8 @@ Xposed_rovo89)
 BootAnimation_Screen2)
     if [[ $2 = Harmony_OS ]]; then
         Download -net "fleid=606267039561658368&puid=176246092" "$2.zip" 96187051 2e418d056841d638d3b522bde3dd1f12 "$2.zip"
+    elif [[ $2 = DotOS ]]; then
+        Download -net "fleid=618893997427130368&puid=176246092" "$2.zip" 8557408 1cad1b8d9d84ad1064a6aebad0fb3c22 "$2.zip"
     elif [[ $2 = Google_Dark ]]; then
         Download -net "fleid=606049175122051072&puid=176246092" "$2.zip" 2415413 24ec7a08c55fdf908995ea9c99bfd15c "$2.zip"
     elif [[ $2 = Google_White ]]; then
