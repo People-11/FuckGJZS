@@ -1,6 +1,6 @@
-Configuration=2021070519
+Configuration=2021070918
 Magisk_Warehouse_version=2021070519
-App_Store_version=2021070519
+App_Store_version=2021070918
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -151,6 +151,17 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605569172966117376&puid=176246092" "$1.apk" 22766597 63c31710e7c0c575be73d87f24ae0604 "$1.apk"
 ;;
 
+com.hengye.share)
+apk='com.hengye.share'
+name='Share'
+version='3.9.5'
+versionCode=910
+author='我是一只小小鸡仔'
+description='第三方微博客户端'
+time='2021年7月9号'
+    [[ $Choice = 1 ]] && Download -net "fleid=620323574293557248&puid=176246092" "$1.apk" 18274047 e43107b875984f2aae11fae0592af589 "$1.apk"
+;;
+
 catch_.me_.if_.you_.can_)
 apk='catch_.me_.if_.you_.can_'
 name='GameGuardian'
@@ -165,12 +176,12 @@ time='2021年5月30号'
 ru.aaaaaabb.installer)
 apk='ru.aaaaaabb.installer'
 name='幸运破解器安装器'
-version='9.5.9'
-versionCode=1719
+version='9.6.2'
+versionCode=1722
 author='ChelpuS'
 description='幸运破解器的安装器'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "fleid=605569293684424704&puid=176246092" "$1.apk" 9814305 afcbc7d84cde79d08c8764b24fa7c865 "$1.apk"
+time='2021年7月9号'
+    [[ $Choice = 1 ]] && Download -net "fleid=620325656897634304&puid=176246092" "$1.apk" 9831662 393ea5bc67bb91e2a26103d9469e293b "$1.apk"
 ;;
 
 com.android.vending)
