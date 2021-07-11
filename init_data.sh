@@ -1,6 +1,6 @@
-Configuration=2021070918
+Configuration=2021071119
 Magisk_Warehouse_version=2021070519
-App_Store_version=2021070918
+App_Store_version=2021071119
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -83,6 +83,17 @@ author='Zdevs'
 description='解压缩神器'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605570337784160256&puid=176246092" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
+;;
+
+com.qingyu.wifikey)
+apk='com.qingyu.wifikey'
+name='WiFi万能钥匙'
+version='4.3.10'
+versionCode=181010
+author='清羽'
+description='WiFi万能钥匙，由清羽精简'
+time='2021年7月11号'
+    [[ $Choice = 1 ]] && Download -net "fleid=621058917460983808&puid=176246092" "$1.apk" 5323609 1fbd25a3d0e414011fefbdb8060019d1 "$1.apk"
 ;;
 
 cn.trinea.android.developertools)
