@@ -1,4 +1,4 @@
-Configuration=2021071119
+Configuration=2021071313
 Magisk_Warehouse_version=2021070519
 App_Store_version=2021071119
 Show_Compatibility_Mode=1
@@ -1541,7 +1541,7 @@ BootAnimation_Screen2)
     elif [[ $2 = Scary_MI ]]; then
         Download -net "fleid=606049649197006848&puid=176246092" "$2.zip" 14386690 e49820c65d6dae3158a7263f6e239022 "$2.zip"
     elif [[ $2 = Scary_OnePlus ]]; then
-        Download -net "fleid=605979147022536704&puid=176246092" "$2.zip" 9387253 e9888de8d5458b1265e2b912abc02955 "$2.zip"
+        Download -net "fleid=606049692070088704&puid=176246092" "$2.zip" 9387253 e9888de8d5458b1265e2b912abc02955 "$2.zip"
     elif [[ $2 = OnePlus_2077 ]]; then
         Download -net "fleid=606267417344192512&puid=176246092" "$2.zip" 70335956 a67184db7350916de41e62e028ec01a3 "$2.zip"
     elif [[ $2 = ROG2 ]]; then
