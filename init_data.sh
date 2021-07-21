@@ -1,6 +1,6 @@
-Configuration=2021071313
+Configuration=2021072113
 Magisk_Warehouse_version=2021070519
-App_Store_version=2021071119
+App_Store_version=2021072113
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -105,6 +105,17 @@ author='Trinea'
 description='开发助手，比上面那个开发工具箱还厉害，强烈推荐'
 time='2021年6月14号'
     [[ $Choice = 1 ]] && Download -net "fleid=610993666507517952&puid=176246092" "$1.apk" 4788183 9a49d03532eb4a03f155e8d201b0315b "$1.apk"
+;;
+
+com.su.assistant.pro)
+apk='com.su.assistant.pro'
+name='Android 开发工具箱'
+version='2.3.3'
+versionCode=112
+author='su1216'
+description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
+time='2021年7月21号'
+    [[ $Choice = 1 ]] && Download -net "fleid=624596994071162880&puid=176246092" "$1.apk" 29903148 6f87093873b557519f9049571f1c4263 "$1.apk"
 ;;
 
 com.ioncannon.cpuburn.gpugflops)
