@@ -1,5 +1,5 @@
-Configuration=2021072113
-Magisk_Warehouse_version=2021070519
+Configuration=2021080102
+Magisk_Warehouse_version=2021080102
 App_Store_version=2021072113
 Show_Compatibility_Mode=1
 MIUI=0
@@ -753,6 +753,16 @@ time='2021年6月6号'
     [[ $Choice = 1 ]] && Download -net "fleid=608103567776133120&puid=176246092" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
 ;;
 
+Model_Camouflage)
+id='Model_Camouflage'
+name='机型伪装'
+version='v114514'
+versionCode='114514'
+author='People11'
+description='通过Magisk修改prop达到机型伪装'
+time='2021年8月1号'
+;;
+
 trustusercerts)
 id='trustusercerts'
 name='Always Trust User Certificates'
@@ -1076,16 +1086,6 @@ author='by：Han | 情非得已c'
 description='通过修改Android系统，修改过渡动画。'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605569698941321216&puid=176246092" "$1.zip" 732022 c88194b23dc79665725d6aad47851faf "$1.zip"
-;;
-
-Model_Camouflage)
-id='Model_Camouflage'
-name='机型伪装'
-version='v1'
-versionCode='1'
-author='by：Han | 情非得已c'
-description='原理：通过Magisk修改prop达到机型伪装。'
-time='2021年5月29号'
 ;;
 
 com.fb.fluid)
