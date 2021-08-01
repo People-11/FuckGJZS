@@ -1,5 +1,5 @@
-Configuration=2021080102
-Magisk_Warehouse_version=2021080102
+Configuration=2021080115
+Magisk_Warehouse_version=2021080115
 App_Store_version=2021072113
 Show_Compatibility_Mode=1
 MIUI=0
@@ -741,6 +741,28 @@ time='2021年7月5号'
     [[ $Choice = 1 ]] && Download -net "fleid=618892128630771712&puid=176246092" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
 ;;
 
+Third_Party_Redirect)
+id='Third_Party_Redirect'
+name='第三方应用下载目录重定向'
+version='v5.2.2-云端版'
+versionCode='20210620'
+author='落葉淒涼(高雄佬) & 屑'
+description='脚本小子做的模块'
+time='2021年8月1号'
+    [[ $Choice = 1 ]] && Download -net "fleid=628619377637580800&puid=176246092" "$1.zip" 14980 59fdb96c3e7c3940e760430d8a503d91 "$1.zip"
+;;
+
+A_good_old_version)
+MIUI=1
+id='A_good_old_version'
+name='MIUI那些好用的老版本'
+version='v3.2.2'
+versionCode='20210729'
+author='屑'
+description='脚本小子做的模块'
+time='2021年8月1号'
+    [[ $Choice = 1 ]] && Download -net "fleid=628620885791858688&puid=176246092" "$1.zip" 89016180 e57760b812076525a7baeebf0e1dbe7d "$1.zip"
+;;
 
 FCGreen)
 id='FCGreen'
