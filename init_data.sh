@@ -1,6 +1,6 @@
-Configuration=2021080115
+Configuration=2021080323
 Magisk_Warehouse_version=2021080115
-App_Store_version=2021072113
+App_Store_version=2021080323
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -116,6 +116,17 @@ author='su1216'
 description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
 time='2021年7月21号'
     [[ $Choice = 1 ]] && Download -net "fleid=624596994071162880&puid=176246092" "$1.apk" 29903148 6f87093873b557519f9049571f1c4263 "$1.apk"
+;;
+
+com.farplace.qingzhuo)
+apk='com.farplace.qingzhuo'
+name='清浊'
+version='1.7.5'
+versionCode=76
+author='FarPlace'
+description='简洁美观而又强大的基于规则的清理工具'
+time='2021年8月4号'
+    [[ $Choice = 1 ]] && Download -net "fleid=629465944888176640&puid=176246092" "$1.apk" 3458033 a3d06c1518a924678fc0b8b1773d89f5 "$1.apk"
 ;;
 
 com.ioncannon.cpuburn.gpugflops)
