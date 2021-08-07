@@ -1,5 +1,5 @@
-Configuration=2021080323
-Magisk_Warehouse_version=2021080115
+Configuration=2021080800
+Magisk_Warehouse_version=2021080800
 App_Store_version=2021080323
 Show_Compatibility_Mode=1
 MIUI=0
@@ -775,6 +775,17 @@ time='2021年8月1号'
     [[ $Choice = 1 ]] && Download -net "fleid=628620885791858688&puid=176246092" "$1.zip" 89016180 e57760b812076525a7baeebf0e1dbe7d "$1.zip"
 ;;
 
+FUCK-SHIT-FILE)
+id='FUCK-SHIT-FILE'
+name='循环吃掉乱拉屎的文件/文件夹'
+version='v3.1.2'
+versionCode='20210404'
+author='屑'
+description='脚本小子做的模块'
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -net "fleid=630921076777639936&puid=176246092" "$1.zip" 7815 4cf40745efb452cb5f0445b50ca74b76 "$1.zip"
+;;
+
 FCGreen)
 id='FCGreen'
 name='强制快充模块'
@@ -793,7 +804,7 @@ version='v114514'
 versionCode='114514'
 author='People11'
 description='通过Magisk修改prop达到机型伪装'
-time='2021年8月1号'
+time='2021年8月8号'
 ;;
 
 trustusercerts)
