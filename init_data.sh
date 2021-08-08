@@ -1,6 +1,6 @@
-Configuration=2021080800
+Configuration=2021080814
 Magisk_Warehouse_version=2021080800
-App_Store_version=2021080323
+App_Store_version=2021080814
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -96,13 +96,23 @@ time='2021年7月11号'
     [[ $Choice = 1 ]] && Download -net "fleid=621058917460983808&puid=176246092" "$1.apk" 5323609 1fbd25a3d0e414011fefbdb8060019d1 "$1.apk"
 ;;
 
+flar2.devcheck)
+apk='flar2.devcheck'
+name='DevCheck'
+version='3.39'
+versionCode=339
+author='Flar2'
+description='界面美观又好用的设备信息查看工具'
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -net "fleid=631128656993017856&puid=176246092" "$1.apk" 7718532 d3d842b3b9385319416eeae61cf470ea "$1.apk"
+;;
 cn.trinea.android.developertools)
 apk='cn.trinea.android.developertools'
 name='Dev Tools'
 version='6.3.7'
 versionCode=637
 author='Trinea'
-description='开发助手，比上面那个开发工具箱还厉害，强烈推荐'
+description='开发助手，比那个开发工具箱还厉害，强烈推荐'
 time='2021年6月14号'
     [[ $Choice = 1 ]] && Download -net "fleid=610993666507517952&puid=176246092" "$1.apk" 4788183 9a49d03532eb4a03f155e8d201b0315b "$1.apk"
 ;;
@@ -110,12 +120,12 @@ time='2021年6月14号'
 com.su.assistant.pro)
 apk='com.su.assistant.pro'
 name='Android 开发工具箱'
-version='2.3.3'
-versionCode=112
+version='2.3.5'
+versionCode=114
 author='su1216'
 description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
-time='2021年7月21号'
-    [[ $Choice = 1 ]] && Download -net "fleid=624596994071162880&puid=176246092" "$1.apk" 29903148 6f87093873b557519f9049571f1c4263 "$1.apk"
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -net "fleid=631128654434492416&puid=176246092" "$1.apk" 30013005 e2c3daf3092f32998b254d699a5bb88b "$1.apk"
 ;;
 
 com.farplace.qingzhuo)
@@ -206,15 +216,15 @@ time='2021年5月30号'
     [[ $Choice = 1 ]] && Download -net "fleid=605862319786934272&puid=176246092" "$1.apk" 20679152 56e58a7aae99dcd448a7b970d26f55ed "$1.apk"
 ;;
 
-ru.aaaaaabb.installer)
-apk='ru.aaaaaabb.installer'
+ru.aaaaaabc.installer)
+apk='ru.aaaaaabc.installer'
 name='幸运破解器安装器'
-version='9.6.2'
-versionCode=1722
+version='9.6.3'
+versionCode=1723
 author='ChelpuS'
 description='幸运破解器的安装器'
-time='2021年7月9号'
-    [[ $Choice = 1 ]] && Download -net "fleid=620325656897634304&puid=176246092" "$1.apk" 9831662 393ea5bc67bb91e2a26103d9469e293b "$1.apk"
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -net "fleid=631130786205106176&puid=176246092" "$1.apk" 10293736 a58d75c9fb1914b251ae35e54edb0ced "$1.apk"
 ;;
 
 com.android.vending)
