@@ -1,5 +1,5 @@
-Configuration=2021080814
-Magisk_Warehouse_version=2021080800
+Configuration=2021081220
+Magisk_Warehouse_version=2021081220
 App_Store_version=2021080814
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1076,6 +1076,18 @@ versionCode=10
 author='酷安 @快播内部工作人员'
 description='解决Github网址打不开'
 time='2021年5月29号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
+lanzou-hosts)
+Show_Compatibility_Mode=0
+id='lanzou-hosts'
+name='解决蓝奏云旧网址打不开'
+version='v1'
+versionCode=1
+author='People11'
+description='解决蓝奏云旧网址打不开'
+time='2021年8月12号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
 ;;
 
