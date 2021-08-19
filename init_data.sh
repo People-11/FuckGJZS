@@ -1,5 +1,5 @@
-Configuration=2021081220
-Magisk_Warehouse_version=2021081220
+Configuration=2021081921
+Magisk_Warehouse_version=2021081921
 App_Store_version=2021080814
 Show_Compatibility_Mode=1
 MIUI=0
@@ -705,6 +705,17 @@ author='酷安@快播内部工作人员'
 description='为不自带SQLite3的机型挂载SQLite3二进制文件'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605593950582046720&puid=176246092" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
+;;
+
+EnablePixel2019VoLteSoliEnabler)
+id='EnablePixel2019VoLteSoliEnabler'
+name='Pixel 4/XL开启雷达与VoLTE'
+version='v1.0'
+versionCode='1'
+author='Sun_Dream'
+description='在Pixel 4系列上开启雷达与VoLTE的模块'
+time='2021年8月19号'
+    [[ $Choice = 1 ]] && Download -net "fleid=635224249110478848&puid=176246092" "$1.zip" 1157151 12765d809d31a75b923502c30a21d856 "$1.zip"
 ;;
 
 Pixel3LTE-VoLTEEnable)
