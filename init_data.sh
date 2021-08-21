@@ -1,6 +1,6 @@
-Configuration=2021082118
+Configuration=2021082121
 Magisk_Warehouse_version=2021081921
-App_Store_version=2021082118
+App_Store_version=2021082121
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -28,6 +28,17 @@ author='OpenGJZS'
 description='我希望这玩意能自动更新'
 time='2021年6月18号'
     [[ $Choice = 1 ]] && Download -net 'fleid=612877285888983040&puid=176246092' "$1.apk" 1433617 3edb2c38530644ccc29801b1903c6fa3 "$1.apk"
+;;
+
+com.whatsbug.litiaotiao)
+apk='com.whatsbug.litiaotiao'
+name='李跳跳'
+version='派大星1.75'
+versionCode='20'
+author='李跳跳'
+description='我还能说什么呢，Fuck资本家'
+time='2021年8月21号'
+    [[ $Choice = 1 ]] && Download -net "fleid=635957965998899200&puid=176246092" "$1.apk" 2043406 66e437f3a19e5d08d119bc6c4af7d3b6 "$1.apk"
 ;;
 
 org.meowcat.edxposed.manager)
