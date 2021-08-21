@@ -1,6 +1,6 @@
-Configuration=2021081921
+Configuration=2021082118
 Magisk_Warehouse_version=2021081921
-App_Store_version=2021080814
+App_Store_version=2021082118
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -1659,12 +1659,6 @@ BootAnimation_Screen2)
 
 EdXposed_Manager_Repo)
     Download -net "isAAOogtyoh" "repo_cache.db" 5869568 1e365d225a16ab77485dd4af1d6b5c02 "repo_cache.db"
-;;
-
-Installation_lion)
-    version=3.7.5-miui
-    versionCode=42
-    [[ $Choice = 1 ]] && Download -net "fleid=605569199714291712&puid=176246092" "Installation_lion.apk" 1869340 865a0a9a40d289a36e9a8ee17bb6e774 "Installation_lion.apk"
 ;;
 
 com.miui.miwallpaper)
