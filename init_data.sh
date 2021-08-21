@@ -1,6 +1,6 @@
-Configuration=2021082121
+Configuration=2021082200
 Magisk_Warehouse_version=2021081921
-App_Store_version=2021082121
+App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -194,15 +194,15 @@ time='2021年5月30号'
     [[ $Choice = 1 ]] && Download -net "fleid=605843329375121408&puid=176246092" "$1.apk" 8813079 fcb4b6ddeb743874847beb5607fccf7b "$1.apk"
 ;;
 
-com.guoshi.httpcanary.premium)
-apk='com.guoshi.httpcanary.premium'
+com.guoshi.httpcanary)
+apk='com.guoshi.httpcanary'
 name='HttpCanary'
 version='3.3.6'
 versionCode=58
-author='Megatron King'
+author='快乐小牛'
 description='无需Root的抓包工具，界面简洁美观'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "fleid=605569172966117376&puid=176246092" "$1.apk" 22766597 63c31710e7c0c575be73d87f24ae0604 "$1.apk"
+time='2021年8月22号'
+    [[ $Choice = 1 ]] && Download -net "fleid=635995580931465216&puid=176246092" "$1.apk" 5636689 1a3bf82b97524a3886f467b87f4d8133 "$1.apk"
 ;;
 
 com.hengye.share)
