@@ -1,5 +1,5 @@
-Configuration=2021082200
-Magisk_Warehouse_version=2021081921
+Configuration=2021082202
+Magisk_Warehouse_version=2021082202
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -845,9 +845,20 @@ name='Always Trust User Certificates'
 version='v0.4.1'
 versionCode='41'
 author='Jeroen Beckers (NVISO.eu)'
-description='开机时自动移动用户证书到系统，使系统信任用户证书'
+description='开机时自动复制用户证书到系统，使系统信任用户证书'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568363101646848&puid=176246092" "$1.zip" 3574 78ee0882218816c29246ac3667d8dea5 "$1.zip"
+;;
+
+HTTPCanaryCA_To_System)
+id='HTTPCanaryCA_To_System'
+name='安装HTTPCanary证书到系统'
+version='v2'
+versionCode='10'
+author='酷安 @阿猫2233 @People11'
+description='因为安卓11添加了必须在设置内添加证书的限制，也因为安卓10限制了System分区的写权限，导致HTTPCanary无法正常安装证书到系统，此模块可解决此问题。此模块根据 @阿猫2233 的模块作出修改，解决部分问题。'
+time='2021年8月22号'
+    [[ $Choice = 1 ]] && Download -net "fleid=636020831026610176&puid=176246092" "$1.zip" 3987 1dac8536ce25fdf6f0f46d4d146bd38a "$1.zip"
 ;;
 
 zw_fileclear)
