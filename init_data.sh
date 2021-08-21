@@ -839,17 +839,6 @@ description='通过Magisk修改prop达到机型伪装'
 time='2021年8月8号'
 ;;
 
-trustusercerts)
-id='trustusercerts'
-name='Always Trust User Certificates'
-version='v0.4.1'
-versionCode='41'
-author='Jeroen Beckers (NVISO.eu)'
-description='开机时自动复制用户证书到系统，使系统信任用户证书'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "fleid=605568363101646848&puid=176246092" "$1.zip" 3574 78ee0882218816c29246ac3667d8dea5 "$1.zip"
-;;
-
 HTTPCanaryCA_To_System)
 id='HTTPCanaryCA_To_System'
 name='安装HTTPCanary证书到系统'
