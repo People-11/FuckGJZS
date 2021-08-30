@@ -1,5 +1,5 @@
-Configuration=2021082214
-Magisk_Warehouse_version=2021082214
+Configuration=2021083013
+Magisk_Warehouse_version=2021083013
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -771,6 +771,17 @@ author='gloeyisk'
 description='修改电池优化配置，允许谷歌框架休眠，以达到省电的效果'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "fleid=605568743469387776&puid=176246092" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
+;;
+
+Disable_Logs)
+id='Disable_Logs'
+name='关闭各种Log'
+version='v1'
+versionCode='1'
+author='People11'
+description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性'
+time='2021年8月30号'
+    [[ $Choice = 1 ]] && Download -net "fleid=639094710790778880&puid=176246092" "$1.zip" 2536 de8f5114c88c3444bbc2f13543b00c73 "$1.zip"
 ;;
 
 Systemless_OnePlusLauncher)
