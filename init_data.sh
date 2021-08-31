@@ -1,5 +1,5 @@
-Configuration=2021083014
-Magisk_Warehouse_version=2021083014
+Configuration=2021083118
+Magisk_Warehouse_version=2021083118
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -779,7 +779,7 @@ name='关闭各种Log'
 version='v1'
 versionCode='1'
 author='People11'
-description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性'
+description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项崩溃'
 time='2021年8月30号'
     [[ $Choice = 1 ]] && Download -net "fleid=639094710790778880&puid=176246092" "$1.zip" 2536 de8f5114c88c3444bbc2f13543b00c73 "$1.zip"
 ;;
