@@ -1,5 +1,5 @@
-Configuration=2021090119
-Magisk_Warehouse_version=2021090119
+Configuration=2021090201
+Magisk_Warehouse_version=2021090201
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1147,11 +1147,11 @@ time='2021年5月29号'
 Remove_Temperature_Control)
 id='Remove_Temperature_Control'
 name='移除温控'
-version='v2'
-versionCode=11
+version='v2.1'
+versionCode=12
 author='People11'
 description='以Magisk模块移除温控文件'
-time='2021年9月1号'
+time='2021年9月2号'
 ;;
 
 Clone_Configuration)
