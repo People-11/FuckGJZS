@@ -1,4 +1,8 @@
-﻿Disable_Log.zip
+﻿com.miui.packageinstaller.zip
+外链：https://pan-yz.chaoxing.com/external/m/file/639874565649035264
+直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=639874565649035264&puid=176246092
+
+Disable_Log.zip
 外链：https://pan-yz.chaoxing.com/external/m/file/639094710790778880
 直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=639094710790778880&puid=176246092
 
@@ -69,10 +73,6 @@ VMOS_Pro.apk
 theme_pojie.zip
 外链：https://pan-yz.chaoxing.com/external/m/file/613903952750276608
 直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=613903952750276608&puid=176246092
-
-com.miui.packageinstallerv2.zip
-外链：https://pan-yz.chaoxing.com/external/m/file/613520955999997952
-直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=613520955999997952&puid=176246092
 
 搞机助手_5.2.apk
 外链：https://pan-yz.chaoxing.com/external/m/file/612877285888983040
