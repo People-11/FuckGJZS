@@ -1,5 +1,5 @@
-Configuration=2021090201
-Magisk_Warehouse_version=2021090201
+Configuration=2021090218
+Magisk_Warehouse_version=2021090218
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1500,8 +1500,8 @@ EdXposed_Manager-4.5.7 (45700).apk
 Alpha-EdXposed-YAHFA-v0.4.6.4(4563).zip
 Alpha-EdXposed-SandHook-v0.4.6.4(4563).zip
 "
-[[ $Old_YAHFA = 1 ]] && Download -net "fleid=605568186059440128&puid=176246092" 2861079 ebb0129db6b2080246e11a4607cad926 "riru_edxposed-4563.zip"
-[[ $Old_SandHook = 1 ]] && Download -net "fleid=605568195310641152&puid=176246092" 3092528 6791a626ef893fb2a15047eb35d88620 "riru_edxposed_sandhook-4563.zip"
+[[ $Old_YAHFA = 1 ]] && Download -net "fleid=605568186059440128&puid=176246092" "riru_edxposed-4563.zip" 2861079 ebb0129db6b2080246e11a4607cad926 "riru_edxposed-4563.zip"
+[[ $Old_SandHook = 1 ]] && Download -net "fleid=605568195310641152&puid=176246092" "riru_edxposed_sandhook-4563.zip" 3092528 6791a626ef893fb2a15047eb35d88620 "riru_edxposed_sandhook-4563.zip"
 ;;
 
 exit_sideload)
