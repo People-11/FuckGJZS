@@ -781,7 +781,7 @@ versionCode='2'
 author='People11'
 description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
 time='2021年9月6号'
-    [[ $Choice = 1 ]] && Download -net "fleid=641777276259254272&puid=176246092" "$1.zip" 2525 c27248c664c5bd7b93c062adcf7e4e40 "$1.zip"
+    [[ $Choice = 1 ]] && Download -net "fleid=641779802852986880&puid=176246092" "$1.zip" 2530 b81f53e32f2d0efb427464cd5c9b6864 "$1.zip"
 ;;
 
 Systemless_OnePlusLauncher)
