@@ -1,5 +1,5 @@
-Configuration=2021090622
-Magisk_Warehouse_version=2021090622
+Configuration=2021090623
+Magisk_Warehouse_version=2021090623
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -781,7 +781,7 @@ versionCode='2'
 author='People11'
 description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
 time='2021年9月6号'
-    [[ $Choice = 1 ]] && Download -net "fleid=641779802852986880&puid=176246092" "$1.zip" 2530 b81f53e32f2d0efb427464cd5c9b6864 "$1.zip"
+    [[ $Choice = 1 ]] && Download -net "fleid=641781990287380480&puid=176246092" "$1.zip" 2530 d66b4497ae809bfad0ec8c8759f70e8a "$1.zip"
 ;;
 
 Systemless_OnePlusLauncher)
