@@ -1,5 +1,5 @@
-Configuration=2021090623
-Magisk_Warehouse_version=2021090623
+Configuration=2021091312
+Magisk_Warehouse_version=2021091312
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1104,11 +1104,11 @@ github-hosts)
 Show_Compatibility_Mode=0
 id='github-hosts'
 name='Github防污染'
-version='v2'
-versionCode=10
+version='v3'
+versionCode=11
 author='酷安 @快播内部工作人员'
-description='解决Github网址打不开'
-time='2021年5月29号'
+description='解决Github网址打不开的问题'
+time='2021年9月13号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
 ;;
 
