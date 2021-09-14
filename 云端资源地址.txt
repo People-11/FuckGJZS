@@ -1,4 +1,8 @@
-﻿Disable_Logs.zip
+﻿safetynet-fix-v2.1.0.zip
+外链：https://pan-yz.chaoxing.com/external/m/file/644522238266159104
+直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=644522238266159104&puid=176246092
+
+Disable_Logs.zip
 外链：https://pan-yz.chaoxing.com/external/m/file/641781990287380480
 直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=641781990287380480&puid=176246092
 
@@ -85,10 +89,6 @@ Dev Tools_6.3.7.apk
 VoLTE_enabler_pixel_2_v1_1.zip
 外链：https://pan-yz.chaoxing.com/external/m/file/610912130960678912
 直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=610912130960678912&puid=176246092
-
-SafetyNet-fix-v1.1.1.zip
-外链：https://pan-yz.chaoxing.com/external/m/file/610912125641666560
-直链：http://pan-yz.chaoxing.com/download/downloadfile?fleid=610912125641666560&puid=176246092
 
 Pixel_3_LTE-VoLTE_Enabler.zip
 外链：https://pan-yz.chaoxing.com/external/m/file/610912123875872768

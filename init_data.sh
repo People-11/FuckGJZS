@@ -1,5 +1,5 @@
-Configuration=2021091312
-Magisk_Warehouse_version=2021091312
+Configuration=2021091413
+Magisk_Warehouse_version=2021091413
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
 MIUI=0
@@ -754,12 +754,12 @@ time='2021年6月13号'
 safetynet-fix)
 id='safetynet-fix'
 name='SafetyNet修复模块'
-version='v1.1.1'
-versionCode='10101'
+version='v2.1.0'
+versionCode='20100'
 author='Kdrag0n'
-description='一定程度上修复SafetyNet不通过的问题，需要开启Magisk Hide'
+description='一定程度上修复SafetyNet不通过的问题，需要安装Riru-Core 以及开启Magisk Hide'
 time='2021年6月13号'
-    [[ $Choice = 1 ]] && Download -net "fleid=610912125641666560&puid=176246092" "$1.zip" 722578 f335d1ed1b181fd69b73431d24bc7241 "$1.zip"
+    [[ $Choice = 1 ]] && Download -net "fleid=644522238266159104&puid=176246092" "$1.zip" 27427 aebf5982c0292e80f60ce1d3551a2ee3 "$1.zip"
 ;;
 
 UniversalGMSDoze)
