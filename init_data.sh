@@ -1,4 +1,4 @@
-Configuration=2021091715
+Configuration=2021091716
 Magisk_Warehouse_version=2021091413
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
@@ -1698,7 +1698,7 @@ com.miui.miwallpaper.snowmountain)
 Install_Applet)
     name=Applet
     versionCode=73
-    Install_Applet -url "https://fuckgjzs.people11c.workers.dev/People-11/FuckGJZS/main/Applet.zip" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
+    Install_Applet -url "https://fuckgjzs.people11c.workers.dev/People-11/FuckGJZS/main/Misc/Applet.zip" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
 ;;
 
 binwalk)
