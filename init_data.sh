@@ -1,4 +1,4 @@
-Configuration=2021091722
+Configuration=2021091808
 Magisk_Warehouse_version=2021091722
 App_Store_version=2021082200
 Show_Compatibility_Mode=1
@@ -260,17 +260,17 @@ time='2021年5月29号'
     29 | 30) #3
         version='3.4'
         versionCode=1810
-        [[ $Choice = 1 ]] && Download -net "EePudCp2_BlBt99Lx7IPJn8BmGZMofIldUovpNEzFZ2GZg"3 "${1}3.apk" 1233819 f9fee619c34294e86294844446a88196 "${1}3.apk"
+        [[ $Choice = 1 ]] && Download -net "EePudCp2_BlBt99Lx7IPJn8BmGZMofIldUovpNEzFZ2GZg" "${1}3.apk" 1233819 f9fee619c34294e86294844446a88196 "${1}3.apk"
     ;;
     28 | 29) #2
         version='2.2'
         versionCode=1765
-        [[ $Choice = 1 ]] && Download -net "EY6F-bfTpHxHqzyX0jXm1rIB_cp8gqeVBHFOYlRsQ5ssDQ"2 "${1}2.apk" 1327894 65a25c6d5d2e42475fb215ac0d9eb504 "${1}2.apk"
+        [[ $Choice = 1 ]] && Download -net "EY6F-bfTpHxHqzyX0jXm1rIB_cp8gqeVBHFOYlRsQ5ssDQ" "${1}2.apk" 1327894 65a25c6d5d2e42475fb215ac0d9eb504 "${1}2.apk"
     ;;
     24 | 25 | 26 | 27) #1
         version='2.1'
         versionCode=1765
-        [[ $Choice = 1 ]] && Download -net "EWYqMccgMElEooBTkyXYAwEBly6FuIN5Yi3EduTnAYHXrQ"1 "${1}1.apk" 1423421 8b746d3c648f48cb0189fe4b53e9462c "${1}1.apk"
+        [[ $Choice = 1 ]] && Download -net "EWYqMccgMElEooBTkyXYAwEBly6FuIN5Yi3EduTnAYHXrQ" "${1}1.apk" 1423421 8b746d3c648f48cb0189fe4b53e9462c "${1}1.apk"
     ;;
     19 | 20 | 21 | 22 | 23)
         version='1.4'
