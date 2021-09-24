@@ -1,6 +1,5 @@
-Configuration=2021091808
-Magisk_Warehouse_version=2021091722
-App_Store_version=2021082200
+Configuration=2021092423
+Magisk_Warehouse_version=2021092423
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -626,65 +625,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EVG-Xx6muUZJto5S9dGbYTABExX75NBM17KMos2fZjWH3w" "$1.zip" 108675627 d083690c555fa59b5f29112fc1dbb0dc "$1.zip"
 ;;
 
-shadow_screenshots)
-id='shadow_screenshots'
-name='阴影截图'
-version='v3.0.7'
-versionCode=3.0.7
-author='酷安@巴啦啦魔仙女王'
-description='手机截图自动套阴影，具体配置参数修改module.prop'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "Efc6xG7sPOtIo2bGZltegKkBmI7tzbr_cN2g2VKe2_ZFGg" "$1.zip" 17581934 c7d15b82fd8cfb17cc4863e7ef2c20ff "$1.zip"
-;;
-
-hydhy)
-MIUI=1
-Show_Compatibility_Mode=0
-name='回忆k40多合一'
-id='hydhy'
-version='2.2.7'
-versionCode='27'
-author='酷安@回憶堅強'
-description="k40的优化和美化于一身"
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EQrJ-FGhefpJnn01ftL_OFYBd5cxQEg6-8JN5BtcHDkmMQ" "$1.zip" 42969182 161d8ef82ff9e16c91c92e6439b4f4b4 "$1.zip"
-;;
-
-huiyiduoheyi)
-MIUI=1
-Show_Compatibility_Mode=0
-id='huiyiduoheyi'
-name='回忆小米8多合一'
-version='1.8.8.1'
-versionCode='10'
-author='回憶⁵²º¹³¹⁴'
-description="$name"
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EcJnNeAMtDFEhF6uIABQuQ0Bwv6tGLOsydVwWE1WkmYJ-A" "$1.zip" 197660037 291ee716396c31efd54e313d78b14579 "$1.zip"
-;;
-
-AnyHosts)
-id='AnyHosts'
-name='AnyHosts'
-version='v4.0'
-versionCode='400'
-author='E7KMbb'
-description='一个自动更新自定义hosts订阅源的脚本，请在使用前启用设置中的Systemless Hosts'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EeGZT0uoCvBIiynninaTVZABQ6FJgBOXilqbkImbwSB-wQ" "$1.zip" 234416 832f123b85f4f17873506471ee24ecb5 "$1.zip"
-;;
-
-UnblockNeteaseMusic)
-id='UnblockNeteaseMusic'
-name='UnblockNeteaseMusic for Magisk'
-version='Canary'
-versionCode='20210328'
-author='依然的爱'
-description='网易云音乐解锁变灰，服务状态控制请在在终端以su权限输入UnblockNeteaseMusic以控制，默认开机自启'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EYFKz1uonINEqnSUQyn0mQsBKz05MB1_7YjUkBL1aqrQSA" "$1.zip" 53460953 d7d0b8b1a67f63d2fe9896d353d2c2af "$1.zip"
-;;
-
 sqlite3_gjzs)
 id='sqlite3_gjzs'
 name='SQLite3 For ARM设备'
@@ -773,6 +713,92 @@ time='2021年7月5号'
     [[ $Choice = 1 ]] && Download -net "EajjvxidQKNGqs0FYFqD6xIB-72sWKcmL4i7sDyS_rIfOw" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
 ;;
 
+Model_Camouflage)
+id='Model_Camouflage'
+name='机型伪装'
+version='v114514'
+versionCode='114514'
+author='People11'
+description='通过Magisk修改prop达到机型伪装'
+time='2021年8月8号'
+;;
+
+HTTPCanaryCA_To_System)
+id='HTTPCanaryCA_To_System'
+name='安装HTTPCanary证书到系统'
+version='v2'
+versionCode='10'
+author='酷安 @阿猫2233 @People11'
+description='因为安卓11添加了必须在设置内添加证书的限制，也因为安卓10限制了System分区的写权限，导致HTTPCanary无法正常安装证书到系统，此模块可解决此问题。此模块根据 @阿猫2233 的模块作出修改，解决部分问题。'
+time='2021年8月22号'
+    [[ $Choice = 1 ]] && Download -net "Ea5Sa_KI0MtEnGpM3PHUcPUBIWVTvqu9Trl_ozjWK3N-cw" "$1.zip" 3987 1dac8536ce25fdf6f0f46d4d146bd38a "$1.zip"
+;;
+
+AsusLongshot3)
+id='AsusLongshot3'
+name='长截图组件'
+version='v3.0'
+versionCode='30'
+author='luis'
+description='提取自Asus手机系统的长截图组件，安装后需要手动添加磁铁，需要核心破解，仅适用于安卓10/11'
+time='2021年7月5号'
+    case $SDK in
+    30)
+        [[ $Choice = 1 ]] && Download -net "EemgWebrwRZFvY5xmO9FOq4BTeuuTJ98s4cUHJ6ZnNW3NA" "$1.zip" 4914017 42b54da4414634874739189592b1fb17 "$1.zip"
+    ;;
+    29)
+        [[ $Choice = 1 ]] && Download -net "EYmHbySMXalEv6V8rHuo7ZcB-nSrbP0Jt01AYMMKszILAw" "$1.zip" 4880497 04f2216cad25656e333be40310189176 "$1.zip"
+    ;;
+    *)
+        [[ $Choice = 1 ]] && echo "不支持SDK=$SDK"
+    ;;
+    esac
+;;
+
+Volume_Adjustment)
+id='Volume_Adjustment'
+name='媒体音量级别调节'
+version='v1.3'
+versionCode='3'
+author='by：Han | 情非得已c'
+description='将默认的按下音量键15次后放大至最大音量，更改为自己喜欢的数值，我只在小米上测试OK，其它机型自己测试'
+time='2021年5月29号'
+;;
+
+github-hosts)
+Show_Compatibility_Mode=0
+id='github-hosts'
+name='Github防污染'
+version='v3'
+versionCode=11
+author='酷安 @快播内部工作人员'
+description='解决Github网址打不开的问题'
+time='2021年9月13号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
+lanzou-hosts)
+Show_Compatibility_Mode=0
+id='lanzou-hosts'
+name='解决蓝奏云旧网址打不开'
+version='v1'
+versionCode=1
+author='People11'
+description='解决蓝奏云旧网址打不开'
+time='2021年8月12号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
+Remove_Temperature_Control)
+id='Remove_Temperature_Control'
+name='移除温控'
+version='v2.1'
+versionCode=12
+author='People11'
+description='以Magisk模块移除温控文件'
+time='2021年9月2号'
+;;
+
 Third_Party_Redirect)
 id='Third_Party_Redirect'
 name='第三方应用下载目录重定向'
@@ -818,25 +844,63 @@ time='2021年6月6号'
     [[ $Choice = 1 ]] && Download -net "EZY0ljohVtBGsJ-KTdGtv_oBevc9RSnWjB3zoMUDL68qtA" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
 ;;
 
-Model_Camouflage)
-id='Model_Camouflage'
-name='机型伪装'
-version='v114514'
-versionCode='114514'
-author='People11'
-description='通过Magisk修改prop达到机型伪装'
-time='2021年8月8号'
+shadow_screenshots)
+id='shadow_screenshots'
+name='阴影截图'
+version='v3.0.7'
+versionCode=3.0.7
+author='酷安@巴啦啦魔仙女王'
+description='手机截图自动套阴影，具体配置参数修改module.prop'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "Efc6xG7sPOtIo2bGZltegKkBmI7tzbr_cN2g2VKe2_ZFGg" "$1.zip" 17581934 c7d15b82fd8cfb17cc4863e7ef2c20ff "$1.zip"
 ;;
 
-HTTPCanaryCA_To_System)
-id='HTTPCanaryCA_To_System'
-name='安装HTTPCanary证书到系统'
-version='v2'
+hydhy)
+MIUI=1
+Show_Compatibility_Mode=0
+name='回忆k40多合一'
+id='hydhy'
+version='2.2.7'
+versionCode='27'
+author='酷安@回憶堅強'
+description="k40的优化和美化于一身"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EQrJ-FGhefpJnn01ftL_OFYBd5cxQEg6-8JN5BtcHDkmMQ" "$1.zip" 42969182 161d8ef82ff9e16c91c92e6439b4f4b4 "$1.zip"
+;;
+
+huiyiduoheyi)
+MIUI=1
+Show_Compatibility_Mode=0
+id='huiyiduoheyi'
+name='回忆小米8多合一'
+version='1.8.8.1'
 versionCode='10'
-author='酷安 @阿猫2233 @People11'
-description='因为安卓11添加了必须在设置内添加证书的限制，也因为安卓10限制了System分区的写权限，导致HTTPCanary无法正常安装证书到系统，此模块可解决此问题。此模块根据 @阿猫2233 的模块作出修改，解决部分问题。'
-time='2021年8月22号'
-    [[ $Choice = 1 ]] && Download -net "Ea5Sa_KI0MtEnGpM3PHUcPUBIWVTvqu9Trl_ozjWK3N-cw" "$1.zip" 3987 1dac8536ce25fdf6f0f46d4d146bd38a "$1.zip"
+author='回憶⁵²º¹³¹⁴'
+description="$name"
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EcJnNeAMtDFEhF6uIABQuQ0Bwv6tGLOsydVwWE1WkmYJ-A" "$1.zip" 197660037 291ee716396c31efd54e313d78b14579 "$1.zip"
+;;
+
+AnyHosts)
+id='AnyHosts'
+name='AnyHosts'
+version='v4.0'
+versionCode='400'
+author='E7KMbb'
+description='一个自动更新自定义hosts订阅源的脚本，请在使用前启用设置中的Systemless Hosts'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EeGZT0uoCvBIiynninaTVZABQ6FJgBOXilqbkImbwSB-wQ" "$1.zip" 234416 832f123b85f4f17873506471ee24ecb5 "$1.zip"
+;;
+
+UnblockNeteaseMusic)
+id='UnblockNeteaseMusic'
+name='UnblockNeteaseMusic for Magisk'
+version='Canary'
+versionCode='20210328'
+author='依然的爱'
+description='网易云音乐解锁变灰，服务状态控制请在在终端以su权限输入UnblockNeteaseMusic以控制，默认开机自启'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EYFKz1uonINEqnSUQyn0mQsBKz05MB1_7YjUkBL1aqrQSA" "$1.zip" 53460953 d7d0b8b1a67f63d2fe9896d353d2c2af "$1.zip"
 ;;
 
 zw_fileclear)
@@ -1068,40 +1132,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
 ;;
 
-Volume_Adjustment)
-id='Volume_Adjustment'
-name='媒体音量级别调节'
-version='v1.3'
-versionCode='3'
-author='by：Han | 情非得已c'
-description='将默认的按下音量键15次后放大至最大音量，更改为自己喜欢的数值，我只在小米上测试OK，其它机型自己测试'
-time='2021年5月29号'
-;;
-
-github-hosts)
-Show_Compatibility_Mode=0
-id='github-hosts'
-name='Github防污染'
-version='v3'
-versionCode=11
-author='酷安 @快播内部工作人员'
-description='解决Github网址打不开的问题'
-time='2021年9月13号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-;;
-
-lanzou-hosts)
-Show_Compatibility_Mode=0
-id='lanzou-hosts'
-name='解决蓝奏云旧网址打不开'
-version='v1'
-versionCode=1
-author='People11'
-description='解决蓝奏云旧网址打不开'
-time='2021年8月12号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-;;
-
 Freezing_system_app)
 id='Freezing_system_app'
 name='使用Magisk模块方式冻结系统应用'
@@ -1120,16 +1150,6 @@ versionCode='2'
 author='by：Han | 情非得已c'
 description='自定义方式使用模块方式将三方应用转为系统应用'
 time='2021年5月29号'
-;;
-
-Remove_Temperature_Control)
-id='Remove_Temperature_Control'
-name='移除温控'
-version='v2.1'
-versionCode=12
-author='People11'
-description='以Magisk模块移除温控文件'
-time='2021年9月2号'
 ;;
 
 Clone_Configuration)
