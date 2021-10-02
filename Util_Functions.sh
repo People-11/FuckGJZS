@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021091722
+export Util_Functions_Code=2021100302
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -18,8 +18,8 @@ export Status=$Data_Dir/Status.log
 export Termux=$DATA_DIR/com.termux/files
 export BOOTMODE=true
 export Choice=0
-export New_Version=5.2
-export New_Code=2021061800
+export New_Version=6
+export New_Code=2021100302
 export ChongQi Configuration File File_Name Download_File File_MD5 id name version versionCode author description MODID MODNAME MODPATH MAGISK_VER MAGISK_VER_CODE LOCKED
 $Have_ROOT && LOCKED=false || LOCKED=true
 
@@ -126,7 +126,6 @@ error() {
 
 abort() {
     error "$@"
-    sleep 3
     exit 1
 }
 
@@ -304,7 +303,6 @@ Start_Installing_Busybox() {
                 else
                     echo "Busybox安装失败"
                     rm -f "$BusyBox2"
-                    sleep 3
                 fi
         fi
     }
@@ -424,7 +422,7 @@ Start_Download() {
         if Check_command2 awk && Check_command2 wc && Check_command2 md5sum; then
             Start_Time
             XiaZai -s "$@" &
-            usleep 50000
+            usleep 25000
             code=`cat "$Status"`
             [[ $code = 2 || $code = 6 ]] && abort
                 until [[ -f "$Download_File2" ]]; do
@@ -444,7 +442,6 @@ Start_Download() {
 
                         until [[ $code != none ]]; do
                            YiXZ=`wc -c < $Download_File2`
-                           sleep 1
                            YiXZ_2=`wc -c < $Download_File2`
                                if [[ $YiXZ -gt 0 ]]; then
                                    YiXZ_SuDu=$(($YiXZ_2-$YiXZ))
@@ -476,7 +473,6 @@ Start_Download() {
                                                else
                                                    Schedule
                                                    echo "与服务器连接已断开，如果网络正常或别的资源可以下请私信我修复"
-                                                   sleep 1
                                                fi
                                             fi
                                fi
@@ -822,7 +818,6 @@ Clean_install() {
     abort() {
         rm -rf $Module
         error "$@"
-        sleep 3
         exit 1
     }
 }

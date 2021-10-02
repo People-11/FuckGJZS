@@ -1,4 +1,4 @@
-Configuration=2021092423
+Configuration=2021100302
 Magisk_Warehouse_version=2021092423
 Show_Compatibility_Mode=1
 MIUI=0
@@ -21,12 +21,12 @@ time='2021年5月29号'
 Han.GJZS)
 apk='Han.GJZS'
 name='搞机助手'
-version='5.2'
-versionCode='2021061800'
-author='OpenGJZS'
-description='我希望这玩意能自动更新'
-time='2021年6月18号'
-    [[ $Choice = 1 ]] && Download -net 'EVN7LfnjDK9BojHaqogTIDABnyfkSVVhoNezMJEHfPlIdw' "$1.apk" 1433617 3edb2c38530644ccc29801b1903c6fa3 "$1.apk"
+version='6'
+versionCode='2021100302'
+author='FuckGJZS'
+description='可以在此处更新搞机助手'
+time='2021年10月3号'
+    [[ $Choice = 1 ]] && Download -net 'EdD5fORByTdMnNZS77ryHhsBoOg35aso96dsQpmeYbh3CQ' "$1.apk" 1438288 44f791f9d6cab3a2628b9f2669e78549 "$1.apk"
 ;;
 
 com.whatsbug.litiaotiao)
@@ -99,11 +99,11 @@ com.qingyu.wifikey)
 apk='com.qingyu.wifikey'
 name='WiFi万能钥匙'
 version='4.3.10'
-versionCode=181010
+versionCode=210904
 author='清羽'
 description='WiFi万能钥匙，由清羽精简'
-time='2021年7月11号'
-    [[ $Choice = 1 ]] && Download -net "EVe_v0J3HupNpco_VRbvqdIBjYET1AvzKZqERX3JPcxCbQ" "$1.apk" 5323609 1fbd25a3d0e414011fefbdb8060019d1 "$1.apk"
+time='2021年10月3号'
+    [[ $Choice = 1 ]] && Download -net "EQNcNDABvhFFhj1ddpa_Z8MBFDHuUjvtR6x2mWLwVW0NpA" "$1.apk" 5227674 afddd34358183070c924bc0723ce5ec3 "$1.apk"
 ;;
 
 flar2.devcheck)
