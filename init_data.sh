@@ -1,4 +1,4 @@
-Configuration=2021101021
+Configuration=2021101419
 Magisk_Warehouse_version=2021092423
 Show_Compatibility_Mode=1
 MIUI=0
@@ -104,6 +104,28 @@ author='清羽'
 description='WiFi万能钥匙，由清羽精简'
 time='2021年10月3号'
     [[ $Choice = 1 ]] && Download -net "EQNcNDABvhFFhj1ddpa_Z8MBFDHuUjvtR6x2mWLwVW0NpA" "$1.apk" 5227674 afddd34358183070c924bc0723ce5ec3 "$1.apk"
+;;
+
+com.xyj.batkill.batkill)
+apk='com.xyj.batkill.batkill'
+name='BATKill'
+version='2.2.3'
+versionCode=30
+author='席大'
+description='方便的干掉腾讯系内核以及阿里系内核'
+time='2021年10月14号'
+    [[ $Choice = 1 ]] && Download -net "EUMHKUL1IGZHo9_oNg_wRUkBeEsGnHsgjEZTP9oLEBXM-Q" "$1.apk" 147844 1ffc47787f02d961d9870c5d701fd82a "$1.apk"
+;;
+
+com.yxer.packageinstalles)
+apk='com.yxer.packageinstalles'
+name='R-安装组件'
+version='1.8_82'
+versionCode=82
+author='依心所言'
+description='安装狮的替代品'
+time='2021年10月14号'
+    [[ $Choice = 1 ]] && Download -net "EU5iDSigGfhGqbE0f0J7j2oBg-R_qQsTTjVtCeKgG6ycDQ" "$1.apk" 1829622 880ce336f739f2dd43f68289f5038fef "$1.apk"
 ;;
 
 flar2.devcheck)
