@@ -1,4 +1,4 @@
-Configuration=2021101419
+Configuration=2021101721
 Magisk_Warehouse_version=2021092423
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1718,7 +1718,7 @@ com.miui.miwallpaper.snowmountain)
 Install_Applet)
     name=Applet
     versionCode=73
-    Install_Applet -net "EWMnMW0Zbg1HjurzvIlNM0sBbBBVRNwysHaWjsTzV7tOng" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
+    Install_Applet -url "https://gitee.com/People11/FuckGJZS/raw/main/Misc/Applet.zip" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
 ;;
 
 binwalk)
