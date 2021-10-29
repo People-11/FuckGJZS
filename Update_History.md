@@ -6,6 +6,7 @@
 添加Proton AOSP网址
 机型伪装模块新增一加9RT、小米Civi、Pixel 6、Pixel 6 Pro
 优化OTG区界面
+修复时不时出现的newline错误
 ########################
 恢复Magisk模块仓库内的MIUI应用包管理组件为原搞机助手提供的版本
 优化移除温控功能
