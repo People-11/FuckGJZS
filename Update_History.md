@@ -2,6 +2,7 @@
 修复了一点儿闪退问题
 机型伪装模块更新 Windows Subsystem for Android(TM)
 添加修复12123闪退的功能
+可能修复了Magisk Manager异常修复功能
 ########################
 更新了一些东西
 更改资源获取地址至Gitee
