@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021101021
+export Util_Functions_Code=2021121618
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -472,7 +472,6 @@ Start_Download() {
                                                    EndMD5
                                                else
                                                    Schedule
-                                                   echo "与服务器连接已断开，如果网络正常或别的资源可以下请私信我修复"
                                                fi
                                             fi
                                fi

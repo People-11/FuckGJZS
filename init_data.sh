@@ -1,4 +1,4 @@
-Configuration=2021111622
+Configuration=2021121618
 Magisk_Warehouse_version=2021111622
 Show_Compatibility_Mode=1
 MIUI=0
@@ -157,7 +157,7 @@ versionCode=114
 author='su1216'
 description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
 time='2021年8月8号'
-    [[ $Choice = 1 ]] && Download -net "EZBDBxbczLpAvMnXjAz0kRQB2vRCYlAMRgW6Wx73zF4T4g" "$1.apk" 30013005 e2c3daf3092f32998b254d699a5bb88b "$1.apk"
+    [[ $Choice = 1 ]] && Download -net "EUKA7TncWYNErthPLSX3jnwBo4dKtpvIW-vnJZRzbyMyWA" "$1.apk" 30013005 e2c3daf3092f32998b254d699a5bb88b "$1.apk"
 ;;
 
 com.farplace.qingzhuo)
