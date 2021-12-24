@@ -1,4 +1,4 @@
-Configuration=2021121618
+Configuration=2021122417
 Magisk_Warehouse_version=2021111622
 Show_Compatibility_Mode=1
 MIUI=0
@@ -168,7 +168,7 @@ versionCode=76
 author='FarPlace'
 description='简洁美观而又强大的基于规则的清理工具'
 time='2021年8月4号'
-    [[ $Choice = 1 ]] && Download -net "ESYrTbGLxGpKhnOo5FK7jJgBo_caE5NDo6kSfAM9mvYe1w" "$1.apk" 3458033 a3d06c1518a924678fc0b8b1773d89f5 "$1.apk"
+    [[ $Choice = 1 ]] && Download -net "EX6CJr5G9w1OnDtX7bP68hkB57q9JTeZwDeUDY_o8R7Uzw" "$1.apk" 3458035 13f41affb495459825fa61527e50a702 "$1.apk"
 ;;
 
 com.ioncannon.cpuburn.gpugflops)
