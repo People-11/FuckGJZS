@@ -1,4 +1,4 @@
-Configuration=2021122417
+Configuration=2021122722
 Magisk_Warehouse_version=2021111622
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1727,14 +1727,13 @@ binwalk)
 ;;
 
 Install_busybox)
-    u='https://cdn.jsdelivr.net/gh/Magisk-Modules-Repo/busybox-ndk@b37714da560188391d23b92f9a9788f2487a4980/'
-    name="busybox-$Type"
-    [[ $Type = arm ]] && Start_Install -url "$u/$name-selinux" "$name-selinux" 1447948 69f90314e39e1470597202b645a4d95a "$name" 1.32.1 13210
-    [[ $Type = arm64 ]] && Start_Install -url "$u/$name-selinux" "$name-selinux" 2054232 a273337dacf73c5f82c54235737f5526 "$name" 1.32.1 13210
-    [[ $Type = x86 ]] && Start_Install -url "$u/$name-selinux" "$name-selinux" 2086680 dbec861e084d41849b3d871111d53f35 "$name" 1.32.1 13210
-    [[ $Type = x86_64 ]] && Start_Install -url "$u/$name-selinux" "$name-selinux" 2214216 a4b0f53b31357b244901afec6c972046 "$name" 1.32.1 13210
-    [[ $Type = mips ]] && Start_Install -url "$u/$name" "$name" 1918688 e9a12834f952f3807ccf4f73f9ffaab8 "$name" 1.32.1 13210
-    [[ $Type = mips64 ]] && Start_Install -url "$u/$name" "$name" 1935256 d4f253e2a284fc0dc3a0c5370299f643 "$name" 1.32.1 13210
+    name="busybox_$Type"
+    [[ $Type = arm ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 1452044 92a3d5c291124e5b8bd4d7b04c24362d "$name" 1.33.1 13310
+    [[ $Type = arm64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2066520 2340fc8c0f18462fc0dffe9e591c5c01 "$name" 1.33.1 13310
+    [[ $Type = x86 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2094872 cd5fde5c345e711657709599f348e260 "$name" 1.33.1 13310
+    [[ $Type = x86_64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2222408 195292917f4c3a3815ed352cac3bda99 "$name" 1.33.1 13310
+    [[ $Type = mips ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name" 1918732 7886ed84533e344c0ea0e87ff0578749 "$name" 1.33.1 13310
+    [[ $Type = mips64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name" 1939440 c8c7311463e2999af63540c51628364e "$name" 1.33.1 13310
 ;;
 
 *)
