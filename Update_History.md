@@ -1,4 +1,8 @@
 ########################
+优化一些界面描述
+机型伪装模块新增 小米 12 Pro、小米 12X、华为 P50 Pocket、IQOO 9 Pro、IQOO 9、一加 10 Pro、IQOO NEO 5S、Sony Xperia PRO-I
+系统调试专区添加 打开FCM状态 界面功能（如果已安装谷歌服务框架）
+########################
 修复了一点儿闪退问题
 机型伪装模块更新 Windows Subsystem for Android(TM)
 添加修复12123闪退的功能
@@ -14,7 +18,7 @@ MIUI专区添加 打开传感器保护 功能
 添加 BATKill、R-安装组件 软件
 界面小调整
 添加Proton AOSP网址
-机型伪装模块新增一加9RT、小米Civi、Pixel 6、Pixel 6 Pro
+机型伪装模块新增 一加 9 RT、小米 Civi、Pixel 6、Pixel 6 Pro
 优化OTG区界面
 修复时不时出现的newline错误
 ########################
