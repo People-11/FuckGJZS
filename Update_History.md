@@ -2,6 +2,10 @@
 优化一些界面描述
 机型伪装模块新增 小米 12 Pro、小米 12X、华为 P50 Pocket、IQOO 9 Pro、IQOO 9、一加 10 Pro、IQOO NEO 5S、Sony Xperia PRO-I
 系统调试专区添加 打开FCM状态 界面功能（如果已安装谷歌服务框架）
+MIUI专区添加 卓越性能（骁龙888专属功能）（代码来源于Scene）
+修复了开机第一屏制作无法生成配置的问题
+添加修复数字人民币闪退的功能
+新增自选logo镜像解包图片功能
 ########################
 修复了一点儿闪退问题
 机型伪装模块更新 Windows Subsystem for Android(TM)
