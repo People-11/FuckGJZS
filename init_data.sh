@@ -1,4 +1,4 @@
-Configuration=2021122722
+Configuration=2022012418
 Magisk_Warehouse_version=2021111622
 Show_Compatibility_Mode=1
 MIUI=0
@@ -163,12 +163,12 @@ time='2021年8月8号'
 com.farplace.qingzhuo)
 apk='com.farplace.qingzhuo'
 name='清浊'
-version='1.7.5'
-versionCode=76
+version='1.7.8'
+versionCode=79
 author='FarPlace'
 description='简洁美观而又强大的基于规则的清理工具'
-time='2021年8月4号'
-    [[ $Choice = 1 ]] && Download -net "EX6CJr5G9w1OnDtX7bP68hkB57q9JTeZwDeUDY_o8R7Uzw" "$1.apk" 3458035 13f41affb495459825fa61527e50a702 "$1.apk"
+time='2022年1月24号'
+    [[ $Choice = 1 ]] && Download -net "EQClXiBSZ4RGvF5uNEgTx0UBniJ3Z3JFpoIrdcg5hu5q5w" "$1.apk" 3591402 f4373100b0e238a74df02ed8b13d7a09 "$1.apk"
 ;;
 
 com.ioncannon.cpuburn.gpugflops)
