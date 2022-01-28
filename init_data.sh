@@ -1,5 +1,5 @@
-Configuration=2022012418
-Magisk_Warehouse_version=2021111622
+Configuration=2022012820
+Magisk_Warehouse_version=2022012820
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -636,28 +636,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "ETz2hOTHz7VIuqfhjtwUVecBGyBngtQWK9TiB_ob2RP6PQ" "$1.zip" 728977 54cee829bcfe5cd559ed80b811356647 "$1.zip"
 ;;
 
-xposed)
-id='xposed'
-name='Xposed Framework（原始Xposed框架）'
-version='v90-beta3'
-versionCode='9030'
-author='rovo89 & topjohnwu'
-description='打包的官方Xposed框架 by @topjohnwu，支持安卓 5-8.1'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EVG-Xx6muUZJto5S9dGbYTABExX75NBM17KMos2fZjWH3w" "$1.zip" 108675627 d083690c555fa59b5f29112fc1dbb0dc "$1.zip"
-;;
-
-sqlite3_gjzs)
-id='sqlite3_gjzs'
-name='SQLite3 For ARM设备'
-version='v3.28.0'
-versionCode='1'
-author='酷安@快播内部工作人员'
-description='为不自带SQLite3的机型挂载SQLite3二进制文件'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "ETs--Pdq-idAqp8lsHEC5BEBmVv0Ku9u7fZgDzRm2sgIOA" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
-;;
-
 EnablePixel2019VoLteSoliEnabler)
 id='EnablePixel2019VoLteSoliEnabler'
 name='Pixel 4/XL开启雷达与VoLTE'
@@ -713,28 +691,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EfaJBXqPKHpFm6ieGcm9Jw8BkArG-HqKW9ghqrtuerzUZw" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
 ;;
 
-Disable_Logs)
-id='Disable_Logs'
-name='关闭各种Log'
-version='v2'
-versionCode='2'
-author='People11'
-description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
-time='2021年9月6号'
-    [[ $Choice = 1 ]] && Download -net "EbzTLLbk-llKtiIxElJWaOoBFL4UObWSz_r-3nnChBYM8A" "$1.zip" 2530 d66b4497ae809bfad0ec8c8759f70e8a "$1.zip"
-;;
-
-Systemless_OnePlusLauncher)
-id='Systemless_OnePlusLauncher'
-name='一加桌面'
-version='v6.2'
-versionCode='30100'
-author='MrSluffy & GodLeaveMe'
-description='一加桌面修改版，拥有一些额外的定制选项，仅适用于安卓10/11'
-time='2021年7月5号'
-    [[ $Choice = 1 ]] && Download -net "EajjvxidQKNGqs0FYFqD6xIB-72sWKcmL4i7sDyS_rIfOw" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
-;;
-
 Model_Camouflage)
 id='Model_Camouflage'
 name='机型伪装'
@@ -756,13 +712,111 @@ time='2021年8月22号'
     [[ $Choice = 1 ]] && Download -net "Ea5Sa_KI0MtEnGpM3PHUcPUBIWVTvqu9Trl_ozjWK3N-cw" "$1.zip" 3987 1dac8536ce25fdf6f0f46d4d146bd38a "$1.zip"
 ;;
 
+Remove_Temperature_Control)
+id='Remove_Temperature_Control'
+name='移除温控'
+version='v2.1'
+versionCode=12
+author='People11'
+description='以Magisk模块移除温控文件'
+time='2021年9月2号'
+;;
+
+Systemless_OnePlusLauncher)
+id='Systemless_OnePlusLauncher'
+name='一加桌面'
+version='v6.2'
+versionCode='30100'
+author='MrSluffy & GodLeaveMe'
+description='一加桌面修改版，拥有一些额外的定制选项，仅适用于安卓10/11'
+time='2021年7月5号'
+    [[ $Choice = 1 ]] && Download -net "EajjvxidQKNGqs0FYFqD6xIB-72sWKcmL4i7sDyS_rIfOw" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
+;;
+
+github-hosts)
+Show_Compatibility_Mode=0
+id='github-hosts'
+name='Github防污染'
+version='v3'
+versionCode=11
+author='快播内部工作人员'
+description='解决Github网址打不开的问题'
+time='2021年9月13号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
+lanzou-hosts)
+Show_Compatibility_Mode=0
+id='lanzou-hosts'
+name='解决蓝奏云旧网址打不开'
+version='v1'
+versionCode=1
+author='People11'
+description='解决蓝奏云旧网址打不开的问题'
+time='2021年8月12号'
+    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+;;
+
+Volume_Adjustment)
+id='Volume_Adjustment'
+name='媒体音量级别调节'
+version='v1.3'
+versionCode='3'
+author='by：Han | 情非得已c'
+description='将默认的按下音量键15次后放大至最大音量，更改为自己喜欢的数值，只在小米上测试OK，其它机型自己测试'
+time='2021年5月29号'
+;;
+
+FCGreen)
+id='FCGreen'
+name='强制快充模块'
+version='v2'
+versionCode='2'
+author='NTH'
+description='白话快充模块修改版，可在刷入时通过音量键选择充电功率'
+time='2021年6月6号'
+    [[ $Choice = 1 ]] && Download -net "EZY0ljohVtBGsJ-KTdGtv_oBevc9RSnWjB3zoMUDL68qtA" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
+;;
+
+pingfanggooglesansscprom)
+id='pingfanggooglesansscprom'
+name='苹方Pro Google Sans简体中粗'
+version='2020-02-19 01'
+versionCode='1'
+author='快播内部工作人员'
+description='５字重 苹方-简 Google Sans 优化版 中粗'
+time='2022年1月28号'
+    [[ $Choice = 1 ]] && Download -net "Efco6XufKO5NvL7bBkdBs5ABV98DlX9DoGbclegTxs__tA" "$1.zip" 50831383 a3cfc72938956c8c85dabcbf1d2244c4 "$1.zip"
+;;
+
+Convert_to_system_app)
+id='Convert_to_system_app'
+name='三方应用转系统应用'
+version='v1.2'
+versionCode='2'
+author='by：Han | 情非得已c'
+description='自定义方式使用模块方式将三方应用转为系统应用'
+time='2021年5月29号'
+;;
+
+keepqdark)
+id='keepqdark'
+name='强制黑暗模式'
+version='v1'
+versionCode='1'
+author='robgiering'
+description='在Android 10以上系统启用强制黑暗(ForceDark)模式'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EUx0K_tVJulOsBql_ZbUNdcB05vjcGzefPE0AL_DqT291Q" "$1.zip" 6574 bcf9188bc1b03729765def5c8ece039b "$1.zip"
+;;
+
 AsusLongshot3)
 id='AsusLongshot3'
 name='长截图组件'
 version='v3.0'
 versionCode='30'
 author='luis'
-description='提取自Asus手机系统的长截图组件，安装后需要手动添加磁铁，需要核心破解，仅适用于安卓10/11'
+description='提取自Asus手机系统的长截图组件，安装后需要手动添加磁贴，需要核心破解，仅适用于安卓10/11'
 time='2021年7月5号'
     case $SDK in
     30)
@@ -777,48 +831,37 @@ time='2021年7月5号'
     esac
 ;;
 
-Volume_Adjustment)
-id='Volume_Adjustment'
-name='媒体音量级别调节'
-version='v1.3'
-versionCode='3'
-author='by：Han | 情非得已c'
-description='将默认的按下音量键15次后放大至最大音量，更改为自己喜欢的数值，我只在小米上测试OK，其它机型自己测试'
+xposed)
+id='xposed'
+name='Xposed Framework（原始Xposed框架）'
+version='v90-beta3'
+versionCode='9030'
+author='rovo89 & topjohnwu'
+description='打包的官方Xposed框架 by @topjohnwu，支持安卓 5-8.1'
 time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "EVG-Xx6muUZJto5S9dGbYTABExX75NBM17KMos2fZjWH3w" "$1.zip" 108675627 d083690c555fa59b5f29112fc1dbb0dc "$1.zip"
 ;;
 
-github-hosts)
-Show_Compatibility_Mode=0
-id='github-hosts'
-name='Github防污染'
-version='v3'
-versionCode=11
-author='酷安 @快播内部工作人员'
-description='解决Github网址打不开的问题'
-time='2021年9月13号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
+sqlite3_gjzs)
+id='sqlite3_gjzs'
+name='SQLite3 For ARM设备'
+version='v3.28.0'
+versionCode='1'
+author='酷安@快播内部工作人员'
+description='为不自带SQLite3的机型挂载SQLite3二进制文件'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "ETs--Pdq-idAqp8lsHEC5BEBmVv0Ku9u7fZgDzRm2sgIOA" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
 ;;
 
-lanzou-hosts)
-Show_Compatibility_Mode=0
-id='lanzou-hosts'
-name='解决蓝奏云旧网址打不开'
-version='v1'
-versionCode=1
+Disable_Logs)
+id='Disable_Logs'
+name='关闭各种Log'
+version='v2'
+versionCode='2'
 author='People11'
-description='解决蓝奏云旧网址打不开'
-time='2021年8月12号'
-    [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-;;
-
-Remove_Temperature_Control)
-id='Remove_Temperature_Control'
-name='移除温控'
-version='v2.1'
-versionCode=12
-author='People11'
-description='以Magisk模块移除温控文件'
-time='2021年9月2号'
+description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
+time='2021年9月6号'
+    [[ $Choice = 1 ]] && Download -net "EbzTLLbk-llKtiIxElJWaOoBFL4UObWSz_r-3nnChBYM8A" "$1.zip" 2530 d66b4497ae809bfad0ec8c8759f70e8a "$1.zip"
 ;;
 
 Third_Party_Redirect)
@@ -855,23 +898,12 @@ time='2021年8月8号'
     [[ $Choice = 1 ]] && Download -net "ERFs6xBZvD1EiJ7ZnYJBtEwBvqAYJC4MkY3pnk4gCiNVrA" "$1.zip" 7815 4cf40745efb452cb5f0445b50ca74b76 "$1.zip"
 ;;
 
-FCGreen)
-id='FCGreen'
-name='强制快充模块'
-version='v2'
-versionCode='2'
-author='NTH'
-description='白话快充模块修改版，可在刷入时通过音量键选择充电功率'
-time='2021年6月6号'
-    [[ $Choice = 1 ]] && Download -net "EZY0ljohVtBGsJ-KTdGtv_oBevc9RSnWjB3zoMUDL68qtA" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
-;;
-
 shadow_screenshots)
 id='shadow_screenshots'
 name='阴影截图'
 version='v3.0.7'
 versionCode=3.0.7
-author='酷安@巴啦啦魔仙女王'
+author='屑'
 description='手机截图自动套阴影，具体配置参数修改module.prop'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "Efc6xG7sPOtIo2bGZltegKkBmI7tzbr_cN2g2VKe2_ZFGg" "$1.zip" 17581934 c7d15b82fd8cfb17cc4863e7ef2c20ff "$1.zip"
@@ -898,7 +930,7 @@ name='回忆小米8多合一'
 version='1.8.8.1'
 versionCode='10'
 author='回憶⁵²º¹³¹⁴'
-description="$name"
+description="回忆小米8多合一"
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EcJnNeAMtDFEhF6uIABQuQ0Bwv6tGLOsydVwWE1WkmYJ-A" "$1.zip" 197660037 291ee716396c31efd54e313d78b14579 "$1.zip"
 ;;
@@ -1085,7 +1117,7 @@ pig)
 MIUI=1
 Show_Compatibility_Mode=0
 id='pig'
-name='K30 全系列  全局猪鼻子'
+name='K30 全系列全局猪鼻子'
 version='v1.4'
 versionCode=4
 author='by：Han | 情非得已c & Teemo_omeeT'
@@ -1164,16 +1196,6 @@ description="$name"
 time='2021年5月29号'
 ;;
 
-Convert_to_system_app)
-id='Convert_to_system_app'
-name='三方应用转系统应用'
-version='v1.2'
-versionCode='2'
-author='by：Han | 情非得已c'
-description='自定义方式使用模块方式将三方应用转为系统应用'
-time='2021年5月29号'
-;;
-
 Clone_Configuration)
 id=Clone_Configuration
 name=克隆主用户EDXposed模块配置
@@ -1247,7 +1269,7 @@ name='关闭SELinux'
 version='v1.3'
 versionCode='3'
 author='by：Han | 情非得已c'
-description='在每次开机时，自动关闭SELinux，除非你很清楚关闭SELinux后果，否则不推荐使用本模块'
+description='在每次开机时，自动关闭SELinux，除非你很清楚关闭SELinux的后果，否则不要使用本模块'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
 ;;
@@ -1468,17 +1490,6 @@ author='宁静之雨'
 description='不修改系统文件实现多字重字体替换，勾选模块后重启生效，如果手机系统自带字体切换功能请务必切回系统默认字体，更多字体请关注微信公众号【宁静之雨】和小号【小梨科技】获取。注意，勾选多个字体模块会相互干扰，某些所谓开启系统隐藏特性的模块也会修改字体配置文件，同样会干扰我的字体显示效果。我的所有分享都完全免费，请勿轻信任何付费专享服务，如果喜欢我分享的字体，记得每天帮我点一下文章中间和底部的的广告，免费创作不易，还请多多支持。'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "ETW_izeFKY5NjBqhukTa6nQBuvA66O6agge9le_frcdh7Q" "$1.zip" 83743185 e90203bea5ad241fa3b8922a1fe2d6bf "$1.zip"
-;;
-
-keepqdark)
-id='keepqdark'
-name='Android10强制黑暗模式'
-version='v1'
-versionCode='1'
-author='robgiering'
-description='在Android Q上重新启动后强制黑暗(ForceDark)模式'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EUx0K_tVJulOsBql_ZbUNdcB05vjcGzefPE0AL_DqT291Q" "$1.zip" 6574 bcf9188bc1b03729765def5c8ece039b "$1.zip"
 ;;
 
 curl)
