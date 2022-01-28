@@ -1,5 +1,5 @@
-Configuration=2022012820
-Magisk_Warehouse_version=2022012820
+Configuration=2022012823
+Magisk_Warehouse_version=2022012823
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -715,11 +715,11 @@ time='2021年8月22号'
 Remove_Temperature_Control)
 id='Remove_Temperature_Control'
 name='移除温控'
-version='v2.1'
-versionCode=12
+version='v3'
+versionCode=15
 author='People11'
 description='以Magisk模块移除温控文件'
-time='2021年9月2号'
+time='2022年1月28号'
 ;;
 
 Systemless_OnePlusLauncher)
