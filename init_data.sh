@@ -1,5 +1,5 @@
-Configuration=2022012823
-Magisk_Warehouse_version=2022012823
+Configuration=2022020501
+Magisk_Warehouse_version=2022020501
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -1251,17 +1251,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EVvLkOWRNYpOqLuAfUt4C9QBaZ1Ji78KdBSepCXDvr0XcQ" "$1.apk" 179024 f90dee479057ead98f57deac3fb12168 "$1.apk" 1.6.2 102
 ;;
 
-emojiR)
-id='emojiR'
-name='Android11 emoji'
-version='11 beta3'
-versionCode='1'
-author='mdog'
-description='这是安卓11的新emoji'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EW95g8GhQJxGn-8LlJttuywBp-V2OZDjO6qXBxiVuPjiZQ" "$1.zip" 9133455 daacac30d0c4870dbfc8fe796d24f15e "$1.zip"
-;;
-
 SELinux_OFF)
 Show_Compatibility_Mode=0
 id='SELinux_OFF'
@@ -1284,28 +1273,6 @@ author='by：Han | 情非得已c'
 description='在每次开机时，自动开启SELinux，针对部分官改ROM默认关闭SELinux'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && . ./Magisk_Module/$1.sh
-;;
-
-scene_swap_controller)
-id='scene_swap_controller'
-name='Scene的附加模块(二)'
-version='2.4.0'
-versionCode='2400'
-author='嘟嘟Ski'
-description='Scene的附加模块之二（ZRAM/SWAP控制器），在开机时根据配置调整虚拟内存'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "Ef1wRMbbhutCquC9J6K_y-8Bom22jMJJmjNeECWrx1GTbQ" "$1.zip" 16690 9baf11b6e4ce8dd43f92c8764e1adb5f "$1.zip"
-;;
-
-scene_cgroup)
-id='scene_cgroup'
-name='Scene的附加模块(三)'
-version='1.0.0'
-versionCode='1'
-author='嘟嘟Ski'
-description='自动调节部分关键进程的cgroup(memory|cpu)，从资源分配策略上(理论)提高系统稳定性(流畅度方面)'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "Efqb9FJkvoRAgP-LO5QBKv0BgmBPsIDdnks66d6SGj4fSg" "$1.zip" 8896 c138428e8abe7bbd7c6f5748c353c659 "$1.zip"
 ;;
 
 riru-core)
@@ -1448,50 +1415,6 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EdPyR5UBVJRAr9MsvrLMaAkBoCRHUBIwSunHmk0MCtnYkg" "$1.zip" 4604 0c80645bedc55ef88012bb7a7411c4a1 "$1.zip"
 ;;
 
-ziyouzhiyi)
-id='ziyouzhiyi'
-name='自由之翼美化缩小版字体'
-version='v1'
-versionCode='1'
-author='@酷安by:巴啦啦魔仙女王'
-description='字体模块'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EcJ9KK4ZXg9NonQcf_fzXnQB2YsIuIGYdK0UNIbRBcom4g" "$1.zip" 5730560 6b6b310f616b9877c70af399bf86b3b4 "$1.zip"
-;;
-
-blacksharkfront)
-id='blacksharkfront'
-version='v3.0'
-name='黑鲨字体'
-versionCode='2'
-author='卐卐卐(1085373193)'
-description='黑鲨字体1.0'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EZJYBx4FT7JFtFQX1RMImZIBaUiYf_aLXa7_WTiWPvdrHQ" "$1.zip" 11818088 92214d4a5a5b84c6ea7e3438294f5d10 "$1.zip"
-;;
-
-201806112158)
-id='201806112158'
-name='金刚黑体DFKingGothicJP（2018年全网首发移植日系苹方），微信公众号：宁静之雨'
-version='2.0'
-versionCode='2'
-author='宁静之雨'
-description='不修改系统文件实现多字重字体替换，勾选模块后重启生效，如果手机系统自带字体切换功能请务必切回系统默认字体。'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "ERyuFdN2mfNMrTKXakiK9XgBDXBYmAJBzT09g5WF66V-7w" "$1.zip" 60131628 91aca7dbd08a18ede807e9caaf1d65f1 "$1.zip"
-;;
-
-201806031309)
-id='201806031309'
-name='iOS12苹方中英文+emoji移植'
-version='13.0d1e3'
-versionCode='1'
-author='宁静之雨'
-description='不修改系统文件实现多字重字体替换，勾选模块后重启生效，如果手机系统自带字体切换功能请务必切回系统默认字体，更多字体请关注微信公众号【宁静之雨】和小号【小梨科技】获取。注意，勾选多个字体模块会相互干扰，某些所谓开启系统隐藏特性的模块也会修改字体配置文件，同样会干扰我的字体显示效果。我的所有分享都完全免费，请勿轻信任何付费专享服务，如果喜欢我分享的字体，记得每天帮我点一下文章中间和底部的的广告，免费创作不易，还请多多支持。'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "ETW_izeFKY5NjBqhukTa6nQBuvA66O6agge9le_frcdh7Q" "$1.zip" 83743185 e90203bea5ad241fa3b8922a1fe2d6bf "$1.zip"
-;;
-
 curl)
 id=curl
 name='curl for Android NDK'
@@ -1501,17 +1424,6 @@ author='by：Han | 情非得已c & Github@Rui Ying'
 description='使用Android NDK构建，适用于arm arm64 x86 x86_64架构的安卓手机，由于x86和x86_64编译上的错误不知道解决未能编译出curl，所以特此引用了Github@Rui Ying的二进制curl，https://github.com/robertying/openssl-curl-android，特别鸣谢Android NDK & libssh2 & nghttp2 & openssl & curl网站'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EUmzoh7ji1RIkjYFq1KTKEABd4ZLp26bELvsYGrx7KdeEA" "$1.zip" 7907878 2588203be6cdfe0d03a05d5b0ec0e9d1 "$1.zip"
-;;
-
-mi.an)
-id='mi.an'
-name='给米安配个主题'
-version='v1'
-versionCode='1'
-author='@酷安by:巴啦啦魔仙女王'
-description='请使用白色默认主题蟹蟹'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "Ec7Cq3F_KMpApu39jPko7HYBoVZAIdtdWmYn-dGInOynAw" "$1.zip" 3643715 4dc82ced9f17623bc287f69b2a5e42e7 "$1.zip"
 ;;
 
 org.meowcat.edxposed.manager.45700)
