@@ -1,4 +1,4 @@
-Configuration=2022020501
+Configuration=2022030820
 Magisk_Warehouse_version=2022020501
 Show_Compatibility_Mode=1
 MIUI=0
@@ -29,15 +29,15 @@ time='2021年10月3号'
     [[ $Choice = 1 ]] && Download -net 'EWC_UKV_0AFCgH2SjE5vezgB6d2SQvBlToJV1soB-aVV5w' "$1.apk" 1438289 5d0c5ce9ca27e93b8e0f63988c8cae1e "$1.apk"
 ;;
 
-com.whatsbug.litiaotiao)
-apk='com.whatsbug.litiaotiao'
+com.litiaotiao.app)
+apk='com.litiaotiao.app'
 name='李跳跳'
-version='派大星1.75'
-versionCode='20'
+version='波吉1.0_beta3'
+versionCode='1'
 author='李跳跳'
 description='我还能说什么呢，Fuck资本家'
-time='2021年8月21号'
-    [[ $Choice = 1 ]] && Download -net "ET0Bh8Ti9ZRFvcAHcjSHuLwBmXSi7FG6tvKYqwPGUNCABw" "$1.apk" 2043406 66e437f3a19e5d08d119bc6c4af7d3b6 "$1.apk"
+time='2022年3月8号'
+    [[ $Choice = 1 ]] && Download -net "EcPZcj60A-1Lun0CsxHX4lMBZ6buQJs_aZndAfOfzFCpjA" "$1.apk" 2523002 6bc71ab575295f29a1d5c391aa3f69ba "$1.apk"
 ;;
 
 org.meowcat.edxposed.manager)
@@ -138,15 +138,15 @@ description='界面美观又好用的设备信息查看工具'
 time='2021年8月8号'
     [[ $Choice = 1 ]] && Download -net "EXBh7CyuVUBDu_qrmTkgwJcB83p2RKArkX3vS_jYR3rmeA" "$1.apk" 7718532 d3d842b3b9385319416eeae61cf470ea "$1.apk"
 ;;
-cn.trinea.android.developertools)
-apk='cn.trinea.android.developertools'
+cn.trinea.android.developertools.pro)
+apk='cn.trinea.android.developertools.pro'
 name='Dev Tools'
-version='6.3.7'
-versionCode=637
+version='6.4.0'
+versionCode=640
 author='Trinea'
-description='开发助手，比那个开发工具箱还厉害，强烈推荐'
-time='2021年6月14号'
-    [[ $Choice = 1 ]] && Download -net "EWOkuDZbqCFLkPQ2Ps7MkisB-ntK1JiJOqJNe3w9tw3VtQ" "$1.apk" 4788183 9a49d03532eb4a03f155e8d201b0315b "$1.apk"
+description='开发助手，比开发工具箱还厉害，强烈推荐'
+time='2022年3月8号'
+    [[ $Choice = 1 ]] && Download -net "EctLmDHz459AkOjEYgKnI_gBDxfivbjL7Y9dWWX46RUtsw" "$1.apk" 5690322 498c2dea57cfbf8ec9c88ba5f10efe2e "$1.apk"
 ;;
 
 com.su.assistant.pro)
