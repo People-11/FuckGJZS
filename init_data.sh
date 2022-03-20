@@ -733,9 +733,9 @@ time='2022年3月20号'
     [[ $Choice = 1 ]] && Download -net "Ec8q5vyWMK9NrJTsnzesrmMB795_A8ma79ww8brWilslgA" "$1.zip" 7569864 6cc6d4903022e6d0d19c9b8daa09194b "$1.zip"
 ;;
 
-riru_storage_redirect)
-id='riru_storage_redirect'
-name='Riru - Enhanced mode for Storage Isolation'
+zygisk-storage-isolation)
+id='zygisk-storage-isolation'
+name='Zygisk - Enhanced mode for Storage Isolation'
 version='v26.2.0'
 versionCode='80'
 author='Rikka  酷安@蓝莓味绿茶 '
