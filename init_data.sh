@@ -1,5 +1,5 @@
-Configuration=2022030820
-Magisk_Warehouse_version=2022020501
+Configuration=2022032015
+Magisk_Warehouse_version=2022032015
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -612,28 +612,16 @@ description='用途：当刷入某模块后导致无法正常开机，自动触�
 time='2021年5月29号'
 ;;
 
-riru_edxposed)
-showapk='4.6.2-pre (46200)'
-id='riru_edxposed'
-name='Riru - EdXposed'
-version='v0.5.2.2_4683-master'
-versionCode='4683'
-author='solohsu, MlgmXyysd'
-description='一款基于Riru API开发的Xposed框架，支持运行在安卓8 ~ 11系统上。需要安装Riru v23或更高版本'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "ETtVtznmhBREsn9dVxEME1QBIvqPjjQrvERuffYqJDrhxA" "$1.zip" 3461516 71382a57c7e7861b4695d2089e5422a9 "$1.zip"
-;;
-
 riru_dreamland)
 showapk='0.0.5(5)'
 id='riru_dreamland'
-name='Riru - Dreamland（梦境框架）'
+name='Dreamland（梦境框架）'
 author='canyie'
-version='2.0'
-versionCode='2005'
-description='一款基于Riru API开发的Xposed框架，支持运行在安卓 7.0 ~ 11，需要安装Riru v23或更高版本'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "ETz2hOTHz7VIuqfhjtwUVecBGyBngtQWK9TiB_ob2RP6PQ" "$1.zip" 728977 54cee829bcfe5cd559ed80b811356647 "$1.zip"
+version='2.1_2101'
+versionCode='2101'
+description='一款同时支持Riru与Zygisk的Xposed框架，支持安卓7 ~ 12，可通过开关Zygisk切换Zygisk与Riru模式'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "ERfLpIOrnQZLj1sv4k_ronABr_oEOmsKDJi-x2Z2scKkpg" "$1.zip" 550658 56beb48bf5ec49c52a9affd58e2dfde8 "$1.zip"
 ;;
 
 EnablePixel2019VoLteSoliEnabler)
@@ -672,12 +660,12 @@ time='2021年6月13号'
 safetynet-fix)
 id='safetynet-fix'
 name='SafetyNet修复模块'
-version='v2.1.2'
-versionCode='20102'
+version='v2.2.1'
+versionCode='20201'
 author='Kdrag0n'
-description='一定程度上修复SafetyNet不通过的问题，需要安装Riru-Core 以及开启Magisk Hide'
-time='2021年11月16号'
-    [[ $Choice = 1 ]] && Download -net "EXXUcrQOwxFLrDXT5mWSfEkBFm5oh5fTZvW6ls8Xh_4sDA" "$1.zip" 27274 c1aacc2382fb7bf5f11a7ed143ac43bf "$1.zip"
+description='一定程度上修复SafetyNet不通过的问题，需要 Magisk 24+ 并开启 Zygisk'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "EYvub7s2d6hLtz4NuuechJ4B8JwOO4jp200sQGYL7_LdjA" "$1.zip" 95380 c1d54ee1775275c2288c3872fe314a33 "$1.zip"
 ;;
 
 UniversalGMSDoze)
@@ -689,16 +677,6 @@ author='gloeyisk'
 description='修改电池优化配置，允许谷歌框架休眠，以达到省电的效果'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EfaJBXqPKHpFm6ieGcm9Jw8BkArG-HqKW9ghqrtuerzUZw" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
-;;
-
-Model_Camouflage)
-id='Model_Camouflage'
-name='机型伪装'
-version='v114514'
-versionCode='114514'
-author='People11'
-description='通过Magisk修改prop达到机型伪装'
-time='2021年8月8号'
 ;;
 
 HTTPCanaryCA_To_System)
@@ -722,6 +700,61 @@ description='以Magisk模块移除温控文件'
 time='2022年1月28号'
 ;;
 
+pingfanggooglesansscprom)
+id='pingfanggooglesansscprom'
+name='苹方Pro Google Sans简体中粗'
+version='2020-02-19 01'
+versionCode='1'
+author='快播内部工作人员'
+description='５字重 苹方-简 Google Sans 优化版 中粗'
+time='2022年1月28号'
+    [[ $Choice = 1 ]] && Download -net "Efco6XufKO5NvL7bBkdBs5ABV98DlX9DoGbclegTxs__tA" "$1.zip" 50831383 a3cfc72938956c8c85dabcbf1d2244c4 "$1.zip"
+;;
+
+busybox-ndk)
+id='busybox-ndk'
+name='Busybox for Android NDK'
+version='1.34.1'
+versionCode='13411'
+author='osm0sis @ xda-developers'
+description='Busybox二进制命令，适用于使用NDK构建的所有Android手机'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "ESqDWrO1WZBJqvCWVmGT0ioB2VlJ9R7-wUSlGF06b7eR3Q" "$1.zip" 10192924 be5529e8029c040ba78b78b0d5ecdc84 "$1.zip"
+;;
+
+gvisualmod)
+id='gvisualmod'
+name='G-Visual Mod'
+version='v4.1'
+versionCode='36'
+author='Gnonymous7'
+description='小白条隐藏/沉浸与全局圆角，安装重启后使用终端输入gvm以调整效果'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "Ec8q5vyWMK9NrJTsnzesrmMB795_A8ma79ww8brWilslgA" "$1.zip" 7569864 6cc6d4903022e6d0d19c9b8daa09194b "$1.zip"
+;;
+
+riru_storage_redirect)
+id='riru_storage_redirect'
+name='Riru - Enhanced mode for Storage Isolation'
+version='v26.2.0'
+versionCode='80'
+author='Rikka  酷安@蓝莓味绿茶 '
+description='启用存储空间隔离（存储重定向）的增强模式，需要 Magisk 24+ 并开启 Zygisk'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "EdOT0wjUFHJPjXL5fsanFFEBd3DjnF1By9amoXHpihiDcQ" "$1.zip" 140023 7367befc143e79f13916f31ecb5514ba "$1.zip"
+;;
+
+disable-screenshot-camera-sounds)
+id='disable-screenshot-camera-sounds'
+name='关闭截图与相机提示音'
+version='1.4'
+versionCode='5'
+author='ant9000'
+description='此模块可以关闭截图与相机的提示音，可能不适用于某些系统'
+time='2022年3月20号'
+    [[ $Choice = 1 ]] && Download -net "ESrB-IxKpw1AvbQfqtTkFwQBKzkEcdzHK3bf-u5H6Cra1g" "$1.zip" 20725 93aba1232f731a6b089b8a95aa0394a8 "$1.zip"
+;;
+
 Systemless_OnePlusLauncher)
 id='Systemless_OnePlusLauncher'
 name='一加桌面'
@@ -731,6 +764,38 @@ author='MrSluffy & GodLeaveMe'
 description='一加桌面修改版，拥有一些额外的定制选项，仅适用于安卓10/11'
 time='2021年7月5号'
     [[ $Choice = 1 ]] && Download -net "EajjvxidQKNGqs0FYFqD6xIB-72sWKcmL4i7sDyS_rIfOw" "$1.zip" 43448873 bc74dc39909b75b2e0e90e879249edd1 "$1.zip"
+;;
+
+Model_Camouflage)
+id='Model_Camouflage'
+name='机型伪装'
+version='v114514'
+versionCode='114514'
+author='People11'
+description='通过Magisk修改prop达到机型伪装'
+time='2021年8月8号'
+;;
+
+Convert_to_system_app)
+id='Convert_to_system_app'
+name='三方应用转系统应用'
+version='v1.2'
+versionCode='2'
+author='by：Han | 情非得已c'
+description='自定义方式使用模块方式将三方应用转为系统应用'
+time='2021年5月29号'
+;;
+
+riru_edxposed)
+showapk='4.6.2-pre (46200)'
+id='riru_edxposed'
+name='Riru - EdXposed'
+version='v0.5.2.2_4683-master'
+versionCode='4683'
+author='solohsu, MlgmXyysd'
+description='一款基于Riru API开发的Xposed框架，支持安卓8 ~ 11。需要安装Riru v23或更高版本'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -net "ETtVtznmhBREsn9dVxEME1QBIvqPjjQrvERuffYqJDrhxA" "$1.zip" 3461516 71382a57c7e7861b4695d2089e5422a9 "$1.zip"
 ;;
 
 github-hosts)
@@ -778,27 +843,6 @@ time='2021年6月6号'
     [[ $Choice = 1 ]] && Download -net "EZY0ljohVtBGsJ-KTdGtv_oBevc9RSnWjB3zoMUDL68qtA" "$1.zip" 231902 722c23445ed132e864e6f92ba0c75716 "$1.zip"
 ;;
 
-pingfanggooglesansscprom)
-id='pingfanggooglesansscprom'
-name='苹方Pro Google Sans简体中粗'
-version='2020-02-19 01'
-versionCode='1'
-author='快播内部工作人员'
-description='５字重 苹方-简 Google Sans 优化版 中粗'
-time='2022年1月28号'
-    [[ $Choice = 1 ]] && Download -net "Efco6XufKO5NvL7bBkdBs5ABV98DlX9DoGbclegTxs__tA" "$1.zip" 50831383 a3cfc72938956c8c85dabcbf1d2244c4 "$1.zip"
-;;
-
-Convert_to_system_app)
-id='Convert_to_system_app'
-name='三方应用转系统应用'
-version='v1.2'
-versionCode='2'
-author='by：Han | 情非得已c'
-description='自定义方式使用模块方式将三方应用转为系统应用'
-time='2021年5月29号'
-;;
-
 keepqdark)
 id='keepqdark'
 name='强制黑暗模式'
@@ -808,6 +852,17 @@ author='robgiering'
 description='在Android 10以上系统启用强制黑暗(ForceDark)模式'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EUx0K_tVJulOsBql_ZbUNdcB05vjcGzefPE0AL_DqT291Q" "$1.zip" 6574 bcf9188bc1b03729765def5c8ece039b "$1.zip"
+;;
+
+Disable_Logs)
+id='Disable_Logs'
+name='关闭各种Log'
+version='v2'
+versionCode='2'
+author='People11'
+description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
+time='2021年9月6号'
+    [[ $Choice = 1 ]] && Download -net "EbzTLLbk-llKtiIxElJWaOoBFL4UObWSz_r-3nnChBYM8A" "$1.zip" 2530 d66b4497ae809bfad0ec8c8759f70e8a "$1.zip"
 ;;
 
 AsusLongshot3)
@@ -851,17 +906,6 @@ author='酷安@快播内部工作人员'
 description='为不自带SQLite3的机型挂载SQLite3二进制文件'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "ETs--Pdq-idAqp8lsHEC5BEBmVv0Ku9u7fZgDzRm2sgIOA" "$1.zip" 383208 69488bf64da2bde971dee5d657bde6f9 "$1.zip"
-;;
-
-Disable_Logs)
-id='Disable_Logs'
-name='关闭各种Log'
-version='v2'
-versionCode='2'
-author='People11'
-description='尽可能关闭各种Log服务，略微降低系统负载并提高流畅性，此模块可能导致开发者选项页面无法打开'
-time='2021年9月6号'
-    [[ $Choice = 1 ]] && Download -net "EbzTLLbk-llKtiIxElJWaOoBFL4UObWSz_r-3nnChBYM8A" "$1.zip" 2530 d66b4497ae809bfad0ec8c8759f70e8a "$1.zip"
 ;;
 
 Third_Party_Redirect)
@@ -1294,17 +1338,6 @@ elif [[ $Riru_version -eq 1 ]]; then
 fi
 ;;
 
-riru_storage_redirect)
-id='riru_storage_redirect'
-name='Riru - Enhanced mode for Storage Isolation'
-version='v24.1.2'
-versionCode='62'
-author='Rikka  酷安@蓝莓味绿茶 '
-description='启用存储空间隔离（存储重定向）的增强模式'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EYroX76AQmRFkDYvPKKK7ikB2s-6hPIguOjuseOx1t-UQg" "$1.zip" 110511 56f16e1af1c23d366932f0e99579e9e3 "$1.zip"
-;;
-
 riru-module-xfingerprint-pay-wechat)
 id='riru-module-xfingerprint-pay-wechat'
 name='Riru - 指纹支付 - 微信'
@@ -1380,17 +1413,6 @@ author='酷安:@永恒丶叶子'
 description='使用方法：第三方REC→高级→在终端中运行 "/data/media/mm"、"/sdcard/mm"、"*/mm"、增加切换 magisk核心功能、增加备份还原模块!增加一键操作！'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -net "EaJeOYchEKNEhreaJ3kIfK4Bqh4r-JoKtQWndnGI0Y_-Yg" "$1.zip" 7374 f898f49917c231fae144e1ba60a58a14 "$1.zip"
-;;
-
-busybox-ndk)
-id='busybox-ndk'
-name='Busybox for Android NDK'
-version='1.33.1'
-versionCode='13310'
-author='osm0sis @ xda-developers'
-description='Busybox二进制命令，适用于使用NDK构建的所有Android手机'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net "EQ3SUrlR1CVDvxIzNjuQWKYBQ4ObvQrPBRyTmM2CbQWOqg" "$1.zip" 9833244 f1928bb32f940b7cb3ccff0c84178f3c "$1.zip"
 ;;
 
 kfmark)
