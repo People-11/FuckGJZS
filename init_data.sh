@@ -1,5 +1,5 @@
-Configuration=2022032015
-Magisk_Warehouse_version=2022032015
+Configuration=2022040417
+Magisk_Warehouse_version=2022040417
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -9,13 +9,13 @@ case "$1" in
 #应用
 com.topjohnwu.magisk)
 apk='com.topjohnwu.magisk'
-name='Magisk'
-version='23.0'
-versionCode='23000'
-author='John Wu'
-description='Magisk Manager'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -net 'EfrVxbY4mWlIsDEIODB3gCAB0iQRej5wYB0GdfsCFhNz5w' "$1.apk" 6874374 ea450d98c25b4e09bb353e5bef8ca8a0 "$1.apk"
+name='Magisk Custom'
+version='5f805db9'
+versionCode='23016'
+author='John Wu & TheHitMan7'
+description='一个同时支持 Zygisk 与 Magisk Hide 并保留在线模块仓库与 SafetyNet 检查的第三方 Magisk Manager'
+time='2022年4月4号'
+    [[ $Choice = 1 ]] && Download -net 'EaQvtio8IRFLo8WDzIIQdJ4Bn3q_td9Y0bb8Tx9xRdFXaA' "$1.apk" 10779077 9fa04a463216129031a3e6a530dace7e "$1.apk"
 ;;
 
 Han.GJZS)
@@ -27,6 +27,17 @@ author='FuckGJZS'
 description='可以在此处更新搞机助手'
 time='2021年10月3号'
     [[ $Choice = 1 ]] && Download -net 'EWC_UKV_0AFCgH2SjE5vezgB6d2SQvBlToJV1soB-aVV5w' "$1.apk" 1438289 5d0c5ce9ca27e93b8e0f63988c8cae1e "$1.apk"
+;;
+
+Han.automatic.rescue)
+apk='Han.automatic.rescue'
+name='神仙自动救砖'
+version='v2021090800'
+versionCode='95'
+author='Han | 情非得已c'
+description='神仙自动救砖，看上去情非得已直接做了个应用'
+time='2022年4月4号'
+    [[ $Choice = 1 ]] && Download -net 'ETIfEfg_gvRKv-HGoFb0xHIB-Y_INtGu3wB-9Jh8FakiRA' "$1.apk" 1680325 9b538f2ad50cd47bb35199acc615c02d "$1.apk"
 ;;
 
 com.litiaotiao.app)
@@ -602,16 +613,6 @@ time='2021年5月29号'
 ;;
 
 #模块
-Automatic_brick_rescue)
-id='Automatic_brick_rescue'
-name='自动神仙救砖'
-version='v2021041500'
-versionCode=35
-author='by：Han | 情非得已c'
-description='用途：当刷入某模块后导致无法正常开机，自动触发已设置好的救砖操作'
-time='2021年5月29号'
-;;
-
 riru_dreamland)
 showapk='0.0.5(5)'
 id='riru_dreamland'
@@ -781,7 +782,7 @@ id='Convert_to_system_app'
 name='三方应用转系统应用'
 version='v1.2'
 versionCode='2'
-author='by：Han | 情非得已c'
+author='Han | 情非得已c'
 description='自定义方式使用模块方式将三方应用转为系统应用'
 time='2021年5月29号'
 ;;
