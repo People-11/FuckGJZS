@@ -1,4 +1,4 @@
-Configuration=2022040417
+Configuration=2022040522
 Magisk_Warehouse_version=2022040417
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1664,7 +1664,7 @@ com.miui.miwallpaper.snowmountain)
 Install_Applet)
     name=Applet
     versionCode=73
-    Install_Applet -net "EWMnMW0Zbg1HjurzvIlNM0sBbBBVRNwysHaWjsTzV7tOng" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
+    Install_Applet -chaoxing "c008b755a09dfa04eab2f41a0531496b" "$name.zip" 7362205 4b72333cf5ca2edff20743f58de71cbb "$name" $versionCode
 ;;
 
 binwalk)

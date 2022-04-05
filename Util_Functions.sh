@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2021121618
+export Util_Functions_Code=2022040522
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -525,6 +525,10 @@ Download() {
             -net)
                 shift
                 Link="https://bincat-my.sharepoint.com/personal/people11_bincat_onmicrosoft_com/_layouts/52/download.aspx?share=$ID"
+            ;;
+            -chaoxing)
+                shift
+                Link="http://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=$ID"
             ;;
             *)
                 abort "暂不支持下载"
