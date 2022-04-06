@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2022040613
+export Util_Functions_Code=2022040614
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -431,9 +431,9 @@ Start_Download() {
                     if [[ $File_Size -ge 1048576 ]]; then
                         File_Type=`awk "BEGIN{print $File_Size/1048576}"`MB
                     elif [[ $File_Size -ge 1024 ]]; then
-                        File_Type=`awk "BEGIN{print $File_Size/1024}"`kb
+                        File_Type=`awk "BEGIN{print $File_Size/1024}"`KB
                     elif [[ $File_Size -le 1024 ]]; then
-                        File_Type=${File_Size}b
+                        File_Type=${File_Size}B
                     fi
                     echo "- 正在下载 [$File_Name2]，文件总大小：${File_Type}"
                     echo -e "\n-----------------------------------------"
@@ -446,7 +446,6 @@ Start_Download() {
                                if [[ $YiXZ -gt 0 ]]; then
                                    YiXZ_SuDu=`awk "BEGIN{print ($YiXZ_2-$YiXZ)*2}"`
                                    Remaining_Time=`awk "BEGIN{print ($File_Size-$YiXZ_2)/$YiXZ_SuDu}" 2>/dev/null`
-                                   Remaining_Time=${Remaining_Time:-0}
                                    Percentage=`awk "BEGIN{print $YiXZ_2/($File_Size/100)}" 2>/dev/null`
                                    #show_progress ${Percentage%.*}
                                        if [[ $YiXZ_2 -ge 1048576 ]]; then
@@ -458,11 +457,11 @@ Start_Download() {
                                        fi
                                            Schedule() { echo "- 已下载：${Size2}/$File_Type 已完成${Percentage}%" ; echo "-----------------------------------------"; }
                                            if [[ $YiXZ_SuDu -ge 1048576 ]]; then
-                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
                                            elif [[ $YiXZ_SuDu -ge 1024 ]]; then
-                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`KB/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`KB/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
                                            elif [[ $YiXZ_SuDu -lt 1024 && $YiXZ_SuDu -gt 0 ]]; then
-                                               echo -n "- 正在下载：${YiXZ_SuDu}b/s"; echo " 剩余时间$Remaining_Time/s"; Schedule
+                                               echo -n "- 正在下载：${YiXZ_SuDu}B/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
                                            elif [[ $YiXZ_SuDu -eq 0 ]]; then
                                                code=`cat "$Status"`
                                                if [[ $code = 0 ]]; then
