@@ -448,7 +448,7 @@ Start_Download() {
                                    Remaining_Time=`awk "BEGIN{print ($File_Size-$YiXZ_2)/$YiXZ_SuDu}" 2>/dev/null`
                                    Remaining_Time=${Remaining_Time:-0}
                                    Percentage=`awk "BEGIN{print $YiXZ_2/($File_Size/100)}" 2>/dev/null`
-                                   show_progress ${Percentage%.*}
+                                   #show_progress ${Percentage%.*}
                                        if [[ $YiXZ_2 -ge 1048576 ]]; then
                                            Size2=`awk "BEGIN{print $YiXZ_2/1048576}"`MB
                                        elif [[ $YiXZ_2 -ge 1024 ]]; then
