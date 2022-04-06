@@ -1,4 +1,4 @@
-Configuration=2022040701
+Configuration=2022040702
 Magisk_Warehouse_version=2022040701
 Show_Compatibility_Mode=1
 MIUI=0
@@ -51,37 +51,15 @@ time='2022年3月8号'
     [[ $Choice = 1 ]] && Download -chaoxing "fea29b2ebb6d1b80cb0d0eced1e8b1d0" "$1.apk" 2523002 6bc71ab575295f29a1d5c391aa3f69ba "$1.apk"
 ;;
 
-org.meowcat.edxposed.manager)
-apk='org.meowcat.edxposed.manager'
-name='EdXposed Manager'
-version='4.6.2'
-versionCode='46200'
-author='MlgmXyysd'
-description='EDXposed框架模块管理器'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "4c0efd7070d73941b4b806dbf21b638f" "$1.apk" 3550938 a712f351af88497bc2fb6fae009e49bf "$1.apk"
-;;
-
-de.robv.android.xposed.installer)
-apk='de.robv.android.xposed.installer'
-name='Xposed Installer'
-version='3.1.5'
-versionCode='43'
-author=rovo89
-description='原版Xposed，提供Xposed模块管理，Xposed安装与卸载'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "4ac74d50da825b6c6db74551d4f0b9ba" "$1.apk" 3105672 315362d994986e6584203fca282f4472 "$1.apk"
-;;
-
-top.canyie.dreamland.manager)
-apk='top.canyie.dreamland.manager'
-name='梦境'
-version='0.0.7'
-versionCode='7'
-author=canyie
-description='梦境框架管理器'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "5d5c14440f361ba03394e3201cac0e57" "$1.apk" 2041765 33ea0e394f1fb6b92b43037392a01401 "$1.apk"
+org.swiftapps.swiftbackup)
+apk='org.swiftapps.swiftbackup'
+name='Swift Backup'
+version='4.0.7'
+versionCode=540
+author='SwiftApps'
+description='美观又强大的备份工具'
+time='2022年4月7号'
+    [[ $Choice = 1 ]] && Download -chaoxing "aa5373b11afe50fc51bfafb6e3ffa2d6" "$1.apk" 24916125 457e2a02866b4370611193847dc64aa2 "$1.apk"
 ;;
 
 com.termux)
@@ -95,39 +73,6 @@ time='2022年1月11号'
     [[ $Choice = 1 ]] && Download -chaoxing "f7bfe67f8464abf91f3dc8f68b8ae13f" "$1.apk" 101739523 bd3af0ad4bbe9def1d6bb2e189e1b4e5 "$1.apk"
 ;;
 
-ru.zdevs.zarchiver.pro)
-apk='ru.zdevs.zarchiver.pro'
-name='ZArchiver Pro'
-version='0.9.5.8'
-versionCode=9595
-author='Zdevs'
-description='解压缩神器'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "b54d03ec5ecd749534df93b28b5b645d" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
-;;
-
-com.qingyu.wifikey)
-apk='com.qingyu.wifikey'
-name='WiFi万能钥匙'
-version='4.3.10'
-versionCode=210904
-author='清羽'
-description='WiFi万能钥匙，由清羽精简'
-time='2021年10月3号'
-    [[ $Choice = 1 ]] && Download -chaoxing "7b1a956f41c37a896866e49c8ee9e591" "$1.apk" 5227674 afddd34358183070c924bc0723ce5ec3 "$1.apk"
-;;
-
-com.xyj.batkill.batkill)
-apk='com.xyj.batkill.batkill'
-name='BATKill'
-version='2.2.3'
-versionCode=30
-author='席大'
-description='方便的干掉腾讯系内核以及阿里系内核'
-time='2021年10月14号'
-    [[ $Choice = 1 ]] && Download -chaoxing "aafc50412f44003257b53504d4a7554b" "$1.apk" 147844 1ffc47787f02d961d9870c5d701fd82a "$1.apk"
-;;
-
 com.yxer.packageinstalles)
 apk='com.yxer.packageinstalles'
 name='R-安装组件'
@@ -139,17 +84,6 @@ time='2022年4月6号'
     [[ $Choice = 1 ]] && Download -chaoxing "ee25e695dd37f9f1b08011df8a0be362" "$1.apk" 1988960 33a404fd9f0e27c952ada144ff6ef626 "$1.apk"
 ;;
 
-flar2.devcheck)
-apk='flar2.devcheck'
-name='DevCheck'
-version='3.39'
-versionCode=339
-author='Flar2'
-description='界面美观又好用的设备信息查看工具'
-time='2021年8月8号'
-    [[ $Choice = 1 ]] && Download -chaoxing "4ea7c9616796dedf00e119bc234783d3" "$1.apk" 7718532 d3d842b3b9385319416eeae61cf470ea "$1.apk"
-;;
-
 cn.trinea.android.developertools.pro)
 apk='cn.trinea.android.developertools.pro'
 name='Dev Tools'
@@ -159,72 +93,6 @@ author='Trinea'
 description='开发助手，比开发工具箱还厉害，强烈推荐'
 time='2022年3月8号'
     [[ $Choice = 1 ]] && Download -chaoxing "3de998ccb476fa182db73ff0ccdcd836" "$1.apk" 5690322 498c2dea57cfbf8ec9c88ba5f10efe2e "$1.apk"
-;;
-
-com.su.assistant.pro)
-apk='com.su.assistant.pro'
-name='Android 开发工具箱'
-version='2.3.5'
-versionCode=114
-author='su1216'
-description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
-time='2021年8月8号'
-    [[ $Choice = 1 ]] && Download -chaoxing "ad446a7bebadad8594b986903787c055" "$1.apk" 30013005 e2c3daf3092f32998b254d699a5bb88b "$1.apk"
-;;
-
-com.farplace.qingzhuo)
-apk='com.farplace.qingzhuo'
-name='清浊'
-version='1.7.8'
-versionCode=79
-author='FarPlace'
-description='简洁美观而又强大的基于规则的清理工具'
-time='2022年1月24号'
-    [[ $Choice = 1 ]] && Download -chaoxing "1654d3998580cc3d24673e31f9f60934" "$1.apk" 3591402 f4373100b0e238a74df02ed8b13d7a09 "$1.apk"
-;;
-
-com.ioncannon.cpuburn.gpugflops)
-apk='com.ioncannon.cpuburn.gpugflops'
-name='GPU GFLOPS'
-version='2.1'
-versionCode=1
-author='ioncannon'
-description='测试你的设备的CPU/GPU算力，并直观的显示结果（注：此APK经过修改，修复了部分机型闪退的问题，但可能导致无法读取温度）'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "28e1c6497257070b8befcdb2388da6f8" "$1.apk" 1655528 7818528f405fe2b78843244dd78fc65d "$1.apk"
-;;
-
-com.vmos.pro)
-apk='com.vmos.pro'
-name='VMOS Pro'
-version='1.2.3'
-versionCode=10203
-author='VMOS'
-description='VMOS Pro极限精简版，大小仅8M'
-time='2021年6月8号'
-    [[ $Choice = 1 ]] && Download -chaoxing "18d2e5a1829dcf290c0fa2302bc53c80" "$1.apk" 9327771 72f5fbe3f5efb5ff3bcb82ab785ef5f6 "$1.apk"
-;;
-
-com.camel.corp.universalcopy)
-apk='com.camel.corp.universalcopy'
-name='全局复制'
-version='5.3.2'
-versionCode=69
-author='Camel Corporation'
-description='无需Root，复制屏幕上你想要的一切文本'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "073ec9d500fb39f997cddc7a2d1daa95" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
-;;
-
-com.guoshi.httpcanary)
-apk='com.guoshi.httpcanary'
-name='HttpCanary'
-version='3.3.6'
-versionCode=58
-author='快乐小牛'
-description='无需Root的抓包工具，界面简洁美观'
-time='2021年8月22号'
-    [[ $Choice = 1 ]] && Download -chaoxing "d0e3d25f3d56783728518575dceb1440" "$1.apk" 5636689 1a3bf82b97524a3886f467b87f4d8133 "$1.apk"
 ;;
 
 com.hengye.share)
@@ -258,6 +126,151 @@ author='Google LLC'
 description='原版谷歌商店安装包，非框架'
 time='2022年4月7号'
     [[ $Choice = 1 ]] && Download -chaoxing "7520ea8b0543697a998b6a3769a25919" "$1.apk" 25191735 0425bee75deba50230a1929a2ee1fb54 "$1.apk"
+;;
+
+ru.zdevs.zarchiver.pro)
+apk='ru.zdevs.zarchiver.pro'
+name='ZArchiver Pro'
+version='0.9.5.8'
+versionCode=9595
+author='Zdevs'
+description='解压缩神器'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "b54d03ec5ecd749534df93b28b5b645d" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
+;;
+
+com.farplace.qingzhuo)
+apk='com.farplace.qingzhuo'
+name='清浊'
+version='1.7.8'
+versionCode=79
+author='FarPlace'
+description='简洁美观而又强大的基于规则的清理工具'
+time='2022年1月24号'
+    [[ $Choice = 1 ]] && Download -chaoxing "1654d3998580cc3d24673e31f9f60934" "$1.apk" 3591402 f4373100b0e238a74df02ed8b13d7a09 "$1.apk"
+;;
+
+
+com.vmos.pro)
+apk='com.vmos.pro'
+name='VMOS Pro'
+version='1.2.3'
+versionCode=10203
+author='VMOS'
+description='VMOS Pro极限精简版，大小仅8M'
+time='2021年6月8号'
+    [[ $Choice = 1 ]] && Download -chaoxing "18d2e5a1829dcf290c0fa2302bc53c80" "$1.apk" 9327771 72f5fbe3f5efb5ff3bcb82ab785ef5f6 "$1.apk"
+;;
+
+
+com.guoshi.httpcanary)
+apk='com.guoshi.httpcanary'
+name='HttpCanary'
+version='3.3.6'
+versionCode=58
+author='快乐小牛'
+description='无需Root的抓包工具，界面简洁美观'
+time='2021年8月22号'
+    [[ $Choice = 1 ]] && Download -chaoxing "d0e3d25f3d56783728518575dceb1440" "$1.apk" 5636689 1a3bf82b97524a3886f467b87f4d8133 "$1.apk"
+;;
+
+flar2.devcheck)
+apk='flar2.devcheck'
+name='DevCheck'
+version='3.39'
+versionCode=339
+author='Flar2'
+description='界面美观又好用的设备信息查看工具'
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -chaoxing "4ea7c9616796dedf00e119bc234783d3" "$1.apk" 7718532 d3d842b3b9385319416eeae61cf470ea "$1.apk"
+;;
+
+top.canyie.dreamland.manager)
+apk='top.canyie.dreamland.manager'
+name='梦境'
+version='0.0.7'
+versionCode='7'
+author=canyie
+description='梦境框架管理器'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "5d5c14440f361ba03394e3201cac0e57" "$1.apk" 2041765 33ea0e394f1fb6b92b43037392a01401 "$1.apk"
+;;
+
+org.meowcat.edxposed.manager)
+apk='org.meowcat.edxposed.manager'
+name='EdXposed Manager'
+version='4.6.2'
+versionCode='46200'
+author='MlgmXyysd'
+description='EDXposed框架模块管理器'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "4c0efd7070d73941b4b806dbf21b638f" "$1.apk" 3550938 a712f351af88497bc2fb6fae009e49bf "$1.apk"
+;;
+
+de.robv.android.xposed.installer)
+apk='de.robv.android.xposed.installer'
+name='Xposed Installer'
+version='3.1.5'
+versionCode='43'
+author=rovo89
+description='原版Xposed，提供Xposed模块管理，Xposed安装与卸载'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "4ac74d50da825b6c6db74551d4f0b9ba" "$1.apk" 3105672 315362d994986e6584203fca282f4472 "$1.apk"
+;;
+
+com.qingyu.wifikey)
+apk='com.qingyu.wifikey'
+name='WiFi万能钥匙'
+version='4.3.10'
+versionCode=210904
+author='清羽'
+description='WiFi万能钥匙，由清羽精简'
+time='2021年10月3号'
+    [[ $Choice = 1 ]] && Download -chaoxing "7b1a956f41c37a896866e49c8ee9e591" "$1.apk" 5227674 afddd34358183070c924bc0723ce5ec3 "$1.apk"
+;;
+
+com.xyj.batkill.batkill)
+apk='com.xyj.batkill.batkill'
+name='BATKill'
+version='2.2.3'
+versionCode=30
+author='席大'
+description='方便的干掉腾讯系内核以及阿里系内核'
+time='2021年10月14号'
+    [[ $Choice = 1 ]] && Download -chaoxing "aafc50412f44003257b53504d4a7554b" "$1.apk" 147844 1ffc47787f02d961d9870c5d701fd82a "$1.apk"
+;;
+
+com.su.assistant.pro)
+apk='com.su.assistant.pro'
+name='Android 开发工具箱'
+version='2.3.5'
+versionCode=114
+author='su1216'
+description='酷安上的那个Android开发工具箱，比Dev Tools更美观，更稳定'
+time='2021年8月8号'
+    [[ $Choice = 1 ]] && Download -chaoxing "ad446a7bebadad8594b986903787c055" "$1.apk" 30013005 e2c3daf3092f32998b254d699a5bb88b "$1.apk"
+;;
+
+com.ioncannon.cpuburn.gpugflops)
+apk='com.ioncannon.cpuburn.gpugflops'
+name='GPU GFLOPS'
+version='2.1'
+versionCode=1
+author='ioncannon'
+description='测试你的设备的CPU/GPU算力，并直观的显示结果（注：此APK经过修改，修复了部分机型闪退的问题，但可能导致无法读取温度）'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "28e1c6497257070b8befcdb2388da6f8" "$1.apk" 1655528 7818528f405fe2b78843244dd78fc65d "$1.apk"
+;;
+
+com.camel.corp.universalcopy)
+apk='com.camel.corp.universalcopy'
+name='全局复制'
+version='5.3.2'
+versionCode=69
+author='Camel Corporation'
+description='无需Root，复制屏幕上你想要的一切文本'
+time='2021年5月29号'
+    [[ $Choice = 1 ]] && Download -chaoxing "073ec9d500fb39f997cddc7a2d1daa95" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
 ;;
 
 com.android.alexzwh.filedownloaddemo)
@@ -305,6 +318,17 @@ time='2021年5月29号'
     esac
 ;;
 
+com.viewblocker.jrsen)
+apk='com.viewblocker.jrsen'
+name='上帝模式'
+version='3.0.0-beta2'
+versionCode=23
+author='jrsen'
+description='XP模块：去除apk布局，哪里不要点哪里'
+time='2022年4月7号'
+    [[ $Choice = 1 ]] && Download -chaoxing "ac392730dfe916b19d98d38a0fe1baa1" "$1.apk" 5841730 51ccf3e029fc6445674f1b1ca2f1ba9d "$1.apk"
+;;
+
 com.fkzhang.qqxposed)
 apk='com.fkzhang.qqxposed'
 name='QX模块'
@@ -336,28 +360,6 @@ author='myhanbing'
 description='XP模块：对话框取消'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "c4a3b988ba900b8174fba2064d52a529" "$1.apk" 1507161 a30f0617f21997df08e623fa93ee4934 "$1.apk"
-;;
-
-com.fuckcoolapk)
-apk='com.fuckcoolapk'
-name='Fuck Coolapk'
-version='0.5.8'
-versionCode=20210506
-author='ejiaogl'
-description='XP模块：FuckCoolapk'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "c1b2c4be0fdd6631c1d4f15c332fb288" "$1.apk" 874541 92ebc1fa605f0d975cd2690031845e91 "$1.apk"
-;;
-
-com.mhook.MrSFastTranslation)
-apk='com.mhook.MrSFastTranslation'
-name='Xp快译'
-version='3.1.4-beta4'
-versionCode=20190612
-author='myhanbing'
-description='XP模块：复制即可翻译'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "04118336fff884e1580baf567dd32593" "$1.apk" 782673 6df81f2136aefc9de79d36e7b7a384d2 "$1.apk"
 ;;
 
 com.volant.mzxpt)
@@ -501,17 +503,6 @@ author='tianma8023'
 description='XP模块：提取新短信中的验证码并复制到剪贴板，并能自动输入验证码'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "4ebc4aa11c7712b462ddb72b24fe16e4" "$1.apk" 1925433 e3af8dbc824ac4175cdf277194965371 "$1.apk"
-;;
-
-com.viewblocker.jrsen)
-apk='com.viewblocker.jrsen'
-name='上帝模式'
-version='2.7.10'
-versionCode=21
-author='kaisar945'
-description='XP模块：去除apk布局，哪里不要点哪里'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "a9d081d1ffe52c6b3ceb61157eeaaa6f" "$1.apk" 1251752 0e3dd4ba758411c198da21b1b2d7cbc9 "$1.apk"
 ;;
 
 #模块
