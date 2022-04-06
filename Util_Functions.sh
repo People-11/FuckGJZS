@@ -455,13 +455,13 @@ Start_Download() {
                                        elif [[ $YiXZ_2 -le 1024 ]]; then
                                            Size2=${YiXZ_2}b
                                        fi
-                                           Schedule() { echo "- 已下载：${Size2}/$File_Type 已完成${Percentage}%" ; echo "-----------------------------------------"; }
+                                           Schedule() { echo "- 已下载：${Size2}/$File_Type 已完成：${Percentage}%" ; echo "-----------------------------------------"; }
                                            if [[ $YiXZ_SuDu -ge 1048576 ]]; then
-                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1048576}"`MB/s"; echo " 剩余时间：${Remaining_Time}s"; Schedule
                                            elif [[ $YiXZ_SuDu -ge 1024 ]]; then
-                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`KB/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
+                                               echo -n "- 正在下载：`awk "BEGIN{print $YiXZ_SuDu/1024}"`KB/s"; echo " 剩余时间：${Remaining_Time}s"; Schedule
                                            elif [[ $YiXZ_SuDu -lt 1024 && $YiXZ_SuDu -gt 0 ]]; then
-                                               echo -n "- 正在下载：${YiXZ_SuDu}B/s"; echo " 剩余时间：$Remaining_Time s"; Schedule
+                                               echo -n "- 正在下载：${YiXZ_SuDu}B/s"; echo " 剩余时间：${Remaining_Time}s"; Schedule
                                            elif [[ $YiXZ_SuDu -eq 0 ]]; then
                                                code=`cat "$Status"`
                                                if [[ $code = 0 ]]; then
