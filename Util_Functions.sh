@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2022040603
+export Util_Functions_Code=2022040613
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -134,7 +134,7 @@ abort2() {
 }
 
 show_progress() {
-    [[ -n $2 ]] && echo "progress:[$1/$2]" || echo "progress:[$1/100]"
+    [[ -n $2 ]] && echo "Progress:[$1/$2]" || echo "Progress:[$1/100]"
 }
 
 adb2() { 
@@ -441,10 +441,10 @@ Start_Download() {
 
                         until [[ $code != none ]]; do
                            YiXZ=`ls -l $Download_File2 | awk '{print $5}'`
-                           sleep 1
+                           sleep 0.5
                            YiXZ_2=`ls -l $Download_File2 | awk '{print $5}'`
                                if [[ $YiXZ -gt 0 ]]; then
-                                   YiXZ_SuDu=$(($YiXZ_2-$YiXZ))
+                                   YiXZ_SuDu=`awk "BEGIN{print ($YiXZ_2-$YiXZ)*2}"`
                                    Remaining_Time=`awk "BEGIN{print ($File_Size-$YiXZ_2)/$YiXZ_SuDu}" 2>/dev/null`
                                    Remaining_Time=${Remaining_Time:-0}
                                    Percentage=`awk "BEGIN{print $YiXZ_2/($File_Size/100)}" 2>/dev/null`
