@@ -13,6 +13,7 @@
 更新 Magisk 为 Magisk Custom
 云端存储换回超星云盘
 修复下载状态刷新得越来越慢的问题
+优化了 系统调试专区 的加载步骤
 ########################
 优化一些界面描述
 机型伪装模块新增 小米 12 Pro、小米 12X、华为 P50 Pocket、IQOO 9 Pro、IQOO 9、一加 10 Pro、IQOO NEO 5S、Sony Xperia PRO-I
