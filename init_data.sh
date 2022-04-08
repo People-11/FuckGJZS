@@ -1,5 +1,5 @@
-Configuration=2022040702
-Magisk_Warehouse_version=2022040701
+Configuration=2022040816
+Magisk_Warehouse_version=2022040816
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -505,7 +505,7 @@ time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "4ebc4aa11c7712b462ddb72b24fe16e4" "$1.apk" 1925433 e3af8dbc824ac4175cdf277194965371 "$1.apk"
 ;;
 
-#模块
+#Magisk模块
 riru_dreamland)
 showapk='0.0.5(5)'
 id='riru_dreamland'
@@ -704,7 +704,6 @@ time='2021年5月29号'
 ;;
 
 github-hosts)
-Show_Compatibility_Mode=0
 id='github-hosts'
 name='Github防污染'
 version='v3'
@@ -716,7 +715,6 @@ time='2021年9月13号'
 ;;
 
 lanzou-hosts)
-Show_Compatibility_Mode=0
 id='lanzou-hosts'
 name='解决蓝奏云旧网址打不开'
 version='v1'
@@ -859,6 +857,30 @@ description="$name"
 time='2021年5月29号'
 ;;
 
+hydhy)
+MIUI=1
+name='回忆k40多合一'
+id='hydhy'
+version='4.2'
+versionCode='42'
+author='回憶堅強'
+description="k40的优化和美化于一身"
+time='2022年2月13号'
+    [[ $Choice = 1 ]] && Download -chaoxing "7ab83a18edabacfbc4b6d8fd53c90cda" "$1.zip" 29837868 1a56cc921f00b2d525befa5e1e69f9b4 "$1.zip"
+;;
+
+huiyiduoheyi)
+MIUI=1
+id='huiyiduoheyi'
+name='回忆小米8多合一'
+version='1.8.8.1'
+versionCode='10'
+author='回憶⁵²º¹³¹⁴'
+description="回忆小米8多合一"
+time='2022年4月8号'
+    [[ $Choice = 1 ]] && Download -chaoxing "ca5b9bb1a7a95c763861c9d768cadbb5" "$1.zip" 197660037 291ee716396c31efd54e313d78b14579 "$1.zip"
+;;
+
 GJZS_Theme_Color)
 MIUI=1
 id='GJZS_Theme_Color'
@@ -872,7 +894,6 @@ time='2021年5月29号'
 
 Installation_lion-miui)
 MIUI=1
-Show_Compatibility_Mode=0
 id='Installation_lion-miui'
 name='安装狮-MIUI'
 version='v3.7.5-miui'
@@ -885,7 +906,6 @@ time='2021年5月29号'
 
 com.android.thememanager)
 MIUI=1
-Show_Compatibility_Mode=0
 id='com.android.thememanager'
 name='主题壁纸'
 version='v1.9.3.0（930）'
@@ -898,7 +918,6 @@ time='2021年5月29号'
 
 com.miui.packageinstaller)
 MIUI=1
-Show_Compatibility_Mode=0
 id='com.miui.packageinstaller'
 name='应用包管理组件'
 version='v1.8.3'
@@ -923,7 +942,6 @@ time='2021年5月29号'
 
 Game_BianShengQi)
 MIUI=1
-Show_Compatibility_Mode=0
 id='Game_BianShengQi'
 name='MIUI开发版游戏加速变声器'
 version='v1'
@@ -946,7 +964,6 @@ time='2021年5月29号'
 ;;
 
 K30-5G_Status_bar)
-Show_Compatibility_Mode=0
 MIUI=1
 id='K30-5G_Status_bar'
 name='k30-5G猪鼻子加普通状态栏高度'
@@ -960,7 +977,6 @@ time='2021年5月29号'
 
 Xiaomi_Full_frame_rate)
 MIUI=1
-Show_Compatibility_Mode=0
 id='Xiaomi_Full_frame_rate'
 name='小米系列全局高刷'
 version='v1.3'
@@ -972,7 +988,6 @@ time='2021年5月29号'
 ;;
 
 Show_touch)
-Show_Compatibility_Mode=0
 id='Show_touch'
 name='修改显示触摸点'
 version='v1'
@@ -994,7 +1009,6 @@ time='2021年5月29号'
 ;;
 
 Hide_system_ROOT)
-Show_Compatibility_Mode=0
 id='Hide_system_ROOT'
 name='隐藏系统Root'
 version='v1.6'
@@ -1026,7 +1040,6 @@ time='2021年5月29号'
 ;;
 
 wifi-bonding)
-Show_Compatibility_Mode=0
 id='wifi-bonding'
 name='Wifi Bonding - 让Wi-Fi带宽提速（高通）'
 version='1.14'
@@ -1060,7 +1073,6 @@ time='2021年5月29号'
 ;;
 
 SELinux_OFF)
-Show_Compatibility_Mode=0
 id='SELinux_OFF'
 name='关闭SELinux'
 version='v1.3'
@@ -1072,7 +1084,6 @@ time='2021年5月29号'
 ;;
 
 SELinux_ON)
-Show_Compatibility_Mode=0
 id='SELinux_ON'
 name='开启SELinux'
 version='v1.3'
