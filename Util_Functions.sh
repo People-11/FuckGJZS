@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2022040614
+export Util_Functions_Code=2022041202
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -440,9 +440,9 @@ Start_Download() {
                     [[ `cat "$Status"` != none ]] && End_Time 下载 && EndMD5
 
                         until [[ $code != none ]]; do
-                           YiXZ=`ls -l $Download_File2 | awk '{print $5}'`
+                           YiXZ=`ls -l "$Download_File2" | awk '{print $5}'`
                            sleep 0.5
-                           YiXZ_2=`ls -l $Download_File2 | awk '{print $5}'`
+                           YiXZ_2=`ls -l "$Download_File2" | awk '{print $5}'`
                                if [[ $YiXZ -gt 0 ]]; then
                                    YiXZ_SuDu=`awk "BEGIN{print ($YiXZ_2-$YiXZ)*2}"`
                                    Remaining_Time=`awk "BEGIN{print ($File_Size-$YiXZ_2)/$YiXZ_SuDu}" 2>/dev/null`
