@@ -21,6 +21,7 @@ export Choice=0
 export New_Version=6.1
 export New_Code=2021101021
 export ChongQi Configuration File File_Name Download_File File_MD5 id name version versionCode author description MODID MODNAME MODPATH MAGISK_VER MAGISK_VER_CODE LOCKED
+$Have_ROOT && LOCKED=false || LOCKED=true
 
 
 #Dynamic variable
