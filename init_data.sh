@@ -1,5 +1,5 @@
-Configuration=2022041002
-Magisk_Warehouse_version=2022040816
+Configuration=2022041223
+Magisk_Warehouse_version=2022041223
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -451,7 +451,7 @@ time='2021年8月8号'
 
 Convert_to_system_app)
 id='Convert_to_system_app'
-name='三方应用转系统应用'
+name='第三方应用转系统应用'
 version='v1.2'
 versionCode='2'
 author='Han | 情非得已c'
