@@ -1,5 +1,5 @@
-Configuration=2022041223
-Magisk_Warehouse_version=2022041223
+Configuration=2022041809
+Magisk_Warehouse_version=2022041809
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -480,6 +480,17 @@ author='solohsu, MlgmXyysd'
 description='一款基于Riru API开发的Xposed框架，支持安卓8 ~ 11。需要安装Riru v23或更高版本'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "4d9ab34e8827ec43cec8b7c2c5e46d13" "$1.zip" 3461516 71382a57c7e7861b4695d2089e5422a9 "$1.zip"
+;;
+
+AD-Hosts)
+id='AD-Hosts'
+name='AD Hosts'
+version='v6.3.2'
+versionCode=6320
+author='依然的爱'
+description='屏蔽大部分广告，请记住hosts不是万能的具有局限性，不能全部屏蔽。hosts规则均来自于网络搜索、github、人工抓取及酷友提供，使用时请关闭其它带有hosts文件的模块，例如:systemless hosts模块'
+time='2022年1月9号'
+    [[ $Choice = 1 ]] && Download -chaoxing "8bd5bb8f2bac20274dbd1cbea19aa831" "$1.zip" 1007462 dff39138ccffc95aab71b575b7e9c66f "$1.zip"
 ;;
 
 github-hosts)
