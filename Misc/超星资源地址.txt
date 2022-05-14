@@ -8,7 +8,7 @@ cea567eaa9b6471b6c3590001776ab1c? Share微博_3.7.9.apk
 ee25e695dd37f9f1b08011df8a0be362? R-安装组件-1.9.3-beta..apk
 f7bfe67f8464abf91f3dc8f68b8ae13f? Termux_118.apk
 212ab970c5f877236e54e52659025c97? 神仙自动救砖-v2021090800(95).apk
-fc77c892d4225f1aa2caf5501c681034? 搞机助手_6.1.apk
+d9b663b2fc1d912615b714532353ed35? 搞机助手_7.apk
 f472eee8e302cdddaaf4bef0b4fe1f24? [Magisk]🔥Fast Charge⚡Version Green🍀V2.zip
 8f930c04b4bdd6f41cba130e2e65a975? zw_fileclear.zip
 89416ad6ff5022f245f4d5c013b86462? xposed-uninstaller-20180117-x86.zip

@@ -1,4 +1,4 @@
-Configuration=2022041809
+Configuration=2022051423
 Magisk_Warehouse_version=2022041809
 Show_Compatibility_Mode=1
 MIUI=0
@@ -21,12 +21,12 @@ time='2022年4月4号'
 Han.GJZS)
 apk='Han.GJZS'
 name='搞机助手'
-version='6.1'
-versionCode='2021101021'
+version='7'
+versionCode='2022041812'
 author='FuckGJZS'
 description='可以在此处更新搞机助手'
-time='2021年10月3号'
-    [[ $Choice = 1 ]] && Download -chaoxing 'fc77c892d4225f1aa2caf5501c681034' "$1.apk" 1438289 5d0c5ce9ca27e93b8e0f63988c8cae1e "$1.apk"
+time='2022年4月18号'
+    [[ $Choice = 1 ]] && Download -chaoxing 'd9b663b2fc1d912615b714532353ed35' "$1.apk" 1434678 7229c91f5688e7736697be28b31fbd28 "$1.apk"
 ;;
 
 Han.automatic.rescue)
