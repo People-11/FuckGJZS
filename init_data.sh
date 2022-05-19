@@ -1,4 +1,4 @@
-Configuration=2022051423
+Configuration=2022051920
 Magisk_Warehouse_version=2022041809
 Show_Compatibility_Mode=1
 MIUI=0
@@ -40,15 +40,15 @@ time='2022年4月4号'
     [[ $Choice = 1 ]] && Download -chaoxing '212ab970c5f877236e54e52659025c97' "$1.apk" 1680325 9b538f2ad50cd47bb35199acc615c02d "$1.apk"
 ;;
 
-com.litiaotiao.app)
-apk='com.litiaotiao.app'
+cn.litiaotiao.app)
+apk='cn.litiaotiao.app'
 name='李跳跳'
-version='波吉1.0_beta3'
-versionCode='1'
+version='派大星2.01'
+versionCode='2'
 author='李跳跳'
-description='我还能说什么呢，Fuck资本家'
-time='2022年3月8号'
-    [[ $Choice = 1 ]] && Download -chaoxing "fea29b2ebb6d1b80cb0d0eced1e8b1d0" "$1.apk" 2523002 6bc71ab575295f29a1d5c391aa3f69ba "$1.apk"
+description='使用无障碍服务自动跳过广告'
+time='2022年5月19号'
+    [[ $Choice = 1 ]] && Download -chaoxing "3cf399063ba3caeff56e34953ed093be" "$1.apk" 2565038 4c63b71e50ef00360f6e913b530d82f4 "$1.apk"
 ;;
 
 org.swiftapps.swiftbackup)

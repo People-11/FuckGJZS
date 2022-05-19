@@ -52,7 +52,7 @@ aafc50412f44003257b53504d4a7554b? BATKill (2.2.3).apk
 081dcedcc480fe12c33b2ce507d850e0? 阴影截图v3.0.7.zip
 50c08e418d82b9e8bfcf24056b2ce376? 苹方Pro Google Sans简体中粗.zip
 0a2a8381ac8a24920017e57961568b57? 流量杀手_3.1.1.apk
-fea29b2ebb6d1b80cb0d0eced1e8b1d0? 李跳跳_波吉1.0_beta3.apk
+3cf399063ba3caeff56e34953ed093be? 李跳跳_派大星2.01.apk
 a6780525b5d94a445b8ccf2cdbd064dd? Zipsigner.zip
 b54d03ec5ecd749534df93b28b5b645d? ZArchiver Pro_v0.9.5.8 (9595)_ARM64.apk
 f38e76e3262f561437a8881c7e10fd03? Your_Name_2400.zip
