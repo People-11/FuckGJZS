@@ -1,5 +1,5 @@
-Configuration=2022051920
-Magisk_Warehouse_version=2022041809
+Configuration=2022061300
+Magisk_Warehouse_version=2022061300
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -287,7 +287,7 @@ time='2021年5月29号'
 #Magisk模块
 riru_dreamland)
 showapk='0.0.5(5)'
-id='riru_dreamland'
+module='riru_dreamland'
 name='Dreamland（梦境框架）'
 author='canyie'
 version='2.1_2101'
@@ -298,7 +298,7 @@ time='2022年3月20号'
 ;;
 
 EnablePixel2019VoLteSoliEnabler)
-id='EnablePixel2019VoLteSoliEnabler'
+module='EnablePixel2019VoLteSoliEnabler'
 name='Pixel 4/XL开启雷达与VoLTE'
 version='v1.0'
 versionCode='1'
@@ -309,7 +309,7 @@ time='2021年8月19号'
 ;;
 
 Pixel3LTE-VoLTEEnable)
-id='Pixel3LTE-VoLTEEnable'
+module='Pixel3LTE-VoLTEEnable'
 name='Pixel 3/XL开启VoLTE'
 version='v1'
 versionCode='1'
@@ -320,7 +320,7 @@ time='2021年6月13号'
 ;;
 
 pixelmbn)
-id='pixelmbn'
+module='pixelmbn'
 name='Pixel 2/XL开启VoLTE'
 version='v1.1'
 versionCode='1'
@@ -331,7 +331,7 @@ time='2021年6月13号'
 ;;
 
 safetynet-fix)
-id='safetynet-fix'
+module='safetynet-fix'
 name='SafetyNet修复模块'
 version='v2.2.1'
 versionCode='20201'
@@ -342,7 +342,7 @@ time='2022年3月20号'
 ;;
 
 UniversalGMSDoze)
-id='UniversalGMSDoze'
+module='UniversalGMSDoze'
 name='Universal GMS Doze'
 version='v1.8.2'
 versionCode='182'
@@ -353,7 +353,7 @@ time='2021年5月29号'
 ;;
 
 HTTPCanaryCA_To_System)
-id='HTTPCanaryCA_To_System'
+module='HTTPCanaryCA_To_System'
 name='安装HTTPCanary证书到系统'
 version='v2'
 versionCode='10'
@@ -364,7 +364,7 @@ time='2021年8月22号'
 ;;
 
 Remove_Temperature_Control)
-id='Remove_Temperature_Control'
+module='Remove_Temperature_Control'
 name='移除温控'
 version='v3'
 versionCode=15
@@ -374,7 +374,7 @@ time='2022年1月28号'
 ;;
 
 pingfanggooglesansscprom)
-id='pingfanggooglesansscprom'
+module='pingfanggooglesansscprom'
 name='苹方Pro Google Sans简体中粗'
 version='2020-02-19 01'
 versionCode='1'
@@ -385,7 +385,7 @@ time='2022年1月28号'
 ;;
 
 busybox-ndk)
-id='busybox-ndk'
+module='busybox-ndk'
 name='Busybox for Android NDK'
 version='1.34.1'
 versionCode='13411'
@@ -396,7 +396,7 @@ time='2022年3月20号'
 ;;
 
 gvisualmod)
-id='gvisualmod'
+module='gvisualmod'
 name='G-Visual Mod'
 version='v4.1'
 versionCode='36'
@@ -407,7 +407,7 @@ time='2022年3月20号'
 ;;
 
 zygisk-storage-isolation)
-id='zygisk-storage-isolation'
+module='zygisk-storage-isolation'
 name='Zygisk - Enhanced mode for Storage Isolation'
 version='v26.2.0'
 versionCode='80'
@@ -418,7 +418,7 @@ time='2022年3月20号'
 ;;
 
 disable-screenshot-camera-sounds)
-id='disable-screenshot-camera-sounds'
+module='disable-screenshot-camera-sounds'
 name='关闭截图与相机提示音'
 version='1.4'
 versionCode='5'
@@ -429,7 +429,7 @@ time='2022年3月20号'
 ;;
 
 Systemless_OnePlusLauncher)
-id='Systemless_OnePlusLauncher'
+module='Systemless_OnePlusLauncher'
 name='一加桌面'
 version='v6.2'
 versionCode='30100'
@@ -440,7 +440,7 @@ time='2021年7月5号'
 ;;
 
 Model_Camouflage)
-id='Model_Camouflage'
+module='Model_Camouflage'
 name='机型伪装'
 version='v114514'
 versionCode='114514'
@@ -450,7 +450,7 @@ time='2021年8月8号'
 ;;
 
 Convert_to_system_app)
-id='Convert_to_system_app'
+module='Convert_to_system_app'
 name='第三方应用转系统应用'
 version='v1.2'
 versionCode='2'
@@ -460,7 +460,7 @@ time='2021年5月29号'
 ;;
 
 ASUSLongScreenshot)
-id='ASUSLongScreenshot'
+module='ASUSLongScreenshot'
 name='长截图组件'
 version='v5.0.1'
 versionCode='501'
@@ -472,7 +472,7 @@ time='2022年4月7号'
 
 riru_edxposed)
 showapk='4.6.2-pre (46200)'
-id='riru_edxposed'
+module='riru_edxposed'
 name='Riru - EdXposed'
 version='v0.5.2.2_4683-master'
 versionCode='4683'
@@ -483,7 +483,7 @@ time='2021年5月29号'
 ;;
 
 AD-Hosts)
-id='AD-Hosts'
+module='AD-Hosts'
 name='AD Hosts'
 version='v6.3.2'
 versionCode=6320
@@ -494,7 +494,7 @@ time='2022年1月9号'
 ;;
 
 github-hosts)
-id='github-hosts'
+module='github-hosts'
 name='Github防污染'
 version='v3'
 versionCode=11
@@ -505,7 +505,7 @@ time='2021年9月13号'
 ;;
 
 lanzou-hosts)
-id='lanzou-hosts'
+module='lanzou-hosts'
 name='解决蓝奏云旧网址打不开'
 version='v1'
 versionCode=1
@@ -516,7 +516,7 @@ time='2021年8月12号'
 ;;
 
 Volume_Adjustment)
-id='Volume_Adjustment'
+module='Volume_Adjustment'
 name='媒体音量级别调节'
 version='v1.3'
 versionCode='3'
@@ -526,7 +526,7 @@ time='2021年5月29号'
 ;;
 
 FCGreen)
-id='FCGreen'
+module='FCGreen'
 name='强制快充模块'
 version='v2'
 versionCode='2'
@@ -537,7 +537,7 @@ time='2021年6月6号'
 ;;
 
 keepqdark)
-id='keepqdark'
+module='keepqdark'
 name='强制黑暗模式'
 version='v1'
 versionCode='1'
@@ -548,7 +548,7 @@ time='2021年5月29号'
 ;;
 
 Disable_Logs)
-id='Disable_Logs'
+module='Disable_Logs'
 name='关闭各种Log'
 version='v2'
 versionCode='2'
@@ -559,7 +559,7 @@ time='2021年9月6号'
 ;;
 
 xposed)
-id='xposed'
+module='xposed'
 name='Xposed Framework（原始Xposed框架）'
 version='v90-beta3'
 versionCode='9030'
@@ -570,7 +570,7 @@ time='2021年5月29号'
 ;;
 
 sqlite3_gjzs)
-id='sqlite3_gjzs'
+module='sqlite3_gjzs'
 name='SQLite3 For ARM设备'
 version='v3.28.0'
 versionCode='1'
@@ -581,7 +581,7 @@ time='2021年5月29号'
 ;;
 
 Third_Party_Redirect)
-id='Third_Party_Redirect'
+module='Third_Party_Redirect'
 name='第三方应用下载目录重定向'
 version='v5.2.2-云端版'
 versionCode='20210620'
@@ -592,7 +592,7 @@ time='2021年8月1号'
 ;;
 
 shadow_screenshots)
-id='shadow_screenshots'
+module='shadow_screenshots'
 name='阴影截图'
 version='v3.0.7'
 versionCode=3.0.7
@@ -603,7 +603,7 @@ time='2021年5月29号'
 ;;
 
 UnblockNeteaseMusic)
-id='UnblockNeteaseMusic'
+module='UnblockNeteaseMusic'
 name='UnblockNeteaseMusic for Magisk'
 version='Canary'
 versionCode='20210328'
@@ -614,7 +614,7 @@ time='2021年5月29号'
 ;;
 
 zw_fileclear)
-id='zw_fileclear'
+module='zw_fileclear'
 name='FileClear for ZW'
 version='3.9.0'
 versionCode='20210329'
@@ -626,7 +626,7 @@ time='2021年5月29号'
 
 MIUI-12_All_in_one)
 MIUI=1
-id='MIUI-12_All_in_one'
+module='MIUI-12_All_in_one'
 version='v1.12'
 versionCode='12'
 name="MIUI 12多合一通用模块"
@@ -638,7 +638,7 @@ time='2021年5月29号'
 
 MIUI_In_Common_Use)
 MIUI=1
-id='MIUI_In_Common_Use'
+module='MIUI_In_Common_Use'
 version='2019-08-17'
 versionCode='1'
 name="MIUI9 - MIUI10多合一通用模块"
@@ -650,7 +650,7 @@ time='2021年5月29号'
 hydhy)
 MIUI=1
 name='回忆k40多合一'
-id='hydhy'
+module='hydhy'
 version='4.2'
 versionCode='42'
 author='回憶堅強'
@@ -661,7 +661,7 @@ time='2022年2月13号'
 
 huiyiduoheyi)
 MIUI=1
-id='huiyiduoheyi'
+module='huiyiduoheyi'
 name='回忆小米8多合一'
 version='1.8.8.1'
 versionCode='10'
@@ -673,7 +673,7 @@ time='2022年4月8号'
 
 GJZS_Theme_Color)
 MIUI=1
-id='GJZS_Theme_Color'
+module='GJZS_Theme_Color'
 version='v1'
 versionCode='1'
 name='自定义「搞机助手」主题配色'
@@ -684,7 +684,7 @@ time='2021年5月29号'
 
 Installation_lion-miui)
 MIUI=1
-id='Installation_lion-miui'
+module='Installation_lion-miui'
 name='安装狮-MIUI'
 version='v3.7.5-miui'
 versionCode='42'
@@ -696,7 +696,7 @@ time='2021年5月29号'
 
 com.android.thememanager)
 MIUI=1
-id='com.android.thememanager'
+module='com.android.thememanager'
 name='主题壁纸'
 version='v1.9.3.0（930）'
 versionCode=9
@@ -708,7 +708,7 @@ time='2021年5月29号'
 
 com.miui.packageinstaller)
 MIUI=1
-id='com.miui.packageinstaller'
+module='com.miui.packageinstaller'
 name='应用包管理组件'
 version='v1.8.3'
 versionCode='184'
@@ -720,7 +720,7 @@ time='2021年9月1号'
 
 MIUI-Advanced_power_supply)
 MIUI=1
-id='MIUI-Advanced_power_supply'
+module='MIUI-Advanced_power_supply'
 name='小米高级重启菜单'
 version='v1.3'
 versionCode=3
@@ -732,7 +732,7 @@ time='2021年5月29号'
 
 Game_BianShengQi)
 MIUI=1
-id='Game_BianShengQi'
+module='Game_BianShengQi'
 name='MIUI开发版游戏加速变声器'
 version='v1'
 versionCode='1'
@@ -744,7 +744,7 @@ time='2021年5月29号'
 
 gametools)
 MIUI=1
-id='gametools'
+module='gametools'
 name='修改游戏工具箱'
 author='酷安@枫落流昔'
 version='4.3.2'
@@ -755,7 +755,7 @@ time='2021年5月29号'
 
 K30-5G_Status_bar)
 MIUI=1
-id='K30-5G_Status_bar'
+module='K30-5G_Status_bar'
 name='k30-5G猪鼻子加普通状态栏高度'
 version='v1'
 versionCode='1'
@@ -767,7 +767,7 @@ time='2021年5月29号'
 
 Xiaomi_Full_frame_rate)
 MIUI=1
-id='Xiaomi_Full_frame_rate'
+module='Xiaomi_Full_frame_rate'
 name='小米系列全局高刷'
 version='v1.3'
 versionCode='3'
@@ -778,7 +778,7 @@ time='2021年5月29号'
 ;;
 
 Show_touch)
-id='Show_touch'
+module='Show_touch'
 name='修改显示触摸点'
 version='v1'
 versionCode=1
@@ -789,7 +789,7 @@ time='2021年5月29号'
 ;;
 
 Magisk_Abnormal_Repair)
-id='Magisk_Abnormal_Repair'
+module='Magisk_Abnormal_Repair'
 name='Magisk异常修复'
 version='v1.2'
 versionCode='3'
@@ -799,7 +799,7 @@ time='2021年5月29号'
 ;;
 
 Hide_system_ROOT)
-id='Hide_system_ROOT'
+module='Hide_system_ROOT'
 name='隐藏系统Root'
 version='v1.6'
 versionCode=6
@@ -810,7 +810,7 @@ time='2021年5月29号'
 ;;
 
 Freezing_system_app)
-id='Freezing_system_app'
+module='Freezing_system_app'
 name='使用Magisk模块方式冻结系统应用'
 version='v1'
 versionCode='1'
@@ -820,7 +820,7 @@ time='2021年5月29号'
 ;;
 
 Clone_Configuration)
-id=Clone_Configuration
+module=Clone_Configuration
 name=克隆主用户EDXposed模块配置
 version='v2021021402'
 versionCode=2
@@ -830,7 +830,7 @@ time='2021年5月29号'
 ;;
 
 wifi-bonding)
-id='wifi-bonding'
+module='wifi-bonding'
 name='Wifi Bonding - 让Wi-Fi带宽提速（高通）'
 version='1.14'
 versionCode='15'
@@ -841,7 +841,7 @@ time='2021年5月29号'
 ;;
 
 com.fb.fluid)
-id='com.fb.fluid'
+module='com.fb.fluid'
 name='流体手势导航'
 version='2.0-beta11'
 versionCode='178'
@@ -852,7 +852,7 @@ time='2021年5月29号'
 ;;
 
 com.omarea.gesture)
-id='com.omarea.gesture'
+module='com.omarea.gesture'
 name='Gesture(手势导航) '
 version='1.6.4'
 versionCode='104'
@@ -863,7 +863,7 @@ time='2021年5月29号'
 ;;
 
 SELinux_OFF)
-id='SELinux_OFF'
+module='SELinux_OFF'
 name='关闭SELinux'
 version='v1.3'
 versionCode='3'
@@ -874,7 +874,7 @@ time='2021年5月29号'
 ;;
 
 SELinux_ON)
-id='SELinux_ON'
+module='SELinux_ON'
 name='开启SELinux'
 version='v1.3'
 versionCode='3'
@@ -888,7 +888,7 @@ riru-core)
 List="：
 riru-core-v21.3(36).zip
 "
-id='riru-core'
+module='riru-core'
 name='Riru (Riru - Core)'
 version='v25.4.4.r426.05efc94'
 versionCode=426
@@ -904,7 +904,7 @@ fi
 ;;
 
 riru-module-xfingerprint-pay-wechat)
-id='riru-module-xfingerprint-pay-wechat'
+module='riru-module-xfingerprint-pay-wechat'
 name='Riru - 指纹支付 - 微信'
 version='v3.9.21'
 versionCode='2'
@@ -915,7 +915,7 @@ time='2021年5月29号'
 ;;
 
 riru-module-xfingerprint-pay-qq)
-id='riru-module-xfingerprint-pay-qq'
+module='riru-module-xfingerprint-pay-qq'
 name='Riru - 指纹支付 - QQ'
 version='v3.9.22'
 versionCode='2'
@@ -926,7 +926,7 @@ time='2021年5月29号'
 ;;
 
 riru-module-xfingerprint-pay-alipay)
-id='riru-module-xfingerprint-pay-alipay'
+module='riru-module-xfingerprint-pay-alipay'
 name='Riru - 指纹支付 - 支付宝'
 version='v3.9.22'
 versionCode='2'
@@ -937,7 +937,7 @@ time='2021年5月29号'
 ;;
 
 riru-module-xfingerprint-pay-taobao)
-id='riru-module-xfingerprint-pay-taobao'
+module='riru-module-xfingerprint-pay-taobao'
 name='Riru - 指纹支付 - 淘宝'
 version='v3.9.22'
 versionCode='2'
@@ -948,7 +948,7 @@ time='2021年5月29号'
 ;;
 
 coloros-magisk)
-id='coloros-magisk'
+module='coloros-magisk'
 name='Magisk ColorOS'
 version='1.0'
 versionCode='1'
@@ -959,7 +959,7 @@ time='2021年5月29号'
 ;;
 
 riru_clipboard_whitelist)
-id='riru_clipboard_whitelist'
+module='riru_clipboard_whitelist'
 name='Riru - Clipboard Whitelist'
 version='v10'
 versionCode=10
@@ -970,7 +970,7 @@ time='2021年5月29号'
 ;;
 
 kfmark)
-id='kfmark'
+module='kfmark'
 name='快否激活器'
 version='v1.3'
 versionCode='6'
@@ -981,7 +981,7 @@ time='2021年5月29号'
 ;;
 
 Disable-HWoverlays)
-id='Disable-HWoverlays'
+module='Disable-HWoverlays'
 name='停用HW叠加层模块'
 version='v2'
 versionCode='3'
@@ -992,7 +992,7 @@ time='2021年5月29号'
 ;;
 
 curl)
-id=curl
+module=curl
 name='curl for Android NDK'
 version='v7.74.0'
 versionCode=4
