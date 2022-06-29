@@ -1,4 +1,4 @@
-Configuration=2022061300
+Configuration=2022063002
 Magisk_Warehouse_version=2022061300
 Show_Compatibility_Mode=1
 MIUI=0
@@ -1223,12 +1223,12 @@ binwalk)
 
 Install_busybox)
     name="busybox_$Type"
-    [[ $Type = arm ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 1452044 92a3d5c291124e5b8bd4d7b04c24362d "$name" 1.33.1 13310
-    [[ $Type = arm64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2066520 2340fc8c0f18462fc0dffe9e591c5c01 "$name" 1.33.1 13310
-    [[ $Type = x86 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2094872 cd5fde5c345e711657709599f348e260 "$name" 1.33.1 13310
-    [[ $Type = x86_64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name-selinux" 2222408 195292917f4c3a3815ed352cac3bda99 "$name" 1.33.1 13310
-    [[ $Type = mips ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name" 1918732 7886ed84533e344c0ea0e87ff0578749 "$name" 1.33.1 13310
-    [[ $Type = mips64 ]] && Start_Install -url "https://qqcn.coding.net/p/import-rt20/d/files/git/raw/master/$name" "$name" 1939440 c8c7311463e2999af63540c51628364e "$name" 1.33.1 13310
+    [[ $Type = arm ]] && Start_Install -chaoxing "a4c1c88bb2fbb63bb6917b4eafaf6695" "$name-selinux" 1452044 92a3d5c291124e5b8bd4d7b04c24362d "$name" 1.33.1 13310
+    [[ $Type = arm64 ]] && Start_Install -chaoxing "56732ce948d64c7be1636cfe861e9160" "$name-selinux" 2066520 2340fc8c0f18462fc0dffe9e591c5c01 "$name" 1.33.1 13310
+    [[ $Type = x86 ]] && Start_Install -chaoxing "5cbe4922728b00510cc85b48140e761a" "$name-selinux" 2094872 cd5fde5c345e711657709599f348e260 "$name" 1.33.1 13310
+    [[ $Type = x86_64 ]] && Start_Install -chaoxing "3d7613fe56d688a6a74897eb51b88ecb" "$name-selinux" 2222408 195292917f4c3a3815ed352cac3bda99 "$name" 1.33.1 13310
+    [[ $Type = mips ]] && Start_Install -chaoxing "5c1a1cf0dcd3904716b4fcbfbf7fc946" "$name" 1918732 7886ed84533e344c0ea0e87ff0578749 "$name" 1.33.1 13310
+    [[ $Type = mips64 ]] && Start_Install -chaoxing "2c82856e359a311e26e574c0e16388c1" "$name" 1939440 c8c7311463e2999af63540c51628364e "$name" 1.33.1 13310
 ;;
 
 *)
