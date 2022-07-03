@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2022062822
+export Util_Functions_Code=2022070403
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -798,7 +798,7 @@ Power() {
 module_prop() {
     echo "- 正在打印模块信息……"
 cat <<Han >$Module_XinXi
-id=$id
+id=$module
 name=$name
 version=$version
 versionCode=$versionCode
@@ -808,8 +808,8 @@ Han
 }
 
 Clean_install() {
-    [[ -z "$id" ]] && abort"！未设置id"
-    mask $id
+    [[ -z "$module" ]] && abort"未设置module"
+    mask $module
     rm -rf $Module
     mkdir -p $Module
     ui_print "- 开始安装 $name-$version($versionCode)"
