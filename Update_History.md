@@ -7,6 +7,7 @@
 ########################
 将代码托管从 Gitee 转移到 Gitlab
 删除 Evolution X 与 Fiime ，添加 Kaleidoscope OS
+删除 修复Google服务异常耗电 功能
 ########################
 删除/添加/更新了 一些Magisk模块与Xposed模块（方便自用）
 删除 神仙自动救砖模块，新增 神仙自动救砖应用
