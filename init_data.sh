@@ -1,5 +1,5 @@
-Configuration=2022070403
-Magisk_Warehouse_version=2022070403
+Configuration=2022091921
+Magisk_Warehouse_version=2022091921
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -645,18 +645,6 @@ name="MIUI9 - MIUI10多合一通用模块"
 author='by：Han | 情非得已c'
 description="$name"
 time='2021年5月29号'
-;;
-
-hydhy)
-MIUI=1
-name='回忆k40多合一'
-id='hydhy'
-version='4.2'
-versionCode='42'
-author='回憶堅強'
-description="k40的优化和美化于一身"
-time='2022年2月13号'
-    [[ $Choice = 1 ]] && Download -chaoxing "7ab83a18edabacfbc4b6d8fd53c90cda" "$1.zip" 29837868 1a56cc921f00b2d525befa5e1e69f9b4 "$1.zip"
 ;;
 
 huiyiduoheyi)
