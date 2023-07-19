@@ -1,5 +1,5 @@
-Configuration=2023060506
-Magisk_Warehouse_version=2022091921
+Configuration=2023071917
+Magisk_Warehouse_version=2023071917
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -333,12 +333,12 @@ time='2021年6月13号'
 safetynet-fix)
 id='safetynet-fix'
 name='SafetyNet修复模块'
-version='v2.2.1'
-versionCode='20201'
+version='v2.4.0-MOD_1.3'
+versionCode='20400'
 author='Kdrag0n'
 description='一定程度上修复SafetyNet不通过的问题，需要 Magisk 24+ 并开启 Zygisk'
-time='2022年3月20号'
-    [[ $Choice = 1 ]] && Download -chaoxing "c59d3cf3cb636c1f6dc49b083579045c" "$1.zip" 95380 c1d54ee1775275c2288c3872fe314a33 "$1.zip"
+time='2023年7月19号'
+    [[ $Choice = 1 ]] && Download -chaoxing "33057d7e1efe0960353d37e2b89ecb55" "$1.zip" 140480 6e04c882cb9a9cbe37a1162951ee54df "$1.zip"
 ;;
 
 UniversalGMSDoze)
