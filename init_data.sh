@@ -1,4 +1,4 @@
-Configuration=2023071917
+Configuration=2023072018
 Magisk_Warehouse_version=2023071917
 Show_Compatibility_Mode=1
 MIUI=0
@@ -49,6 +49,17 @@ author='李跳跳'
 description='使用无障碍服务自动跳过广告'
 time='2022年5月19号'
     [[ $Choice = 1 ]] && Download -chaoxing "3cf399063ba3caeff56e34953ed093be" "$1.apk" 2565038 4c63b71e50ef00360f6e913b530d82f4 "$1.apk"
+;;
+
+com.catchingnow.icebox)
+apk='com.catchingnow.icebox'
+name='冰箱 Ice Box'
+version='3.12.2 Beta'
+versionCode=1007
+author='唉的开发者'
+description='非 Root 压制毒瘤还是不错的'
+time='2023年7月20号'
+    [[ $Choice = 1 ]] && Download -chaoxing "b365954b7e083a8a3f8bad985fbbdba8" "$1.apk" 4047620 eeeebc86bdaacac8e2c19e816ef88a2e "$1.apk"
 ;;
 
 org.swiftapps.swiftbackup)

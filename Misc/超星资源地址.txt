@@ -1,3 +1,4 @@
+b365954b7e083a8a3f8bad985fbbdba8? 冰箱.3.21.2 beta.apk
 33057d7e1efe0960353d37e2b89ecb55? safetynet-fix-v2.4.0-MOD_1.3-Zygisk.zip
 c926184710b9b4445f5c973ea48c1440? 搞机助手_7.1.apk
 8bd5bb8f2bac20274dbd1cbea19aa831? AD_hosts_v6.3.2.zip
