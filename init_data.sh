@@ -1,4 +1,4 @@
-Configuration=2023072018
+Configuration=2023082413
 Magisk_Warehouse_version=2023071917
 Show_Compatibility_Mode=1
 MIUI=0
@@ -40,15 +40,15 @@ time='2022年4月4号'
     [[ $Choice = 1 ]] && Download -chaoxing '212ab970c5f877236e54e52659025c97' "$1.apk" 1680325 9b538f2ad50cd47bb35199acc615c02d "$1.apk"
 ;;
 
-cn.litiaotiao.app)
-apk='cn.litiaotiao.app'
+hello.litiaotiao.app)
+apk='hello.litiaotiao.app'
 name='李跳跳'
-version='派大星2.01'
-versionCode='2'
+version='派大星2.2'
+versionCode='3'
 author='李跳跳'
 description='使用无障碍服务自动跳过广告'
-time='2022年5月19号'
-    [[ $Choice = 1 ]] && Download -chaoxing "3cf399063ba3caeff56e34953ed093be" "$1.apk" 2565038 4c63b71e50ef00360f6e913b530d82f4 "$1.apk"
+time='2023年8月24号'
+    [[ $Choice = 1 ]] && Download -chaoxing "732e09f761b6ae953a3c0d5d8fb62c3e" "$1.apk" 3205494 ee2f4e1e7d92eb29a8b36267d7a7c79d "$1.apk"
 ;;
 
 com.catchingnow.icebox)
