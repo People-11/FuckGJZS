@@ -21,12 +21,12 @@ time='2022年4月4号'
 Han.GJZS)
 apk='Han.GJZS'
 name='搞机助手'
-version='7.1'
-versionCode='2022052115'
+version='7.1.2'
+versionCode='2023111016'
 author='FuckGJZS'
 description='可以在此处更新搞机助手'
-time='2022年5月21号'
-    [[ $Choice = 1 ]] && Download -chaoxing 'c926184710b9b4445f5c973ea48c1440' "$1.apk" 1739687 2574951cce41dece21e609fffad16485 "$1.apk"
+time='2023年11月10号'
+    [[ $Choice = 1 ]] && Download -chaoxing 'b5609e78c7e410cab63b899e109aa225' "$1.apk" 1430960 085093ec6eaaa1fe5307431e72233618 "$1.apk"
 ;;
 
 Han.automatic.rescue)

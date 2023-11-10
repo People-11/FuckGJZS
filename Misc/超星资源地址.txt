@@ -1,3 +1,4 @@
+b5609e78c7e410cab63b899e109aa225? 搞机助手_7.1.2.apk
 7282c252cf0e6f4d1bbe602e85947c79? storage-isolation-zygisk-v29.0.1-release.zip
 3272f41f29492e2bdf7c9c68c6eff04f? UPDATE-Busybox.Installer.v1.36.1-ALL-signed.zip
 53ff0055357a6e4d66b5c90796fdc8f2? PlayIntegrityFix_v12.1.zip
