@@ -1,4 +1,4 @@
-Configuration=2023082413
+Configuration=2023111016
 Magisk_Warehouse_version=2023111016
 Show_Compatibility_Mode=1
 MIUI=0
