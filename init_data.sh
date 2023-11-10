@@ -1,5 +1,5 @@
 Configuration=2023082413
-Magisk_Warehouse_version=2023071917
+Magisk_Warehouse_version=2023111016
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -341,15 +341,15 @@ time='2021年6月13号'
     [[ $Choice = 1 ]] && Download -chaoxing "afc501f3523ff0ae4d69872ea38b3145" "$1.zip" 1168461 5bebf6a288baad7d2c11e7de47802f6f "$1.zip"
 ;;
 
-safetynet-fix)
-id='safetynet-fix'
+playintegrityfix)
+id='playintegrityfix'
 name='SafetyNet修复模块'
-version='v2.4.0-MOD_1.3'
-versionCode='20400'
-author='Kdrag0n'
+version='v12.1'
+versionCode='121'
+author='Kdrag0n, chiteroman'
 description='一定程度上修复SafetyNet不通过的问题，需要 Magisk 24+ 并开启 Zygisk'
-time='2023年7月19号'
-    [[ $Choice = 1 ]] && Download -chaoxing "33057d7e1efe0960353d37e2b89ecb55" "$1.zip" 140480 6e04c882cb9a9cbe37a1162951ee54df "$1.zip"
+time='2023年11月10号'
+    [[ $Choice = 1 ]] && Download -chaoxing "53ff0055357a6e4d66b5c90796fdc8f2" "$1.zip" 308423 7449b427ffd68f5e9eb3a11891e37d1a "$1.zip"
 ;;
 
 UniversalGMSDoze)
@@ -398,12 +398,12 @@ time='2022年1月28号'
 busybox-ndk)
 id='busybox-ndk'
 name='Busybox for Android NDK'
-version='1.34.1'
-versionCode='13411'
+version='1.36.2'
+versionCode='13612'
 author='osm0sis @ xda-developers'
 description='Busybox二进制命令，适用于使用NDK构建的所有Android手机'
-time='2022年3月20号'
-    [[ $Choice = 1 ]] && Download -chaoxing "d47e50c66be40855bacb3a3da8fe9457" "$1.zip" 10192924 be5529e8029c040ba78b78b0d5ecdc84 "$1.zip"
+time='2023年11月10号'
+    [[ $Choice = 1 ]] && Download -chaoxing "3272f41f29492e2bdf7c9c68c6eff04f" "$1.zip" 9918926 5a572de17b230d0dea0a069cdbcde0d0 "$1.zip"
 ;;
 
 gvisualmod)
@@ -420,12 +420,12 @@ time='2022年3月20号'
 zygisk-storage-isolation)
 id='zygisk-storage-isolation'
 name='Zygisk - Enhanced mode for Storage Isolation'
-version='v26.2.0'
-versionCode='80'
+version='v29.0.1'
+versionCode='89'
 author='Rikka  酷安@蓝莓味绿茶 '
 description='启用存储空间隔离（存储重定向）的增强模式，需要 Magisk 24+ 并开启 Zygisk'
-time='2022年3月20号'
-    [[ $Choice = 1 ]] && Download -chaoxing "f2874cc77e6d62feaa623fd274f4702e" "$1.zip" 140023 7367befc143e79f13916f31ecb5514ba "$1.zip"
+time='2023年11月10号'
+    [[ $Choice = 1 ]] && Download -chaoxing "7282c252cf0e6f4d1bbe602e85947c79" "$1.zip" 335076 07ef5af8b3a51135d76c204fc9fff052 "$1.zip"
 ;;
 
 disable-screenshot-camera-sounds)
