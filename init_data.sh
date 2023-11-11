@@ -1,4 +1,4 @@
-Configuration=2023111016
+Configuration=2023111201
 Magisk_Warehouse_version=2023111016
 Show_Compatibility_Mode=1
 MIUI=0
@@ -7,15 +7,15 @@ MIUI=0
 case "$1" in
 
 #应用
-com.topjohnwu.magisk)
-apk='com.topjohnwu.magisk'
-name='Magisk Custom'
-version='5f805db9'
-versionCode='23016'
-author='John Wu & TheHitMan7'
-description='一个同时支持 Zygisk 与 Magisk Hide 并保留在线模块仓库与 SafetyNet 检查的第三方 Magisk Manager'
-time='2022年4月4号'
-    [[ $Choice = 1 ]] && Download -chaoxing '060acb5e02add45e6440f7fa3d77a140' "$1.apk" 10779077 9fa04a463216129031a3e6a530dace7e "$1.apk"
+io.github.huskydg.magisk)
+apk='io.github.huskydg.magisk'
+name='Magisk Delta'
+version='24.3-delta'
+versionCode='24300'
+author='John Wu & HuskyDG'
+description='Magisk Delta，但是够用的24.3'
+time='2023年11月12号'
+    [[ $Choice = 1 ]] && Download -chaoxing '95efd4839223d859a76053c89f874802' "$1.apk" 10900433 67f3ea3997f6e36b99eb720ba4f4f8db "$1.apk"
 ;;
 
 Han.GJZS)
@@ -131,12 +131,12 @@ time='2021年5月30号'
 com.android.vending)
 apk='com.android.vending'
 name='Google Play Store'
-version='29.3.14-19 [0] [PR] 428061961'
-versionCode=82931400
+version='37.5.24-21 [0] [PR] 565477504'
+versionCode=83752410
 author='Google LLC'
 description='原版谷歌商店安装包，非框架'
-time='2022年4月7号'
-    [[ $Choice = 1 ]] && Download -chaoxing "7520ea8b0543697a998b6a3769a25919" "$1.apk" 25191735 0425bee75deba50230a1929a2ee1fb54 "$1.apk"
+time='2023年11月12号'
+    [[ $Choice = 1 ]] && Download -chaoxing "af50102396d1abf358474da487a6e689" "$1.apk" 60131752 b8716d760570ef60dbbb81c3beb64865 "$1.apk"
 ;;
 
 ru.zdevs.zarchiver.pro)
@@ -178,11 +178,11 @@ com.guoshi.httpcanary)
 apk='com.guoshi.httpcanary'
 name='HttpCanary'
 version='3.3.6'
-versionCode=58
+versionCode=20221208
 author='快乐小牛'
 description='无需Root的抓包工具，界面简洁美观'
-time='2021年8月22号'
-    [[ $Choice = 1 ]] && Download -chaoxing "d0e3d25f3d56783728518575dceb1440" "$1.apk" 5636689 1a3bf82b97524a3886f467b87f4d8133 "$1.apk"
+time='2022年12月8号'
+    [[ $Choice = 1 ]] && Download -chaoxing "ca857f4ab217abb72baa566b92dcfa23" "$1.apk" 5364816 24f4ae7e183208f1e68a0b69e6598fd9 "$1.apk"
 ;;
 
 flar2.devcheck)
