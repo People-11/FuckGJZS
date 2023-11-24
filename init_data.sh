@@ -1,5 +1,5 @@
-Configuration=2023111201
-Magisk_Warehouse_version=2023111016
+Configuration=2023112422
+Magisk_Warehouse_version=2023112422
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -355,12 +355,12 @@ time='2023年11月10号'
 UniversalGMSDoze)
 id='UniversalGMSDoze'
 name='Universal GMS Doze'
-version='v1.8.2'
-versionCode='182'
+version='v1.9.0'
+versionCode='190'
 author='gloeyisk'
 description='修改电池优化配置，允许谷歌框架休眠，以达到省电的效果'
-time='2021年5月29号'
-    [[ $Choice = 1 ]] && Download -chaoxing "f01a33d3d500c14d759670c967bc5c05" "$1.zip" 11848 ed8e27c44ceaaac40f6e5f2f9a22da4e "$1.zip"
+time='2023年11月24号'
+    [[ $Choice = 1 ]] && Download -chaoxing "b87ed8696dd800060bd73c56b9f7a11d" "$1.zip" 14562 426072ea8b8944616168316130869b66 "$1.zip"
 ;;
 
 HTTPCanaryCA_To_System)
