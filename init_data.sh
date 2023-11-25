@@ -1,5 +1,5 @@
-Configuration=2023112422
-Magisk_Warehouse_version=2023112422
+Configuration=2023112600
+Magisk_Warehouse_version=2023112600
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -352,8 +352,8 @@ time='2023年11月10号'
     [[ $Choice = 1 ]] && Download -chaoxing "53ff0055357a6e4d66b5c90796fdc8f2" "$1.zip" 308423 7449b427ffd68f5e9eb3a11891e37d1a "$1.zip"
 ;;
 
-UniversalGMSDoze)
-id='UniversalGMSDoze'
+universal-gms-doze)
+id='universal-gms-doze'
 name='Universal GMS Doze'
 version='v1.9.0'
 versionCode='190'
