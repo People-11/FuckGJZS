@@ -1,4 +1,4 @@
-Configuration=2023112600
+Configuration=2023112823
 Magisk_Warehouse_version=2023112600
 Show_Compatibility_Mode=1
 MIUI=0
@@ -27,17 +27,6 @@ author='FuckGJZS'
 description='可以在此处更新搞机助手'
 time='2023年11月10号'
     [[ $Choice = 1 ]] && Download -chaoxing 'b5609e78c7e410cab63b899e109aa225' "$1.apk" 1430960 085093ec6eaaa1fe5307431e72233618 "$1.apk"
-;;
-
-Han.automatic.rescue)
-apk='Han.automatic.rescue'
-name='神仙自动救砖'
-version='v2021090800'
-versionCode='95'
-author='Han | 情非得已c'
-description='神仙自动救砖，看上去情非得已直接做了个应用'
-time='2022年4月4号'
-    [[ $Choice = 1 ]] && Download -chaoxing '212ab970c5f877236e54e52659025c97' "$1.apk" 1680325 9b538f2ad50cd47bb35199acc615c02d "$1.apk"
 ;;
 
 hello.litiaotiao.app)
@@ -84,17 +73,6 @@ time='2022年1月11号'
     [[ $Choice = 1 ]] && Download -chaoxing "f7bfe67f8464abf91f3dc8f68b8ae13f" "$1.apk" 101739523 bd3af0ad4bbe9def1d6bb2e189e1b4e5 "$1.apk"
 ;;
 
-com.yxer.packageinstalles)
-apk='com.yxer.packageinstalles'
-name='R-安装组件'
-version='1.9.3-beta'
-versionCode=206
-author='依心所言'
-description='安装狮的替代品'
-time='2022年4月6号'
-    [[ $Choice = 1 ]] && Download -chaoxing "ee25e695dd37f9f1b08011df8a0be362" "$1.apk" 1988960 33a404fd9f0e27c952ada144ff6ef626 "$1.apk"
-;;
-
 cn.trinea.android.developertools.pro)
 apk='cn.trinea.android.developertools.pro'
 name='Dev Tools'
@@ -104,17 +82,6 @@ author='Trinea'
 description='开发助手，比开发工具箱还厉害，强烈推荐'
 time='2022年3月8号'
     [[ $Choice = 1 ]] && Download -chaoxing "3de998ccb476fa182db73ff0ccdcd836" "$1.apk" 5690322 498c2dea57cfbf8ec9c88ba5f10efe2e "$1.apk"
-;;
-
-com.hengye.share)
-apk='com.hengye.share'
-name='Share'
-version='3.7.9'
-versionCode=876
-author='我是一只小小鸡仔'
-description='第三方微博客户端'
-time='2022年4月7号'
-    [[ $Choice = 1 ]] && Download -chaoxing "cea567eaa9b6471b6c3590001776ab1c" "$1.apk" 18776311 41552218bc5868528f4767e7a9eff586 "$1.apk"
 ;;
 
 catch_.me_.if_.you_.can_)
@@ -148,6 +115,17 @@ author='Zdevs'
 description='解压缩神器'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "b54d03ec5ecd749534df93b28b5b645d" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
+;;
+
+com.magicalstory.cleaner)
+apk='com.magicalstory.cleaner'
+name='安卓清理君'
+version='3.7.6'
+versionCode=376
+author='奇谈君'
+description='在没有Root的情况下清理效果比清浊好'
+time='2023年11月28号'
+    [[ $Choice = 1 ]] && Download -chaoxing "a590207af9e1a733135148ade8924f85" "$1.apk" 7208823 7d7383063b9691e6a77f417969a57777 "$1.apk"
 ;;
 
 com.farplace.qingzhuo)
@@ -194,6 +172,39 @@ author='Flar2'
 description='界面美观又好用的设备信息查看工具'
 time='2021年8月8号'
     [[ $Choice = 1 ]] && Download -chaoxing "4ea7c9616796dedf00e119bc234783d3" "$1.apk" 7718532 d3d842b3b9385319416eeae61cf470ea "$1.apk"
+;;
+
+com.hengye.share)
+apk='com.hengye.share'
+name='Share'
+version='3.7.9'
+versionCode=876
+author='我是一只小小鸡仔'
+description='第三方微博客户端'
+time='2022年4月7号'
+    [[ $Choice = 1 ]] && Download -chaoxing "cea567eaa9b6471b6c3590001776ab1c" "$1.apk" 18776311 41552218bc5868528f4767e7a9eff586 "$1.apk"
+;;
+
+com.yxer.packageinstalles)
+apk='com.yxer.packageinstalles'
+name='R-安装组件'
+version='1.9.3-beta'
+versionCode=206
+author='依心所言'
+description='安装狮的替代品'
+time='2022年4月6号'
+    [[ $Choice = 1 ]] && Download -chaoxing "ee25e695dd37f9f1b08011df8a0be362" "$1.apk" 1988960 33a404fd9f0e27c952ada144ff6ef626 "$1.apk"
+;;
+
+Han.automatic.rescue)
+apk='Han.automatic.rescue'
+name='神仙自动救砖'
+version='v2021090800'
+versionCode='95'
+author='Han | 情非得已c'
+description='神仙自动救砖，看上去情非得已直接做了个应用'
+time='2022年4月4号'
+    [[ $Choice = 1 ]] && Download -chaoxing '212ab970c5f877236e54e52659025c97' "$1.apk" 1680325 9b538f2ad50cd47bb35199acc615c02d "$1.apk"
 ;;
 
 top.canyie.dreamland.manager)
