@@ -1,5 +1,5 @@
-Configuration=2023112823
-Magisk_Warehouse_version=2023112600
+Configuration=2023122312
+Magisk_Warehouse_version=2023122312
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -350,6 +350,17 @@ author='somin.n'
 description='在Pixel 2系列上开启VoLTE的模块'
 time='2021年6月13号'
     [[ $Choice = 1 ]] && Download -chaoxing "afc501f3523ff0ae4d69872ea38b3145" "$1.zip" 1168461 5bebf6a288baad7d2c11e7de47802f6f "$1.zip"
+;;
+
+PixelifyPhotos)
+id='PixelifyPhotos'
+name='Google Photos Unlimited backup'
+version='1.1-stable'
+versionCode='002'
+author='cuynu'
+description='通过伪装型号为Pixel XL获取谷歌相册的无限原画质备份功能'
+time='2023年12月23号'
+    [[ $Choice = 1 ]] && Download -chaoxing "3c98c97a6439982df4f22e3c73c9ea83" "$1.zip" 98633 95c5413f173aac9bc5f321b791c951f2 "$1.zip"
 ;;
 
 playintegrityfix)
