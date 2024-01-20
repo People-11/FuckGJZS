@@ -1,4 +1,4 @@
-Configuration=2023122312
+Configuration=2024012105
 Magisk_Warehouse_version=2023122312
 Show_Compatibility_Mode=1
 MIUI=0
@@ -115,6 +115,17 @@ author='Zdevs'
 description='解压缩神器'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "b54d03ec5ecd749534df93b28b5b645d" "$1.apk" 4486361 25ab23cf1d0466a48bce066c8e7911cc "$1.apk"
+;;
+
+com.cyzen.flashlight)
+apk='com.cyzen.flashlight'
+name='STM手电筒'
+version='1.9'
+versionCode=11
+author='Cyzen'
+description='一个可以调节亮度的手电筒软件'
+time='2024年1月21号'
+    [[ $Choice = 1 ]] && Download -chaoxing "3ae2e7d47516bb3216da2b9a69c0e869" "$1.apk" 74745 018440000ec1d68aed67f2d5a43d991c "$1.apk"
 ;;
 
 com.magicalstory.cleaner)
