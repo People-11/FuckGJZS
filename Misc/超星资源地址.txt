@@ -1,3 +1,5 @@
+793fbb2cfa8358607503b5b78dd7041d? mindetach-v3.4.zip
+9d00681ae2de48c89d95908e009b35c8? com-mod-ex-kernel-manager-mod-apk-6-03-603.apk
 3ae2e7d47516bb3216da2b9a69c0e869? STMFlashlight.apk
 3c98c97a6439982df4f22e3c73c9ea83? gphoto-unlimited-zygisk-v1.1-stable.zip
 a590207af9e1a733135148ade8924f85? 安卓清理君v3.7.6.apk

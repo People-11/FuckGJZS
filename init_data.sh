@@ -1,5 +1,5 @@
-Configuration=2024012105
-Magisk_Warehouse_version=2023122312
+Configuration=2024021201
+Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -93,6 +93,17 @@ author='GameGuardian'
 description='大名鼎鼎的GG修改器'
 time='2021年5月30号'
     [[ $Choice = 1 ]] && Download -chaoxing "c6b711b2042d910b1200ce2e24785a82" "$1.apk" 20679152 56e58a7aae99dcd448a7b970d26f55ed "$1.apk"
+;;
+
+flar2.exkernelmanager)
+apk='flar2.exkernelmanager'
+name='EX Kernel Manager'
+version='6.03'
+versionCode=603
+author='flar2'
+description='还算好用的EX 内核管理器'
+time='2024年2月12号'
+    [[ $Choice = 1 ]] && Download -chaoxing "9d00681ae2de48c89d95908e009b35c8" "$1.apk" 20080092 fc9245363895fbaa64a316f5e61b2bac "$1.apk"
 ;;
 
 com.android.vending)
@@ -383,6 +394,17 @@ author='Kdrag0n, chiteroman'
 description='一定程度上修复SafetyNet不通过的问题，需要 Magisk 24+ 并开启 Zygisk'
 time='2023年11月10号'
     [[ $Choice = 1 ]] && Download -chaoxing "53ff0055357a6e4d66b5c90796fdc8f2" "$1.zip" 308423 7449b427ffd68f5e9eb3a11891e37d1a "$1.zip"
+;;
+
+mindetach)
+id='mindetach'
+name='mindetach'
+version='v3.4'
+versionCode='12'
+author='j-hc'
+description='将指定应用从Play Store的更新列表里删除'
+time='2024年2月12号'
+    [[ $Choice = 1 ]] && Download -chaoxing "793fbb2cfa8358607503b5b78dd7041d" "$1.zip" 1206018 c1f5d1c7ab34676c490be808bd37b5c1 "$1.zip"
 ;;
 
 universal-gms-doze)
