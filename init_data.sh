@@ -1,4 +1,4 @@
-Configuration=2024021201
+Configuration=2024021216
 Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
@@ -142,12 +142,12 @@ time='2024年1月21号'
 com.magicalstory.cleaner)
 apk='com.magicalstory.cleaner'
 name='安卓清理君'
-version='3.7.6'
-versionCode=376
+version='3.7.9'
+versionCode=379
 author='奇谈君'
 description='在没有Root的情况下清理效果比清浊好'
-time='2023年11月28号'
-    [[ $Choice = 1 ]] && Download -chaoxing "a590207af9e1a733135148ade8924f85" "$1.apk" 7208823 7d7383063b9691e6a77f417969a57777 "$1.apk"
+time='2024年1月12号'
+    [[ $Choice = 1 ]] && Download -chaoxing "fdf0e363c6ed87451053a4bc1e11f623" "$1.apk" 6243317 d6dd33e63260ad7d2dade1f16b957ddc "$1.apk"
 ;;
 
 com.farplace.qingzhuo)
