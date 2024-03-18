@@ -1,4 +1,4 @@
-Configuration=2024021216
+Configuration=2024031909
 Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
@@ -71,6 +71,17 @@ author='Termux'
 description='带有软件包的终端模拟器'
 time='2022年1月11号'
     [[ $Choice = 1 ]] && Download -chaoxing "f7bfe67f8464abf91f3dc8f68b8ae13f" "$1.apk" 101739523 bd3af0ad4bbe9def1d6bb2e189e1b4e5 "$1.apk"
+;;
+
+me.tasy5kg.cutegif)
+apk='me.tasy5kg.cutegif'
+name='CuteGIF'
+version='2024.3'
+versionCode=202403010
+author='tasy5kg'
+description='非常好用的GIF转换工具'
+time='2024年3月19号'
+    [[ $Choice = 1 ]] && Download -chaoxing "30d69413e51872a578d5ad8d68115c3a" "$1.apk" 18393488 f69866b199a400b8a199513d2dcf255d "$1.apk"
 ;;
 
 cn.trinea.android.developertools.pro)
