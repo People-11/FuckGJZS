@@ -1,4 +1,4 @@
-Configuration=2024031909
+Configuration=2024032715
 Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
@@ -54,12 +54,12 @@ time='2023年7月20号'
 org.swiftapps.swiftbackup)
 apk='org.swiftapps.swiftbackup'
 name='Swift Backup'
-version='4.0.7'
-versionCode=540
+version='5.0.4'
+versionCode=590
 author='SwiftApps'
 description='美观又强大的备份工具'
-time='2022年4月7号'
-    [[ $Choice = 1 ]] && Download -chaoxing "aa5373b11afe50fc51bfafb6e3ffa2d6" "$1.apk" 24916125 457e2a02866b4370611193847dc64aa2 "$1.apk"
+time='2024年3月27号'
+    [[ $Choice = 1 ]] && Download -chaoxing "8fd33b0cd6e9d0843f8857017851877b" "$1.apk" 25696861 97f2b54255ba8d01e355986bc0f3eb18 "$1.apk"
 ;;
 
 com.termux)
