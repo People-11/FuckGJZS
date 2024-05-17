@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2023111016
+export Util_Functions_Code=2024051713
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -526,7 +526,7 @@ Download() {
             ;;
             -chaoxing)
                 shift
-                Link="https://cloud.ananas.chaoxing.com/view/fileviewDownload?objectId=$ID"
+                Link="https://sharewh1.xuexi365.com/share/download/$ID"
             ;;
             *)
                 abort "暂不支持下载"
