@@ -1,5 +1,5 @@
 #Custom variable
-export Util_Functions_Code=2024051713
+export Util_Functions_Code=2024051818
 export SDdir=/data/media/0
 export Modules_Dir=/data/adb/modules
 export Script_Dir=$TMPDIR/tmp
@@ -366,7 +366,7 @@ CURL() {
     [[ -z "$v" ]] && v=10
     [[ -z "$model" ]] && model='Redmi K30 5G'
     
-    curl -LA "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" "$@"
+    curl -LA "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -H "Referer: https://sharewh1.xuexi365.com/" "$@"
 }
 
 WGET() {
@@ -483,6 +483,12 @@ Start_Download() {
         fi
 }
 
+parse_download_url() {
+    local html_content="$1"
+    local download_url=$(echo "$html_content" | grep 'var downloadUrl =' | awk -F"'" '{print $2}')
+    echo "$download_url"
+}
+
 Download() {
     if [[ "$#" -lt 5 ]]; then
         abort "没有参数无法提供下载"
@@ -509,39 +515,41 @@ Download() {
         fi
     }
     
-    
-
     local Han Options ID File_Name2 File_Size Delete split_size Total_size n size xsize PeiZhi_File0
     Han=0
     Options="$1"
     ID="$2"
-        case "$Options" in
-            -url)
-                shift
-                Link="$ID"
-            ;;
-            -net)
-                shift
-                Link="https://bincat-my.sharepoint.com/personal/people11_bincat_onmicrosoft_com/_layouts/52/download.aspx?share=$ID"
-            ;;
-            -chaoxing)
-                shift
-                Link="https://sharewh1.xuexi365.com/share/download/$ID"
-            ;;
-            *)
-                abort "暂不支持下载"
-            ;;
-        esac
-        
-        File_Name="$2"
-        File_Size="$3"
-        File_MD5="$4"
-        Delete="$5"
-        Download_File="$PeiZhi_File/$File_Name"
-        MD5
-        [[ $? -eq 0 ]] && return 0
-        File_Name2="$File_Name"
-        Start_Download "$Link" "$Download_File"
+    case "$Options" in
+        -url)
+            shift
+            Link="$ID"
+        ;;
+        -net)
+            shift
+            Link="https://bincat-my.sharepoint.com/personal/people11_bincat_onmicrosoft_com/_layouts/52/download.aspx?share=$ID"
+        ;;
+        -chaoxing)
+            shift
+            Link="https://sharewh1.xuexi365.com/share/download/$ID"
+            # Fetch the HTML content
+            html_content=$(curl -s "$Link")
+            # Parse the download URL
+            Link=$(parse_download_url "$html_content")
+        ;;
+        *)
+            abort "暂不支持下载"
+        ;;
+    esac
+    
+    File_Name="$2"
+    File_Size="$3"
+    File_MD5="$4"
+    Delete="$5"
+    Download_File="$PeiZhi_File/$File_Name"
+    MD5
+    [[ $? -eq 0 ]] && return 0
+    File_Name2="$File_Name"
+    Start_Download "$Link" "$Download_File"
 }
 
 Mount_Write() {
