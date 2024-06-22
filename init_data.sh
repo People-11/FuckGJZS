@@ -1,4 +1,4 @@
-Configuration=2024032715
+Configuration=2024062215
 Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
@@ -326,6 +326,17 @@ author='Camel Corporation'
 description='无需Root，复制屏幕上你想要的一切文本'
 time='2021年5月29号'
     [[ $Choice = 1 ]] && Download -chaoxing "073ec9d500fb39f997cddc7a2d1daa95" "$1.apk" 5377132 18a1be26629fe269d8c0943f2931798a "$1.apk"
+;;
+
+hu.uszeged.inf.wlab.stunner)
+apk='hu.uszeged.inf.wlab.stunner'
+name='STUNner'
+version='2.0.4'
+versionCode=24
+author='WLAB SZTE'
+description='检测NAT类型的小工具'
+time='2024年6月22号'
+    [[ $Choice = 1 ]] && Download -chaoxing "b43c3974d948241d57d3f48d7f1ee352" "$1.apk" 5990549 e7b5c628ed405862e74e1a5c034d8ac0 "$1.apk"
 ;;
 
 com.android.alexzwh.filedownloaddemo)
