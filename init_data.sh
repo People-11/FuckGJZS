@@ -1,4 +1,4 @@
-Configuration=2024062215
+Configuration=2024080700
 Magisk_Warehouse_version=2024021201
 Show_Compatibility_Mode=1
 MIUI=0
@@ -25,8 +25,8 @@ version='7.1.2'
 versionCode='2023111016'
 author='FuckGJZS'
 description='可以在此处更新搞机助手'
-time='2023年11月10号'
-    [[ $Choice = 1 ]] && Download -chaoxing 'b5609e78c7e410cab63b899e109aa225' "$1.apk" 1430960 085093ec6eaaa1fe5307431e72233618 "$1.apk"
+time='2024年8月7号'
+    [[ $Choice = 1 ]] && Download -chaoxing 'e0b29ece306e2449d620c63d47416d37' "$1.apk" 1368878 145d76dbe963f914a5ca5bf8145250c5 "$1.apk"
 ;;
 
 hello.litiaotiao.app)
