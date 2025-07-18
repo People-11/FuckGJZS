@@ -1,5 +1,5 @@
-Configuration=2024083019
-Magisk_Warehouse_version=2024083019
+Configuration=2025071902
+Magisk_Warehouse_version=2025071902
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -398,13 +398,13 @@ time='2021年6月13号'
 
 PixelifyPhotos)
 id='PixelifyPhotos'
-name='Google Photos & Videos Unlimited backup'
-version='1'
-versionCode='001'
-author='VehanRajintha'
+name='Google Photos Unlimited backup'
+version='1.1-stable'
+versionCode='002'
+author='cuynu'
 description='通过伪装型号为Pixel XL获取谷歌相册的无限原画质备份功能'
 time='2024年8月39号'
-    [[ $Choice = 1 ]] && Download -chaoxing "4f32b9de398f89bfb2d7294370d0e987" "$1.zip" 99601 0b109cdaf3f8886d86b1544e6a9a2adf "$1.zip"
+    [[ $Choice = 1 ]] && Download -chaoxing "3c98c97a6439982df4f22e3c73c9ea83" "$1.zip" 98633 95c5413f173aac9bc5f321b791c951f2 "$1.zip"
 ;;
 
 playintegrityfix)
