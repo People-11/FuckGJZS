@@ -1,4 +1,4 @@
-Configuration=2025071902
+Configuration=2025082316
 Magisk_Warehouse_version=2025071902
 Show_Compatibility_Mode=1
 MIUI=0
@@ -26,7 +26,7 @@ versionCode='2023111016'
 author='FuckGJZS'
 description='可以在此处更新搞机助手'
 time='2024年8月7号'
-    [[ $Choice = 1 ]] && Download -chaoxing 'e0b29ece306e2449d620c63d47416d37' "$1.apk" 1368878 145d76dbe963f914a5ca5bf8145250c5 "$1.apk"
+    [[ $Choice = 1 ]] && Download -chaoxing '2c822c231c8d24165540903f1a333d92' "$1.apk" 1194115 972de82eb4f56aa71e2f54bf06379354 "$1.apk"
 ;;
 
 hello.litiaotiao.app)
@@ -43,12 +43,12 @@ time='2023年8月24号'
 com.catchingnow.icebox)
 apk='com.catchingnow.icebox'
 name='冰箱 Ice Box'
-version='3.12.2 Beta'
-versionCode=1007
+version='3.21.0 G'
+versionCode=1415
 author='唉的开发者'
-description='非 Root 压制毒瘤还是不错的'
-time='2023年7月20号'
-    [[ $Choice = 1 ]] && Download -chaoxing "b365954b7e083a8a3f8bad985fbbdba8" "$1.apk" 4047620 eeeebc86bdaacac8e2c19e816ef88a2e "$1.apk"
+description='自己破解+修改，感觉这个版本最好用'
+time='2025年8月23号'
+    [[ $Choice = 1 ]] && Download -chaoxing "df6e09fab314fad51f2b78812c7deb96" "$1.apk" 4533250 5d6728447e6e1fb626616e583b5a5f83 "$1.apk"
 ;;
 
 org.swiftapps.swiftbackup)
