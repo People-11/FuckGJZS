@@ -1,5 +1,5 @@
-Configuration=2025082316
-Magisk_Warehouse_version=2025071902
+Configuration=2025091416
+Magisk_Warehouse_version=2025091416
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -443,12 +443,12 @@ time='2023年11月24号'
 HTTPCanaryCA_To_System)
 id='HTTPCanaryCA_To_System'
 name='安装HTTPCanary证书到系统'
-version='v2'
-versionCode='10'
+version='v3'
+versionCode='11'
 author='酷安 @阿猫2233 @People11'
-description='因为安卓11添加了必须在设置内添加证书的限制，也因为安卓10限制了System分区的写权限，导致HTTPCanary无法正常安装证书到系统，此模块可解决此问题。此模块根据 @阿猫2233 的模块作出修改，解决部分问题。'
-time='2021年8月22号'
-    [[ $Choice = 1 ]] && Download -chaoxing "bea46d9fbf8e451188deea39e4231f9e" "$1.zip" 3987 1dac8536ce25fdf6f0f46d4d146bd38a "$1.zip"
+description='兼容安卓11 - 15'
+time='2025年9月14号'
+    [[ $Choice = 1 ]] && Download -chaoxing "8fc0f6f50f085b8606c67394ee242f85" "$1.zip" 4519 c3c2e77b78bea53f874ce65719ddbb4b "$1.zip"
 ;;
 
 Remove_Temperature_Control)
