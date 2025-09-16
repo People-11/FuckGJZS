@@ -1,5 +1,5 @@
-Configuration=2025091612
-Magisk_Warehouse_version=2025091612
+Configuration=2025091617
+Magisk_Warehouse_version=2025091617
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -407,15 +407,15 @@ time='2024年8月39号'
     [[ $Choice = 1 ]] && Download -chaoxing "3c98c97a6439982df4f22e3c73c9ea83" "$1.zip" 98633 95c5413f173aac9bc5f321b791c951f2 "$1.zip"
 ;;
 
-opvrr)
-id='opvrr'
-name='COS/OOS全亮度低刷新率'
-version='1'
-versionCode='1'
-author='People11'
-description='在LTPO屏幕上解锁全亮度最低1刷新率'
+13TDisplay)
+id='13TDisplay'
+name='13T显示增强模块'
+version='2'
+versionCode='2'
+author='People11, 天伞桜'
+description='启用全亮度低刷新率，动态修改解锁最高亮度 (感谢酷安@天伞桜)，修改全局触控率为240Hz，更新系统后请卸载并重新安装此模块'
 time='2025年9月16号'
-    [[ $Choice = 1 ]] && Download -chaoxing "6c32464b734f960d95426daa72fd1658" "$1.zip" 3190 e6ca19bd36b5d7e1d8791584d7ee7dc2 "$1.zip"
+    [[ $Choice = 1 ]] && Download -chaoxing "f5f7d5d41601bf67c238d1d24876fa20" "$1.zip" 4121 5311811cc894f3a73e769c0071750911 "$1.zip"
 ;;
 
 playintegrityfix)
