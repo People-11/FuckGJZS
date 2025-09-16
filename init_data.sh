@@ -1,5 +1,5 @@
-Configuration=2025091416
-Magisk_Warehouse_version=2025091416
+Configuration=2025091612
+Magisk_Warehouse_version=2025091612
 Show_Compatibility_Mode=1
 MIUI=0
 
@@ -405,6 +405,17 @@ author='cuynu'
 description='通过伪装型号为Pixel XL获取谷歌相册的无限原画质备份功能'
 time='2024年8月39号'
     [[ $Choice = 1 ]] && Download -chaoxing "3c98c97a6439982df4f22e3c73c9ea83" "$1.zip" 98633 95c5413f173aac9bc5f321b791c951f2 "$1.zip"
+;;
+
+opvrr)
+id='opvrr'
+name='COS/OOS全亮度低刷新率'
+version='1'
+versionCode='1'
+author='People11'
+description='在LTPO屏幕上解锁全亮度最低1刷新率'
+time='2025年9月16号'
+    [[ $Choice = 1 ]] && Download -chaoxing "6c32464b734f960d95426daa72fd1658" "$1.zip" 3190 e6ca19bd36b5d7e1d8791584d7ee7dc2 "$1.zip"
 ;;
 
 playintegrityfix)
